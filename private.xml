@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<root>
+    
+    <appdef>
+        <appname>LYX</appname>
+        <equal>org.lyx.lyx</equal>
+    </appdef>
+    <appdef>
+        <appname>X11</appname>
+        <equal>org.macosforge.xquartz.X11</equal>
+    </appdef>
+    <appdef>
+        <appname>VM</appname>        
+        <equal>org.virtualbox.app.VirtualBoxVM</equal>
+    </appdef>
+    <appdef>
+        <appname>R</appname>
+        <equal>org.rstudio.RStudio</equal>
+    </appdef>
+    <appdef>
+        <appname>LT</appname>
+        <equal>com.kodowa.LightTable</equal>
+    </appdef>
+    <item>
+	    <name>Disable all settings while you are using virtual machine.</name>
+	    <identifier>private.ignore_virtual_machine</identifier>
+	    <only>VM</only>
+	    <autogen>__PassThrough__</autogen>
+	  </item>
+    <item>
+	    <name>VM leftalt/ rightalt switch.</name>
+	    <identifier>private.vm_switch_alts</identifier>
+	    <only>VM</only>
+      <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::OPTION_R</autogen>
+      <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::OPTION_L</autogen>
+	  </item>
+      <item>
+        <name>JIS Yen(¥) to standard BACKQUOTE/tilde(\)</name>
+        <appendix>(except virtual machine, X11, RDC)</appendix>
+        <identifier>remap.jis_yen2backquote</identifier>
+        <not>VIRTUALMACHINE, X11, REMOTEDESKTOPCONNECTION</not>
+        <autogen>__KeyToKey__ KeyCode::JIS_YEN, KeyCode::BACKQUOTE</autogen>
+      </item>
+      <item>
+        <name>JIS Yen(¥) and backquote to standard tab</name>
+        <appendix>(except virtual machine, X11, RDC)</appendix>
+        <identifier>remap.jis_yen2tab</identifier>
+        <not>VIRTUALMACHINE, X11, REMOTEDESKTOPCONNECTION</not>
+        <autogen>__KeyToKey__ KeyCode::JIS_YEN, KeyCode::TAB</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::TAB</autogen>
+      </item>
+      <item>
+          <name>Stupid R studio</name>
+          <identifier>remap.rstudio</identifier>
+          
+          
+          <only>R</only>
+          <autogen>__KeyToKey__ KeyCode::M, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+      </item>
+      <item>
+          <name>Stupid LT</name>
+          <identifier>remap.lighttable</identifier>
+          
+          
+          <only>LT</only>
+          <autogen>__KeyToKey__ KeyCode::D, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+          <autogen>__KeyToKey__ KeyCode::F, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen>
+      </item>
+
+      <item>
+        <name>KANA to command_r</name>
+        <appendix>(+ When you type option+KANA only, send Return)</appendix>
+        <appendix>(+ When you type KANA only, send KANA)</appendix>
+        <identifier>remap.jis_kana2commandR_optkana_return</identifier>
+        <autogen>__KeyOverlaidModifier__ KeyCode::JIS_KANA, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::COMMAND_R, ModifierFlag::OPTION_L, KeyCode::RETURN</autogen>
+        <autogen>__KeyOverlaidModifier__ KeyCode::JIS_KANA, KeyCode::COMMAND_R</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::JIS_KANA, KeyCode::SPACE, KeyCode::DELETE</autogen>
+
+        <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, ModifierFlag::COMMAND_R, KeyCode::DELETE, ModifierFlag::NONE</autogen>
+        <autogen>__SimultaneousKeyPresses__ KeyCode::JIS_KANA, KeyCode::JIS_EISUU, KeyCode::ENTER</autogen>
+      </item>
+      <item>
+        <name>EISUU to temporary capslock</name>
+        <identifier>remap.jis_eisuu2capsy</identifier>
+        <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::CAPSLOCK, Option::NOREPEAT,
+        Option::KEYTOKEY_AFTER_KEYUP, KeyCode::CAPSLOCK, KeyCode::VK_NONE</autogen>
+      </item>
+      <item>
+        <name>tab (alone) to backspace</name>
+        <identifier>remap.tab_to_bs</identifier>
+      <autogen>--KeyToKey-- KeyCode::TAB, ModifierFlag::NONE, KeyCode::DELETE</autogen>
+      </item>
+      <item>
+        <name>rcommand-space to return</name>
+        <identifier>private.thumbreturn</identifier>
+        <autogen>__KeyToKey__ ModifierFlag::COMMAND_R, KeyCode::SPACE, KeyCode::ENTER</autogen>
+      </item>
+    <item>
+        <name>Lyx greek</name>
+        <identifier>private.lyxgreek</identifier>
+        <only>LYX</only>
+        <autogen>__KeyToKey__ KeyCode::G, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::G, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L, KeyCode::G, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::M, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::M, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L, KeyCode::M, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+    </item>
+    <item>
+        <name>mac-y x11 and vm</name>
+        <identifier>private.macx</identifier>
+        <only>X11, VM</only>
+        <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::CONTROL_L</autogen>
+    </item>
+    <item>
+        <name>right thumb control</name>
+        <identifier>private.rthumb</identifier>
+        <not>X11, VM</not>
+        <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::CONTROL_R</autogen>
+    </item>
+    
+  <item>
+    <name>option-delete to delete</name>
+    <identifier>private.od</identifier>
+    <autogen>--KeyToKey-- KeyCode::DELETE, VK_OPTION, KeyCode::DELETE</autogen>
+    </item>
+  <item>
+    <name>option-space to delete</name>
+    <identifier>private.os</identifier>
+    <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION, KeyCode::DELETE</autogen>
+    </item>
+  <item>
+    <name>option-delete to delete</name>
+    <identifier>private.od2</identifier>
+    <autogen>--KeyToKey-- KeyCode::DELETE, VK_OPTION, KeyCode::DELETE</autogen>
+    </item>
+    
+    
+  <item>
+    <name>option-rcommand numbers and related</name>
+    <identifier>private.numbers</identifier>
+    <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_1, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_2, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_3, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_4, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_5, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_6, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::S, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_7, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::D, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_8, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::F, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_9, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_7, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_7, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_8, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_8, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_9, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_9, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::N, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::KEY_0, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::M, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::C, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::D, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::V, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::F, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SLASH, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::MINUS, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION | ModifierFlag::COMMAND_R, KeyCode::MINUS, ModifierFlag::NONE</autogen>
+
+
+
+    
+    <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_1, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_2, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_3, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_4, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_5, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_6, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::S, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_7, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::D, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_8, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::F, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_9, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_7, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_7, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_8, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_8, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_9, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_9, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::N, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::KEY_0, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::M, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::C, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::D, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::V, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::F, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SLASH, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::MINUS, ModifierFlag::NONE</autogen>
+    <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION | ModifierFlag::CONTROL_R, KeyCode::MINUS, ModifierFlag::NONE</autogen>
+  </item>
+    
+  <item>
+    <name>option arrow keys</name>
+      <identifier>private.optarrows</identifier>
+      <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::K, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
+      <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
+      
+      <autogen>--KeyToKey-- KeyCode::J, VK_OPTION |  ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::K, VK_OPTION | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_DOWN,  ModifierFlag::SHIFT_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::CURSOR_UP,  ModifierFlag::SHIFT_L</autogen>
+      
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L, KeyCode::PAGEDOWN</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::CONTROL_L, KeyCode::PAGEUP</autogen>
+    
+    <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION, KeyCode::ENTER</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, VK_OPTION, KeyCode::TAB, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION, KeyCode::TAB</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION | ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::SHIFT_L</autogen>
+    
+    
+    <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | VK_COMMAND |ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, VK_OPTION | VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_DOWN, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_UP, ModifierFlag::SHIFT_L</autogen>
+    
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::OPTION_L | VK_COMMAND | ModifierFlag::SHIFT_L, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::OPTION_L | VK_COMMAND | ModifierFlag::SHIFT_L, KeyCode::PAGEDOWN, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | VK_COMMAND | ModifierFlag::SHIFT_L, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | VK_COMMAND    | ModifierFlag::SHIFT_L, KeyCode::PAGEUP, ModifierFlag::SHIFT_L</autogen>
+    
+    
+      <autogen>--SimultaneousKeyPresses-- KeyCode::K, KeyCode::L, VK_OPTION, KeyCode::F8, KeyCode::CURSOR_RIGHT</autogen>
+      <autogen>--SimultaneousKeyPresses-- KeyCode::K, KeyCode::J, VK_OPTION, KeyCode::F8, KeyCode::CURSOR_LEFT</autogen>
+    
+    </item>
+    
+  <item>
+    <name>Option-righthand nav (6=4 arrows and 2 tabs, plus many extras)</name>
+      
+      
+    <item>
+      <name>Documentation:</name>
+      <item>
+        <name>Option-righthand nav (6-keys, uio/jkl on QWERTY):</name>
+        <appendix>This was built for use with the qwpr layout, where it's ukl/nio (same keys, different letters)</appendix>
+        <appendix>It works just as well with QWERTY. The key names below are qwpr (QWERTY)</appendix>
+        <appendix></appendix>
+        <appendix>option- u/l (U/O): Left tab/tab</appendix>
+        <appendix>option- n/o (J/L): Left/right word (option-left/option-right)</appendix>
+        <appendix>option-space: option-shift (useful with arrow keys, for selecting)</appendix>
+        <appendix>option- k/i (I/K) alone: up/down (fires on key up)</appendix>
+        <appendix>option-i (K) combined: more arrows and keys:</appendix>
+        <appendix>--with n/o (J/L): left/right character</appendix>
+        <appendix>--with e (SEMICOLON): enter</appendix>
+        <appendix>--with h/j (H/N): page up/down</appendix>
+        <appendix>   --with m (M): escape</appendix>
+        <appendix>   --with s/t (S/F): delete left/right </appendix>
+        <appendix>   --with p/d (E/D): option-up/down (effect depends on app)</appendix>
+        <appendix>   --with n/o (J/L): left/right 1 character</appendix>
+        
+        <appendix>option-k (I) combined: basic edit menu</appendix>
+        <appendix>   --with n/o (J/L): cut/paste</appendix>
+        <appendix>   --with h/e (H/SEMICOLON): copy/copy</appendix>
+        <appendix>   --with u/l (U/O): undo/redo</appendix>
+        <appendix>   --with f/g (T/G): find/find next </appendix>
+      </item></item>
+      <item>
+      	<name>enable</name>
+      <identifier>private.optarrowsmagic</identifier>
+	    <not>VM</not>
+    <autogen>
+      __KeyOverlaidModifier__
+      <!-- target -->
+      KeyCode::I, VK_OPTION,
+
+      <!-- change to extra1 -->
+      KeyCode::VK_MODIFIER_EXTRA1,
+
+      <!-- when only target key is pressed -->
+      KeyCode::CURSOR_UP,
+    </autogen>
+      
+      <autogen>
+      __KeyOverlaidModifier__
+      <!-- target -->
+      KeyCode::K, VK_OPTION,
+
+      <!-- change to extra2 -->
+      KeyCode::VK_MODIFIER_EXTRA2,
+
+      <!-- when only target key is pressed -->
+      KeyCode::CURSOR_DOWN,
+    </autogen>
+      <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+      
+      <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION | ModifierFlag::NONE, KeyCode::SHIFT_L, ModifierFlag::OPTION_L</autogen>
+      
+      <autogen>--KeyToKey-- KeyCode::J, VK_OPTION |  VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+      <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_UP,  ModifierFlag::SHIFT_L</autogen>
+    
+ 
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | ModifierFlag::CONTROL_L, KeyCode::PAGEUP</autogen>
+    
+    <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION, KeyCode::ENTER</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, VK_OPTION, KeyCode::TAB, ModifierFlag::SHIFT_L</autogen>
+    <!--<autogen>--KeyToKey-- KeyCode::O, VK_OPTION, KeyCode::TAB</autogen>-->
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION, KeyCode::TAB</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, VK_OPTION | ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::SHIFT_L</autogen>
+    
+    
+    <autogen>--KeyToKey-- KeyCode::J, VK_OPTION | VK_COMMAND |ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_UP, ModifierFlag::SHIFT_L</autogen>
+    
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::OPTION_L | VK_COMMAND | ModifierFlag::SHIFT_L, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, VK_OPTION | VK_COMMAND | ModifierFlag::SHIFT_L, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, VK_OPTION | VK_COMMAND    | ModifierFlag::SHIFT_L, KeyCode::PAGEUP, ModifierFlag::SHIFT_L</autogen>
+    
+      <!-- CHANGE to extra2: single arrows, etc -->
+      <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA2, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA2, KeyCode::CURSOR_RIGHT</autogen>
+    <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::EXTRA2, KeyCode::RETURN</autogen>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA2, KeyCode::PAGEUP</autogen>
+    <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::EXTRA2, KeyCode::PAGEDOWN</autogen>
+    <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::EXTRA2, KeyCode::ESCAPE</autogen>
+    <autogen>--KeyToKey-- KeyCode::S, ModifierFlag::EXTRA2, KeyCode::DELETE</autogen>
+    <autogen>--KeyToKey-- KeyCode::F, ModifierFlag::EXTRA2, KeyCode::FORWARD_DELETE</autogen>
+    <autogen>--KeyToKey-- KeyCode::E, ModifierFlag::EXTRA2, KeyCode::CURSOR_UP, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::D, ModifierFlag::EXTRA2, KeyCode::CURSOR_DOWN, ModifierFlag::OPTION_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::EXTRA2, KeyCode::SHIFT_L, ModifierFlag::EXTRA2</autogen>
+    
+    
+      <!-- change to extra3: undo/redo, etc -->
+    <autogen>--KeyToKey-- KeyCode::U, ModifierFlag::EXTRA1, KeyCode::Z, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, ModifierFlag::EXTRA1, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA1, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA1, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::EXTRA1, KeyCode::C, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::T, ModifierFlag::EXTRA1, KeyCode::F, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::EXTRA1, KeyCode::G, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::EXTRA2, KeyCode::SHIFT_L, ModifierFlag::EXTRA2</autogen>
+    
+    </item></item>
+    
+    
+    
+    
+        <item>
+          <name>shift-backspace to capslock</name>
+          <identifier>remap.optionTab2capslock</identifier>
+          <block>
+            <autogen>--KeyToKey-- KeyCode::DELETE, ModifierFlag::SHIFT_R, KeyCode::CAPSLOCK</autogen>
+          </block>
+        </item>
+        
+        
+        
+        
+        <item>
+          <name>Option+Space to backspace</name>
+          <identifier>remap.optionspace2delete</identifier>
+          <block>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION |ModifierFlag::NONE, KeyCode::DELETE</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION  | ModifierFlag::SHIFT_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+          </block>
+        </item>
+        
+        
+        
+        <item>
+          <name>tab «-» backspace w spacetabs</name>
+          <identifier>remap.tabb2delete</identifier>
+          <block>
+		    <autogen>--KeyToKey-- KeyCode::TAB, ModifierFlag::SHIFT_L, KeyCode::FORWARD_DELETE</autogen>
+		    <autogen>--KeyToKey-- KeyCode::TAB, ModifierFlag::NONE, KeyCode::DELETE</autogen>
+		    <autogen>--KeyToKey-- KeyCode::TAB, VK_OPTION |ModifierFlag::NONE, KeyCode::DELETE, VK_OPTION</autogen>
+            <autogen>--KeyToKey-- KeyCode::TAB, VK_OPTION  | ModifierFlag::SHIFT_L, KeyCode::FORWARD_DELETE, VK_OPTION</autogen>
+            <autogen>--KeyToKey-- KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::SHIFT_L</autogen>
+            <autogen>--KeyToKey-- KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::TAB</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_COMMAND, KeyCode::TAB, VK_COMMAND</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION,  KeyCode::BACKQUOTE, VK_COMMAND</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_CONTROL |ModifierFlag::NONE, KeyCode::TAB, VK_CONTROL</autogen>
+          </block>
+        </item>
+        
+        <item>
+          <name>appswitching space</name>
+          <identifier>remap.appspace</identifier>
+          <block>
+
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_COMMAND, KeyCode::TAB, VK_COMMAND</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION |ModifierFlag::NONE, KeyCode::BACKQUOTE, VK_COMMAND</autogen>
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_OPTION | VK_COMMAND, KeyCode::TAB, VK_CONTROL</autogen>
+            
+            
+            <autogen>--KeyToKey-- KeyCode::SPACE, VK_CONTROL |ModifierFlag::NONE, KeyCode::TAB, VK_CONTROL</autogen>
+          </block>
+        </item>
+        
+        <item>
+          <name>app = ctrl</name>
+          <identifier>remap.appy</identifier>
+          <block>
+            <autogen>--KeyToKey-- KeyCode::PC_APPLICATION, KeyCode::COMMAND_L</autogen>
+          </block>
+        </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_KEYBOARDVIEWER</name>
+    <url>file:///System/Library/Input%20Methods/KeyboardViewer.app</url>
+  </vkopenurldef>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_QUITKEYBOARDVIEWER</name>
+    <url type="shell">
+      <![CDATA[    open -g /Applications/QuitKeyboardViewer.app    ]]>
+    </url>
+  </vkopenurldef>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_FLASHKEYBOARDVIEWER</name>
+    <url type="shell">
+      <![CDATA[    open "/System/Library/Input Methods/KeyboardViewer.app"; sleep 15; open -g /Applications/QuitKeyboardViewer.app    ]]>
+    </url>
+  </vkopenurldef>
+  <item>
+    <name>Flash keyboardViewer on option</name>
+    <identifier>kvOnOptionShift</identifier>
+    <autogen>
+    __KeyToKey__ KeyCode::OPTION_L,
+    KeyCode::OPTION_L,
+    Option::KEYTOKEY_BEFORE_KEYDOWN,
+    KeyCode::VK_OPEN_URL_FLASHKEYBOARDVIEWER,
+    </autogen>
+    <autogen>
+    __KeyToKey__ KeyCode::OPTION_R,
+    KeyCode::OPTION_R,
+    Option::KEYTOKEY_BEFORE_KEYDOWN,
+    KeyCode::VK_OPEN_URL_FLASHKEYBOARDVIEWER,
+    </autogen>
+  </item>
+  <item>
+    <name>KeyboardViewer off with option</name>
+    <identifier>kvOffOption</identifier>
+    <autogen>
+    __KeyToKey__ KeyCode::OPTION_L,
+    ModifierFlag::OPTION_L | ModifierFlag::NONE,
+    KeyCode::OPTION_L,
+    Option::KEYTOKEY_AFTER_KEYUP,
+    KeyCode::VK_OPEN_URL_QUITKEYBOARDVIEWER
+    </autogen>
+    <autogen>
+    __KeyToKey__ KeyCode::OPTION_R,
+    ModifierFlag::OPTION_R | ModifierFlag::NONE,
+    KeyCode::OPTION_R,
+    Option::KEYTOKEY_AFTER_KEYUP,
+    KeyCode::VK_OPEN_URL_QUITKEYBOARDVIEWER
+    </autogen>
+  </item>
+  <item>
+    <name>KeyboardViewer for dead keys (except dash and semicolon)</name>
+    <identifier>kvOnDead</identifier>
+    <autogen>
+    __KeyToKey__ 
+    KeyCode::Q,
+    VK_OPTION | VK_SHIFT | ModifierFlag::NONE,
+    KeyCode::Q,
+    VK_OPTION | VK_SHIFT | ModifierFlag::NONE,
+    Option::KEYTOKEY_BEFORE_KEYDOWN,
+    KeyCode::VK_OPEN_URL_KEYBOARDVIEWER
+    </autogen>
+  </item>
+</root>

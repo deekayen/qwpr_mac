@@ -1,0 +1,2465 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Created by Ukelele version 2.2 on 2012-06-15 at 17:56 (CST)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-01-01 at 15:44 (EST)-->
+<keyboard group="0" id="12044" name="qwpr" maxout="28">
+	<layouts>
+		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
+		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
+		<layout first="21" last="23" mapSet="984" modifiers="f4"/>
+		<layout first="30" last="30" mapSet="984" modifiers="f4"/>
+		<layout first="194" last="194" mapSet="984" modifiers="f4"/>
+		<layout first="197" last="197" mapSet="984" modifiers="f4"/>
+		<layout first="200" last="201" mapSet="984" modifiers="f4"/>
+		<layout first="206" last="207" mapSet="984" modifiers="f4"/>
+	</layouts>
+	<modifierMap id="f4" defaultIndex="0">
+		<keyMapSelect mapIndex="0">
+			<modifier keys="command?"/>
+			<modifier keys="anyShift? command"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="anyShift anyControl?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="caps command? anyControl?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="anyOption command? anyControl?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyShift anyOption command? anyControl?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="caps anyOption command? anyControl?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="anyShift caps anyOption? command? anyControl?"/>
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="16c">
+		<keyMap index="0">
+			<key code="0" action="a"/>
+			<key code="1" action="s"/>
+			<key code="2" action="d"/>
+			<key code="3" action="t"/>
+			<key code="4" action="h"/>
+			<key code="5" action="g"/>
+			<key code="6" action="z"/>
+			<key code="7" action="x"/>
+			<key code="8" action="c"/>
+			<key code="9" action="v"/>
+			<key code="10" output="("/>
+			<key code="11" action="b"/>
+			<key code="12" action="q"/>
+			<key code="13" action="w"/>
+			<key code="14" action="p"/>
+			<key code="15" action="r"/>
+			<key code="16" action="y"/>
+			<key code="17" action="f"/>
+			<key code="18" action="1"/>
+			<key code="19" action="2"/>
+			<key code="20" action="3"/>
+			<key code="21" action="4"/>
+			<key code="22" action="6"/>
+			<key code="23" action="5"/>
+			<key code="24" action="=:1"/>
+			<key code="25" action="9"/>
+			<key code="26" action="7"/>
+			<key code="27" action="-"/>
+			<key code="28" action="8"/>
+			<key code="29" action="0"/>
+			<key code="30" action="]"/>
+			<key code="31" action="l"/>
+			<key code="32" action="u"/>
+			<key code="33" action="["/>
+			<key code="34" action="k"/>
+			<key code="35" action=";"/>
+			<key code="36" action="&#x000D;"/>
+			<key code="37" action="o"/>
+			<key code="38" action="n"/>
+			<key code="39" action="&#x0027; 2"/>
+			<key code="40" action="i"/>
+			<key code="41" action="e"/>
+			<key code="42" action="\:1"/>
+			<key code="43" action=","/>
+			<key code="44" action="/"/>
+			<key code="45" action="j"/>
+			<key code="46" action="m"/>
+			<key code="47" action="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="&#x0009;:1"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="1">
+			<key code="0" action="A:1"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="T"/>
+			<key code="4" action="H"/>
+			<key code="5" action="G"/>
+			<key code="6" action="Z"/>
+			<key code="7" action="X"/>
+			<key code="8" action="C"/>
+			<key code="9" action="V"/>
+			<key code="10" output=")"/>
+			<key code="11" action="B"/>
+			<key code="12" action="Q"/>
+			<key code="13" action="W"/>
+			<key code="14" action="P"/>
+			<key code="15" action="R"/>
+			<key code="16" action="Y"/>
+			<key code="17" action="F"/>
+			<key code="18" action="!"/>
+			<key code="19" action="@"/>
+			<key code="20" action="#"/>
+			<key code="21" action="$"/>
+			<key code="22" action="^"/>
+			<key code="23" action="%"/>
+			<key code="24" action="+"/>
+			<key code="25" action="(:1"/>
+			<key code="26" action="&#x0026; 1"/>
+			<key code="27" action="_:1"/>
+			<key code="28" action="*"/>
+			<key code="29" action="):1"/>
+			<key code="30" action="}:1"/>
+			<key code="31" action="L"/>
+			<key code="32" action="U"/>
+			<key code="33" action="{:1"/>
+			<key code="34" action="K"/>
+			<key code="35" action=":"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="O"/>
+			<key code="38" action="N"/>
+			<key code="39" action="&#x0022; 3"/>
+			<key code="40" action="I"/>
+			<key code="41" action="E"/>
+			<key code="42" action="|"/>
+			<key code="43" action="&#x003C;"/>
+			<key code="44" action="?"/>
+			<key code="45" action="J"/>
+			<key code="46" action="M"/>
+			<key code="47" action="&#x003E; 1"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="~:6"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="*"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="="/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="/"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="2">
+			<key code="0" output="7"/>
+			<key code="1" output="8"/>
+			<key code="2" output="9"/>
+			<key code="3" output="_"/>
+			<key code="4" output=")"/>
+			<key code="5" output="("/>
+			<key code="6" output="*"/>
+			<key code="7" output="0"/>
+			<key code="8" output="#"/>
+			<key code="9" output=""/>
+			<key code="10" output="₆"/>
+			<key code="11" output=","/>
+			<key code="12" output="4"/>
+			<key code="13" output="5"/>
+			<key code="14" output="6"/>
+			<key code="15" output="&#x0009;"/>
+			<key code="16" output="&#x0022;"/>
+			<key code="17" output="&#x0027;"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="6"/>
+			<key code="23" output="5"/>
+			<key code="24" output="="/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
+			<key code="27" output="-"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
+			<key code="30" output="]"/>
+			<key code="31" output="6"/>
+			<key code="32" output="4"/>
+			<key code="33" output="["/>
+			<key code="34" output="5"/>
+			<key code="35" output="-"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="3"/>
+			<key code="38" output="1"/>
+			<key code="39" output="="/>
+			<key code="40" output="2"/>
+			<key code="41" output="+"/>
+			<key code="42" output="\"/>
+			<key code="43" output="*"/>
+			<key code="44" output="&#x000D;"/>
+			<key code="45" output="."/>
+			<key code="46" output="0"/>
+			<key code="47" output="/"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output="&#x0009;"/>
+			<key code="50" output="`"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="3">
+			<key code="0" action="@:1"/>
+			<key code="1" action="+:1"/>
+			<key code="2" action="("/>
+			<key code="3" action=")"/>
+			<key code="4" action="#:1"/>
+			<key code="5" action="&#x0026;"/>
+			<key code="6" action="%:1"/>
+			<key code="7" action="*:1"/>
+			<key code="8" action="{"/>
+			<key code="9" action="}"/>
+			<key code="10" output=")"/>
+			<key code="11" action="|:1"/>
+			<key code="12" action="="/>
+			<key code="13" action="\"/>
+			<key code="14" action="[:1"/>
+			<key code="15" action="]:1"/>
+			<key code="16" action="^:1"/>
+			<key code="17" action="`"/>
+			<key code="18" action="¡"/>
+			<key code="19" action="…"/>
+			<key code="20" action="№"/>
+			<key code="21" action="¢"/>
+			<key code="22" action="&#x003E;"/>
+			<key code="23" action="§"/>
+			<key code="24" action="≠:1"/>
+			<key code="25" action="ª"/>
+			<key code="26" action="¬"/>
+			<key code="27" action="—:1"/>
+			<key code="28" action="•"/>
+			<key code="29" action="º"/>
+			<key code="30" action="‘"/>
+			<key code="31" action="&#x0009;"/>
+			<key code="32" action="&#x000D;:2"/>
+			<key code="33" action="“:1"/>
+			<key code="34" action="&#x001E;"/>
+			<key code="35" action="$:1"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="&#x001D;"/>
+			<key code="38" action="&#x001C;"/>
+			<key code="39" action="&#x0027; 1"/>
+			<key code="40" action="&#x001F;"/>
+			<key code="41" action="acute, common, math:3"/>
+			<key code="42" action="„"/>
+			<key code="43" action="—"/>
+			<key code="44" action="hyphen"/>
+			<key code="45" action="~:5"/>
+			<key code="46" action="&#x0026;"/>
+			<key code="47" action="!:1"/>
+			<key code="48" output=""/>
+			<key code="49" action="&#x0008;"/>
+			<key code="50" output="&#x0009;"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="4">
+			<key code="0" action="﹫"/>
+			<key code="1" action="±:1"/>
+			<key code="2" action="“"/>
+			<key code="3" action="”"/>
+			<key code="4" action="currency, control, superscript:2"/>
+			<key code="5" action="ဪ"/>
+			<key code="6" action="‰"/>
+			<key code="7" action="※"/>
+			<key code="8" action="≤"/>
+			<key code="9" action="≥"/>
+			<key code="10" output="±"/>
+			<key code="11" action="‖"/>
+			<key code="12" action="≠"/>
+			<key code="13" action="Ω"/>
+			<key code="14" action="«"/>
+			<key code="15" action="»"/>
+			<key code="16" action="circunflex, greek:1"/>
+			<key code="17" action="¥"/>
+			<key code="18" action="~:3"/>
+			<key code="19" action="~:7"/>
+			<key code="20" action="~:2"/>
+			<key code="21" action="~:8"/>
+			<key code="22" action="~:10"/>
+			<key code="23" action="~:9"/>
+			<key code="24" action="±"/>
+			<key code="25" action="~:4"/>
+			<key code="26" action="~:1"/>
+			<key code="27" action="‗"/>
+			<key code="28" action="~:11"/>
+			<key code="29" action="~"/>
+			<key code="30" action="’"/>
+			<key code="31" action="&#x007F;:1"/>
+			<key code="32" action="&#x000D;:1"/>
+			<key code="33" action="”:1"/>
+			<key code="34" action="&#x000B;"/>
+			<key code="35" action="£"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="&#x0004;"/>
+			<key code="38" action="&#x0001;"/>
+			<key code="39" action="&#x0022; 1"/>
+			<key code="40" action="&#x000C;"/>
+			<key code="41" action="€"/>
+			<key code="42" action="‟"/>
+			<key code="43" action="࿓"/>
+			<key code="44" action="¿"/>
+			<key code="45" action="tilde, icelandic, ae, turki, encircled:1"/>
+			<key code="46" action="combining"/>
+			<key code="47" action="¡:1"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="&#x007F;"/>
+			<key code="50" output="&#x0009;"/>
+			<key code="51" output="&#x007F;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="*"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="="/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="/"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="5">
+			<key code="0" output="а"/>
+			<key code="1" output="с"/>
+			<key code="2" output="д"/>
+			<key code="3" output="т"/>
+			<key code="4" output="ч"/>
+			<key code="5" output="г"/>
+			<key code="6" output="з"/>
+			<key code="7" output="х"/>
+			<key code="8" output="ц"/>
+			<key code="9" output="в"/>
+			<key code="10" output="§"/>
+			<key code="11" output="б"/>
+			<key code="12" output="я"/>
+			<key code="13" output="ж"/>
+			<key code="14" output="п"/>
+			<key code="15" output="р"/>
+			<key code="16" output="и"/>
+			<key code="17" output="ф"/>
+			<key code="18" output="ю"/>
+			<key code="19" output="ї"/>
+			<key code="20" output="!"/>
+			<key code="21" output="?"/>
+			<key code="22" output="ґ"/>
+			<key code="23" output=""/>
+			<key code="24" output="="/>
+			<key code="25" output="л"/>
+			<key code="26" output="у"/>
+			<key code="27" output="-"/>
+			<key code="28" output="к"/>
+			<key code="29" output="ь"/>
+			<key code="30" output="щ"/>
+			<key code="31" output=""/>
+			<key code="32" output=""/>
+			<key code="33" output="ш"/>
+			<key code="34" output=""/>
+			<key code="35" output=";"/>
+			<key code="36" output="̩"/>
+			<key code="37" output=""/>
+			<key code="38" output=""/>
+			<key code="39" output="."/>
+			<key code="40" output=""/>
+			<key code="41" output="е"/>
+			<key code="42" output="є"/>
+			<key code="43" output="н"/>
+			<key code="44" output="о"/>
+			<key code="45" output="й"/>
+			<key code="46" output="м"/>
+			<key code="47" output="і"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="̀"/>
+			<key code="51" output=""/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="6">
+			<key code="0" output="А"/>
+			<key code="1" output="С"/>
+			<key code="2" output="Д"/>
+			<key code="3" output="Т"/>
+			<key code="4" output="Ч"/>
+			<key code="5" action="Г"/>
+			<key code="6" output="З"/>
+			<key code="7" output="Х"/>
+			<key code="8" output="Ц"/>
+			<key code="9" output="В"/>
+			<key code="10" output="§"/>
+			<key code="11" output="Б"/>
+			<key code="12" output="Я"/>
+			<key code="13" output="Ж"/>
+			<key code="14" output="П"/>
+			<key code="15" output="Р"/>
+			<key code="16" output="И"/>
+			<key code="17" output="Ф"/>
+			<key code="18" output="Ю"/>
+			<key code="19" output="Ї"/>
+			<key code="20" output=""/>
+			<key code="21" output=""/>
+			<key code="22" output="Ґ"/>
+			<key code="23" output=""/>
+			<key code="24" output="≠"/>
+			<key code="25" output="Л"/>
+			<key code="26" output="У"/>
+			<key code="27" output="–"/>
+			<key code="28" output="К"/>
+			<key code="29" output="Ь"/>
+			<key code="30" output="Щ"/>
+			<key code="31" output=""/>
+			<key code="32" output=""/>
+			<key code="33" output="Ш"/>
+			<key code="34" output=""/>
+			<key code="35" output=":"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output=""/>
+			<key code="38" output=""/>
+			<key code="39" output=","/>
+			<key code="40" output=""/>
+			<key code="41" output="Е"/>
+			<key code="42" output="Є"/>
+			<key code="43" output="Н"/>
+			<key code="44" output="О"/>
+			<key code="45" output="Й"/>
+			<key code="46" output="М"/>
+			<key code="47" output="І"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="`"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+	</keyMapSet>
+	<keyMapSet id="984">
+		<keyMap index="0" baseMapSet="16c" baseIndex="0">
+			<key code="24" output="^"/>
+			<key code="30" output="["/>
+			<key code="33" output="@"/>
+			<key code="39" output=":"/>
+			<key code="42" output="]"/>
+			<key code="93" output="¥"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="1" baseMapSet="16c" baseIndex="1">
+			<key code="19" output="&#x0022;"/>
+			<key code="22" output="&#x0026;"/>
+			<key code="24" output="~"/>
+			<key code="25" output=")"/>
+			<key code="26" output="&#x0027;"/>
+			<key code="27" output="="/>
+			<key code="28" output="("/>
+			<key code="29" output="0"/>
+			<key code="30" output="{"/>
+			<key code="33" output="`"/>
+			<key code="39" output="*"/>
+			<key code="41" output="+"/>
+			<key code="42" output="}"/>
+			<key code="93" output="|"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="2" baseMapSet="16c" baseIndex="2">
+			<key code="24" output="^"/>
+			<key code="30" output="["/>
+			<key code="33" output="@"/>
+			<key code="39" output=":"/>
+			<key code="42" output="]"/>
+			<key code="93" output="¥"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="3" baseMapSet="16c" baseIndex="3">
+			<key code="93" output="\"/>
+			<key code="94" action="grave, cedilla, topfrown, frac, copyleft:1"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="4" baseMapSet="16c" baseIndex="4">
+			<key code="93" output="|"/>
+			<key code="94" output="`"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="5" baseMapSet="16c" baseIndex="5">
+			<key code="93" output="\"/>
+			<key code="94" output="`"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+		<keyMap index="6" baseMapSet="16c" baseIndex="6">
+			<key code="93" output="\"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action=" "/>
+			<key code="104" action=" "/>
+		</keyMap>
+	</keyMapSet>
+	<actions>
+		<action id="&#x0001;">
+			<when state="none" output="&#x0001;"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓝ"/>
+		</action>
+		<action id="&#x0004;">
+			<when state="none" output="&#x0004;"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɤ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓞ"/>
+		</action>
+		<action id="&#x0008;">
+			<when state="none" output="&#x0008;"/>
+			<when state="acute, common, math" output=" "/>
+		</action>
+		<action id="&#x0009;">
+			<when state="none" output="&#x0009;"/>
+			<when state="currency, control, superscript" output="ˡ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓛ"/>
+		</action>
+		<action id="&#x0009;:1">
+			<when state="none" output="&#x0009;"/>
+		</action>
+		<action id="&#x000B;">
+			<when state="none" output="&#x000B;"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙍"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓚ"/>
+		</action>
+		<action id="&#x000C;">
+			<when state="none" output="&#x000C;"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɤ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓘ"/>
+		</action>
+		<action id="&#x000D;">
+			<when state="none" output="&#x000D;"/>
+			<when state="acute, common, math" output="¶"/>
+		</action>
+		<action id="&#x000D;:1">
+			<when state="none" output="&#x000D;"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙎"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓤ"/>
+		</action>
+		<action id="&#x000D;:2">
+			<when state="none" output="&#x000D;"/>
+			<when state="currency, control, superscript" output="ᵘ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓤ"/>
+		</action>
+		<action id="&#x001C;">
+			<when state="none" output="&#x001C;"/>
+			<when state="currency, control, superscript" output="ⁿ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓝ"/>
+		</action>
+		<action id="&#x001D;">
+			<when state="none" output="&#x001D;"/>
+			<when state="currency, control, superscript" output="ᵒ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓞ"/>
+		</action>
+		<action id="&#x001E;">
+			<when state="none" output="&#x001E;"/>
+			<when state="currency, control, superscript" output="ᵏ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓚ"/>
+		</action>
+		<action id="&#x001F;">
+			<when state="none" output="&#x001F;"/>
+			<when state="currency, control, superscript" output="ⁱ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓘ"/>
+		</action>
+		<action id=" ">
+			<when state="none" output=" "/>
+			<when state="acute, common, math" output="´"/>
+			<when state="circunflex, greek" output="ˆ"/>
+			<when state="combining" output=" "/>
+			<when state="currency, control, superscript" output="␣"/>
+			<when state="dieresis, symbols" output="¨"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="`"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="˜"/>
+		</action>
+		<action id="!">
+			<when state="none" output="!"/>
+			<when state="acute, common, math" output="₁"/>
+			<when state="combining" output="⃝"/>
+			<when state="currency, control, superscript" output="ᵎ"/>
+			<when state="dieresis, symbols" output="𝄐"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❶"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➊"/>
+		</action>
+		<action id="!:1">
+			<when state="none" output="!"/>
+			<when state="acute, common, math" output="⊃"/>
+			<when state="circunflex, greek" output="ι"/>
+			<when state="combining" output="͐"/>
+			<when state="currency, control, superscript" output="ⁿ"/>
+			<when state="dieresis, symbols" output="⚈"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="œ"/>
+			<when state="hyphen" output="-&#x003E;"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓘ"/>
+		</action>
+		<action id="&#x0022;">
+			<when state="none" next="dieresis, symbols"/>
+		</action>
+		<action id="&#x0022; 1">
+			<when state="none" next="dieresis, symbols"/>
+			<when state="currency, control, superscript" output="∄"/>
+			<when state="dieresis, symbols" output="„"/>
+		</action>
+		<action id="&#x0022; 2">
+			<when state="none" next="currency, control, superscript"/>
+		</action>
+		<action id="&#x0022; 3">
+			<when state="none" output="&#x0022;"/>
+			<when state="dieresis, symbols" output="☥"/>
+		</action>
+		<action id="#">
+			<when state="none" output="#"/>
+			<when state="acute, common, math" output="₃"/>
+			<when state="combining" output="⃟"/>
+			<when state="dieresis, symbols" output="𝄢"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❸"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➌"/>
+		</action>
+		<action id="#:1">
+			<when state="none" output="#"/>
+			<when state="acute, common, math" output="∫"/>
+			<when state="circunflex, greek" output="η"/>
+			<when state="currency, control, superscript" output="ʰ"/>
+			<when state="dieresis, symbols" output="♟"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʃ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓗ"/>
+		</action>
+		<action id="$">
+			<when state="none" output="$"/>
+			<when state="acute, common, math" output="₄"/>
+			<when state="combining" output="⃣"/>
+			<when state="dieresis, symbols" output="𝄽"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❹"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➍"/>
+		</action>
+		<action id="$:1">
+			<when state="none" output="$"/>
+			<when state="acute, common, math" output="ę"/>
+			<when state="currency, control, superscript" output="⊈"/>
+			<when state="dieresis, symbols" output="✾"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ə"/>
+		</action>
+		<action id="%">
+			<when state="none" output="%"/>
+			<when state="acute, common, math" output="₅"/>
+			<when state="combining" output="⃤"/>
+			<when state="dieresis, symbols" output="✁"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❺"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➎"/>
+		</action>
+		<action id="%:1">
+			<when state="none" output="%"/>
+			<when state="acute, common, math" output="ż"/>
+			<when state="circunflex, greek" output="ζ"/>
+			<when state="currency, control, superscript" output="ᶻ"/>
+			<when state="dieresis, symbols" output="⚓"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʒ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓩ"/>
+		</action>
+		<action id="&#x0026;">
+			<when state="none" output="&#x0026;"/>
+			<when state="acute, common, math" output="→"/>
+			<when state="circunflex, greek" output="γ"/>
+			<when state="combining" output="̲"/>
+			<when state="currency, control, superscript" output="ᵍ"/>
+			<when state="dieresis, symbols" output="♞"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ŋ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓖ"/>
+		</action>
+		<action id="&#x0026; 1">
+			<when state="none" output="&#x0026;"/>
+			<when state="acute, common, math" output="₇"/>
+			<when state="combining" output="⃧"/>
+			<when state="dieresis, symbols" output="✄"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❼"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➐"/>
+		</action>
+		<action id="&#x0027;">
+			<when state="none" next="acute, common, math"/>
+		</action>
+		<action id="&#x0027; 1">
+			<when state="none" next="grave, cedilla, topsmile, numbullets, copyleft"/>
+			<when state="circunflex, greek" output="ε"/>
+			<when state="dieresis, symbols" output="✠"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʔ"/>
+		</action>
+		<action id="&#x0027; 2">
+			<when state="none" output="&#x0027;"/>
+			<when state="combining" output="̋"/>
+			<when state="currency, control, superscript" output="⏎"/>
+			<when state="dieresis, symbols" output="⛤"/>
+		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="acute, common, math" output="∆"/>
+			<when state="circunflex, greek" output="δ"/>
+			<when state="combining" output="͗"/>
+			<when state="currency, control, superscript" output="ᵈ"/>
+			<when state="dieresis, symbols" output="♜"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="å"/>
+			<when state="hyphen" output="ī"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓓ"/>
+		</action>
+		<action id="(:1">
+			<when state="none" output="("/>
+			<when state="acute, common, math" output="₉"/>
+			<when state="currency, control, superscript" output="⁽"/>
+			<when state="dieresis, symbols" output="✏"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❾"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➒"/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="acute, common, math" output="∴"/>
+			<when state="circunflex, greek" output="τ"/>
+			<when state="combining" output="̠"/>
+			<when state="currency, control, superscript" output="ᵗ"/>
+			<when state="dieresis, symbols" output="♝"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ț"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓣ"/>
+		</action>
+		<action id="):1">
+			<when state="none" output=")"/>
+			<when state="acute, common, math" output="₀"/>
+			<when state="currency, control, superscript" output="⁾"/>
+			<when state="dieresis, symbols" output="✐"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❿"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➓"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="acute, common, math" output="₈"/>
+			<when state="currency, control, superscript" output="⁼"/>
+			<when state="dieresis, symbols" output="✎"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❽"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➑"/>
+		</action>
+		<action id="*:1">
+			<when state="none" output="*"/>
+			<when state="acute, common, math" output="∙"/>
+			<when state="circunflex, greek" output="ξ"/>
+			<when state="combining" output="͙"/>
+			<when state="currency, control, superscript" output="ˣ"/>
+			<when state="dieresis, symbols" output="⚒"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɑ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓧ"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="combining" output="̟"/>
+			<when state="currency, control, superscript" output="⁺"/>
+			<when state="dieresis, symbols" output="✒"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≅"/>
+		</action>
+		<action id="+:1">
+			<when state="none" output="+"/>
+			<when state="acute, common, math" output="∑"/>
+			<when state="circunflex, greek" output="σ"/>
+			<when state="currency, control, superscript" output="ˢ"/>
+			<when state="dieresis, symbols" output="♛"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ș"/>
+			<when state="hyphen" output="ō"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓢ"/>
+		</action>
+		<action id=",">
+			<when state="none" output=","/>
+			<when state="acute, common, math" output="…"/>
+			<when state="combining" output="̦"/>
+			<when state="currency, control, superscript" output="⇟"/>
+			<when state="dieresis, symbols" output="☭"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≲"/>
+		</action>
+		<action id="-">
+			<when state="none" output="-"/>
+			<when state="acute, common, math" output="­"/>
+			<when state="currency, control, superscript" output="⏏"/>
+			<when state="dieresis, symbols" output="♂"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≃"/>
+		</action>
+		<action id="-&#x003E;">
+			<when state="none" next="acute, common, math"/>
+		</action>
+		<action id=".">
+			<when state="none" output="."/>
+			<when state="acute, common, math" output="¡"/>
+			<when state="combining" output="̣"/>
+			<when state="currency, control, superscript" output="↘"/>
+			<when state="dieresis, symbols" output="♰"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ø"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≳"/>
+		</action>
+		<action id="/">
+			<when state="none" output="/"/>
+			<when state="acute, common, math" output="÷"/>
+			<when state="combining" output="̷"/>
+			<when state="currency, control, superscript" output="⇧"/>
+			<when state="dieresis, symbols" output="☐"/>
+		</action>
+		<action id="0">
+			<when state="none" output="0"/>
+			<when state="acute, common, math" output="⁰"/>
+			<when state="combining" output="͎"/>
+			<when state="currency, control, superscript" output="❙❙"/>
+			<when state="dieresis, symbols" output="⚥"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑩"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓾"/>
+		</action>
+		<action id="1">
+			<when state="none" output="1"/>
+			<when state="acute, common, math" output="¹"/>
+			<when state="combining" output="͜"/>
+			<when state="currency, control, superscript" output="⎋"/>
+			<when state="dieresis, symbols" output="♩"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="①"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓵"/>
+		</action>
+		<action id="2">
+			<when state="none" output="2"/>
+			<when state="acute, common, math" output="²"/>
+			<when state="combining" output="͡"/>
+			<when state="currency, control, superscript" output="⇤"/>
+			<when state="dieresis, symbols" output="♪"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="②"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓶"/>
+		</action>
+		<action id="3">
+			<when state="none" output="3"/>
+			<when state="acute, common, math" output="³"/>
+			<when state="combining" output="͝"/>
+			<when state="currency, control, superscript" output="⏪"/>
+			<when state="dieresis, symbols" output="♫"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="③"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓷"/>
+		</action>
+		<action id="4">
+			<when state="none" output="4"/>
+			<when state="acute, common, math" output="⁴"/>
+			<when state="combining" output="͞"/>
+			<when state="currency, control, superscript" output="⏩"/>
+			<when state="dieresis, symbols" output="♬"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="④"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓸"/>
+		</action>
+		<action id="5">
+			<when state="none" output="5"/>
+			<when state="acute, common, math" output="⁵"/>
+			<when state="combining" output="͟"/>
+			<when state="currency, control, superscript" output="⏮"/>
+			<when state="dieresis, symbols" output="♭"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑤"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓹"/>
+		</action>
+		<action id="6">
+			<when state="none" output="6"/>
+			<when state="acute, common, math" output="⁶"/>
+			<when state="combining" output="͢"/>
+			<when state="currency, control, superscript" output="⏭"/>
+			<when state="dieresis, symbols" output="♮"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑥"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓺"/>
+		</action>
+		<action id="7">
+			<when state="none" output="7"/>
+			<when state="acute, common, math" output="⁷"/>
+			<when state="combining" output="͠"/>
+			<when state="currency, control, superscript" output="⏯"/>
+			<when state="dieresis, symbols" output="♯"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑦"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓻"/>
+		</action>
+		<action id="8">
+			<when state="none" output="8"/>
+			<when state="acute, common, math" output="⁸"/>
+			<when state="combining" output="͚"/>
+			<when state="currency, control, superscript" output="⇞"/>
+			<when state="dieresis, symbols" output="𝄆"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑧"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓼"/>
+		</action>
+		<action id="9">
+			<when state="none" output="9"/>
+			<when state="acute, common, math" output="⁹"/>
+			<when state="combining" output="͍"/>
+			<when state="currency, control, superscript" output="▸"/>
+			<when state="dieresis, symbols" output="𝄇"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="⑨"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓽"/>
+		</action>
+		<action id=":">
+			<when state="none" output=":"/>
+			<when state="acute, common, math" output="Œ"/>
+			<when state="combining" output="͈"/>
+			<when state="currency, control, superscript" output="∪"/>
+			<when state="dieresis, symbols" output="☤"/>
+		</action>
+		<action id=";">
+			<when state="none" output=";"/>
+			<when state="acute, common, math" output="œ"/>
+			<when state="combining" output="̎"/>
+			<when state="currency, control, superscript" output="₺"/>
+			<when state="dieresis, symbols" output="⚤"/>
+		</action>
+		<action id="&#x003C;">
+			<when state="none" output="&#x003C;"/>
+			<when state="combining" output="͔"/>
+			<when state="currency, control, superscript" output="ᴹ"/>
+			<when state="dieresis, symbols" output="⟾"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≤"/>
+		</action>
+		<action id="=">
+			<when state="none" output="="/>
+			<when state="acute, common, math" output="ą"/>
+			<when state="combining" output="⃚"/>
+			<when state="dieresis, symbols" output="☃"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ã"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓠ"/>
+		</action>
+		<action id="=:1">
+			<when state="none" output="="/>
+			<when state="combining" output="͇"/>
+			<when state="currency, control, superscript" output="⌫"/>
+			<when state="dieresis, symbols" output="♀"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≈"/>
+		</action>
+		<action id="=&#x003E;">
+			<when state="none" next="dieresis, symbols"/>
+		</action>
+		<action id="&#x003E;">
+			<when state="none" output="µ"/>
+			<when state="acute, common, math" output="⅙"/>
+			<when state="combining" output="⃪"/>
+			<when state="dieresis, symbols" output="❦"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʝ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑯"/>
+		</action>
+		<action id="&#x003E; 1">
+			<when state="none" output="&#x003E;"/>
+			<when state="combining" output="͕"/>
+			<when state="currency, control, superscript" output="➈"/>
+			<when state="dieresis, symbols" output="☑"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ø"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≥"/>
+		</action>
+		<action id="?">
+			<when state="none" output="?"/>
+			<when state="acute, common, math" output="¿"/>
+			<when state="combining" output="̸"/>
+			<when state="currency, control, superscript" output="➉"/>
+			<when state="dieresis, symbols" output="☒"/>
+		</action>
+		<action id="@">
+			<when state="none" output="@"/>
+			<when state="acute, common, math" output="₂"/>
+			<when state="combining" output="⃞"/>
+			<when state="dieresis, symbols" output="𝄞"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❷"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➋"/>
+		</action>
+		<action id="@:1">
+			<when state="none" output="@"/>
+			<when state="acute, common, math" output="∀"/>
+			<when state="circunflex, greek" output="ă"/>
+			<when state="currency, control, superscript" output="ᵃ"/>
+			<when state="dieresis, symbols" output="♚"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="â"/>
+			<when state="hyphen" output="ā"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓐ"/>
+		</action>
+		<action id="A">
+			<when state="none" output="A"/>
+			<when state="acute, common, math" output="Á"/>
+			<when state="circunflex, greek" output="Â"/>
+			<when state="dieresis, symbols" output="Ä"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="À"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ã"/>
+		</action>
+		<action id="A:1">
+			<when state="none" output="A"/>
+			<when state="acute, common, math" output="Á"/>
+			<when state="circunflex, greek" output="Â"/>
+			<when state="combining" output="̭"/>
+			<when state="currency, control, superscript" output="ᴬ"/>
+			<when state="dieresis, symbols" output="Ä"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="À"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ã"/>
+		</action>
+		<action id="B">
+			<when state="none" output="B"/>
+			<when state="currency, control, superscript" output="ᴮ"/>
+			<when state="dieresis, symbols" output="➥"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ㄸ⃝"/>
+		</action>
+		<action id="C">
+			<when state="none" output="C"/>
+			<when state="acute, common, math" output="Ç"/>
+			<when state="circunflex, greek" output="Č"/>
+			<when state="combining" output="̧"/>
+			<when state="currency, control, superscript" output="ᵞ"/>
+			<when state="dieresis, symbols" output="✋"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ç"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∰"/>
+		</action>
+		<action id="D">
+			<when state="none" output="D"/>
+			<when state="circunflex, greek" output="Ď"/>
+			<when state="combining" output="̣"/>
+			<when state="currency, control, superscript" output="ᴰ"/>
+			<when state="dieresis, symbols" output="✌"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ă"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Œ"/>
+		</action>
+		<action id="E">
+			<when state="none" output="E"/>
+			<when state="acute, common, math" output="É"/>
+			<when state="circunflex, greek" output="Ê"/>
+			<when state="combining" output="̗"/>
+			<when state="currency, control, superscript" output="ᴱ"/>
+			<when state="dieresis, symbols" output="Ë"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="È"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ð"/>
+		</action>
+		<action id="F">
+			<when state="none" output="F"/>
+			<when state="combining" output="̈́"/>
+			<when state="currency, control, superscript" output="ˁ"/>
+			<when state="dieresis, symbols" output="⚐"/>
+		</action>
+		<action id="G">
+			<when state="none" output="G"/>
+			<when state="acute, common, math" output="Ü"/>
+			<when state="circunflex, greek" output="Ğ"/>
+			<when state="combining" output="̖"/>
+			<when state="currency, control, superscript" output="ᴳ"/>
+			<when state="dieresis, symbols" output="☾"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ğ"/>
+		</action>
+		<action id="H">
+			<when state="none" output="H"/>
+			<when state="acute, common, math" output="Ã"/>
+			<when state="combining" output="̺"/>
+			<when state="currency, control, superscript" output="ᴴ"/>
+			<when state="dieresis, symbols" output="⟿"/>
+		</action>
+		<action id="I">
+			<when state="none" output="I"/>
+			<when state="acute, common, math" output="Í"/>
+			<when state="circunflex, greek" output="Î"/>
+			<when state="combining" output="̩"/>
+			<when state="currency, control, superscript" output="ᴵ"/>
+			<when state="dieresis, symbols" output="Ï"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ì"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="İ"/>
+		</action>
+		<action id="J">
+			<when state="none" output="J"/>
+			<when state="currency, control, superscript" output="ᴶ"/>
+			<when state="dieresis, symbols" output="➞"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="BY"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∿"/>
+		</action>
+		<action id="K">
+			<when state="none" output="K"/>
+			<when state="acute, common, math" output="Õ"/>
+			<when state="circunflex, greek" output="Ů"/>
+			<when state="combining" output="⃜"/>
+			<when state="currency, control, superscript" output="ᴷ"/>
+			<when state="dieresis, symbols" output="Ű"/>
+		</action>
+		<action id="L">
+			<when state="none" output="L"/>
+			<when state="acute, common, math" output="Ł"/>
+			<when state="combining" output="ͅ"/>
+			<when state="currency, control, superscript" output="ᴸ"/>
+			<when state="dieresis, symbols" output="Ő"/>
+		</action>
+		<action id="M">
+			<when state="none" output="M"/>
+			<when state="acute, common, math" output="Ń"/>
+			<when state="combining" output="̴"/>
+			<when state="currency, control, superscript" output="ᴹ"/>
+			<when state="dieresis, symbols" output="➘"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="SA"/>
+		</action>
+		<action id="N">
+			<when state="none" output="N"/>
+			<when state="acute, common, math" output="Ñ"/>
+			<when state="circunflex, greek" output="Ň"/>
+			<when state="combining" output="̰"/>
+			<when state="currency, control, superscript" output="ᴺ"/>
+			<when state="dieresis, symbols" output="➚"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ñ"/>
+		</action>
+		<action id="O">
+			<when state="none" output="O"/>
+			<when state="acute, common, math" output="Ó"/>
+			<when state="circunflex, greek" output="Ô"/>
+			<when state="combining" output="̥"/>
+			<when state="currency, control, superscript" output="ᴼ"/>
+			<when state="dieresis, symbols" output="Ö"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ò"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Õ"/>
+		</action>
+		<action id="P">
+			<when state="none" output="P"/>
+			<when state="acute, common, math" output="Π"/>
+			<when state="currency, control, superscript" output="ᴾ"/>
+			<when state="dieresis, symbols" output="⚔"/>
+		</action>
+		<action id="Q">
+			<when state="none" output="Q"/>
+			<when state="acute, common, math" output="Æ"/>
+			<when state="combining" output="̯"/>
+			<when state="currency, control, superscript" output="ᵠ"/>
+			<when state="dieresis, symbols" output="Å"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ä"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≅"/>
+		</action>
+		<action id="R">
+			<when state="none" output="R"/>
+			<when state="circunflex, greek" output="Ř"/>
+			<when state="combining" output="̝"/>
+			<when state="currency, control, superscript" output="ᴿ"/>
+			<when state="dieresis, symbols" output="♻"/>
+		</action>
+		<action id="S">
+			<when state="none" output="S"/>
+			<when state="acute, common, math" output="Ś"/>
+			<when state="circunflex, greek" output="Š"/>
+			<when state="combining" output="̶"/>
+			<when state="currency, control, superscript" output="ᶴ"/>
+			<when state="dieresis, symbols" output="ẞ"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ş"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Æ"/>
+		</action>
+		<action id="T">
+			<when state="none" output="T"/>
+			<when state="acute, common, math" output="™"/>
+			<when state="circunflex, greek" output="Ť"/>
+			<when state="combining" output="̞"/>
+			<when state="currency, control, superscript" output="ᵀ"/>
+			<when state="dieresis, symbols" output="✊"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ţ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Þ"/>
+		</action>
+		<action id="U">
+			<when state="none" output="U"/>
+			<when state="acute, common, math" output="Ú"/>
+			<when state="circunflex, greek" output="Û"/>
+			<when state="combining" output="̤"/>
+			<when state="currency, control, superscript" output="ᵁ"/>
+			<when state="dieresis, symbols" output="Ü"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ù"/>
+		</action>
+		<action id="V">
+			<when state="none" output="V"/>
+			<when state="combining" output="̨"/>
+			<when state="currency, control, superscript" output="ⱽ"/>
+			<when state="dieresis, symbols" output="☛"/>
+		</action>
+		<action id="W">
+			<when state="none" output="W"/>
+			<when state="combining" output="̮"/>
+			<when state="currency, control, superscript" output="ᵂ"/>
+			<when state="dieresis, symbols" output="Ẅ"/>
+		</action>
+		<action id="X">
+			<when state="none" output="X"/>
+			<when state="combining" output="͓"/>
+			<when state="currency, control, superscript" output="ᵝ"/>
+			<when state="dieresis, symbols" output="☚"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∯"/>
+		</action>
+		<action id="Y">
+			<when state="none" output="Y"/>
+			<when state="combining" output="⃛"/>
+			<when state="currency, control, superscript" output="ᵞ"/>
+			<when state="dieresis, symbols" output="Ÿ"/>
+		</action>
+		<action id="Z">
+			<when state="none" output="Z"/>
+			<when state="acute, common, math" output="Ź"/>
+			<when state="circunflex, greek" output="Ž"/>
+			<when state="currency, control, superscript" output="ᵅ"/>
+			<when state="dieresis, symbols" output="✍"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ż"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∮"/>
+		</action>
+		<action id="[">
+			<when state="none" output="["/>
+			<when state="combining" output="̏"/>
+			<when state="currency, control, superscript" output="⌽"/>
+			<when state="dieresis, symbols" output="⚣"/>
+		</action>
+		<action id="[:1">
+			<when state="none" output="["/>
+			<when state="acute, common, math" output="∏"/>
+			<when state="circunflex, greek" output="π"/>
+			<when state="currency, control, superscript" output="ᵖ"/>
+			<when state="dieresis, symbols" output="☀"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɜ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓟ"/>
+		</action>
+		<action id="\">
+			<when state="none" output="\"/>
+			<when state="currency, control, superscript" output="ʷ"/>
+			<when state="dieresis, symbols" output="☁"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʊ"/>
+			<when state="hyphen" output="ł"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓦ"/>
+		</action>
+		<action id="\:1">
+			<when state="none" output="\"/>
+			<when state="combining" output="͉"/>
+			<when state="currency, control, superscript" output="⌅"/>
+			<when state="dieresis, symbols" output="♿"/>
+		</action>
+		<action id="]">
+			<when state="none" output="]"/>
+			<when state="combining" output="̻"/>
+			<when state="currency, control, superscript" output="⌦"/>
+			<when state="dieresis, symbols" output="⚢"/>
+		</action>
+		<action id="]:1">
+			<when state="none" output="]"/>
+			<when state="acute, common, math" output="®"/>
+			<when state="circunflex, greek" output="ρ"/>
+			<when state="currency, control, superscript" output="ʳ"/>
+			<when state="dieresis, symbols" output="☂"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɹ"/>
+			<when state="hyphen" output="ū"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓡ"/>
+		</action>
+		<action id="^">
+			<when state="none" output="^"/>
+			<when state="acute, common, math" output="₆"/>
+			<when state="combining" output="⃥"/>
+			<when state="dieresis, symbols" output="✂"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="❻"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="➏"/>
+		</action>
+		<action id="^:1">
+			<when state="none" output="^"/>
+			<when state="acute, common, math" output="∪"/>
+			<when state="circunflex, greek" output="θ"/>
+			<when state="currency, control, superscript" output="ʸ"/>
+			<when state="dieresis, symbols" output="♠"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɯ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓨ"/>
+		</action>
+		<action id="_:1">
+			<when state="none" output="_"/>
+			<when state="acute, common, math" output="‑"/>
+			<when state="currency, control, superscript" output="⁻"/>
+			<when state="dieresis, symbols" output="✑"/>
+		</action>
+		<action id="`">
+			<when state="none" output="`"/>
+			<when state="circunflex, greek" output="φ"/>
+			<when state="combining" output="̱"/>
+			<when state="currency, control, superscript" output="ᶠ"/>
+			<when state="dieresis, symbols" output="♣"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɾ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓕ"/>
+		</action>
+		<action id="a">
+			<when state="none" output="a"/>
+			<when state="acute, common, math" output="á"/>
+			<when state="circunflex, greek" output="â"/>
+			<when state="combining" output="̂"/>
+			<when state="currency, control, superscript" output="⇪"/>
+			<when state="dieresis, symbols" output="ä"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="à"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ã"/>
+		</action>
+		<action id="acute, common, math:2">
+			<when state="none" next="acute, common, math"/>
+		</action>
+		<action id="acute, common, math:3">
+			<when state="none" next="acute, common, math"/>
+			<when state="acute, common, math" output="Ǝ"/>
+			<when state="circunflex, greek" output="ě"/>
+			<when state="currency, control, superscript" output="ᵉ"/>
+			<when state="dieresis, symbols" output="⛃"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="æ"/>
+			<when state="hyphen" output="ē"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓔ"/>
+		</action>
+		<action id="b">
+			<when state="none" output="b"/>
+			<when state="acute, common, math" output="¦"/>
+			<when state="combining" output="̹"/>
+			<when state="currency, control, superscript" output="฿"/>
+			<when state="dieresis, symbols" output="☪"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ↄ⃝"/>
+		</action>
+		<action id="c">
+			<when state="none" output="c"/>
+			<when state="acute, common, math" output="ç"/>
+			<when state="circunflex, greek" output="č"/>
+			<when state="combining" output="̜"/>
+			<when state="currency, control, superscript" output="¢"/>
+			<when state="dieresis, symbols" output="☟"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ç"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∭"/>
+		</action>
+		<action id="circunflex, greek">
+			<when state="none" next="circunflex, greek"/>
+		</action>
+		<action id="circunflex, greek:1">
+			<when state="none" next="circunflex, greek"/>
+			<when state="acute, common, math" output="∩"/>
+			<when state="circunflex, greek" output="Θ"/>
+			<when state="currency, control, superscript" output="℞"/>
+			<when state="dieresis, symbols" output="♡"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙅"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓨ"/>
+		</action>
+		<action id="combining">
+			<when state="none" next="combining"/>
+			<when state="acute, common, math" output="∉"/>
+			<when state="combining" output="͌"/>
+			<when state="currency, control, superscript" output="ℕ"/>
+			<when state="dieresis, symbols" output="⚱"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="CarpalxQ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓜ"/>
+		</action>
+		<action id="currency, control, superscript:2">
+			<when state="none" next="currency, control, superscript"/>
+			<when state="currency, control, superscript" output="ℌ"/>
+			<when state="dieresis, symbols" output="♙"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ħ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓗ"/>
+		</action>
+		<action id="d">
+			<when state="none" output="d"/>
+			<when state="acute, common, math" output="∂"/>
+			<when state="circunflex, greek" output="ď"/>
+			<when state="combining" output="̇"/>
+			<when state="currency, control, superscript" output="₫"/>
+			<when state="dieresis, symbols" output="☝"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ă"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="œ"/>
+		</action>
+		<action id="dieresis, symbols:2">
+			<when state="none" next="dieresis, symbols"/>
+		</action>
+		<action id="e">
+			<when state="none" output="e"/>
+			<when state="acute, common, math" output="é"/>
+			<when state="circunflex, greek" output="ê"/>
+			<when state="combining" output="́"/>
+			<when state="currency, control, superscript" output="€"/>
+			<when state="dieresis, symbols" output="ë"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="è"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ð"/>
+		</action>
+		<action id="f">
+			<when state="none" output="f"/>
+			<when state="acute, common, math" output="¤"/>
+			<when state="combining" output="͒"/>
+			<when state="currency, control, superscript" output="◂"/>
+			<when state="dieresis, symbols" output="⚑"/>
+		</action>
+		<action id="g">
+			<when state="none" output="g"/>
+			<when state="acute, common, math" output="ü"/>
+			<when state="circunflex, greek" output="ğ"/>
+			<when state="combining" output="̀"/>
+			<when state="currency, control, superscript" output="¶"/>
+			<when state="dieresis, symbols" output="☽"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ğ"/>
+		</action>
+		<action id="grave, cedilla, topfrown, frac, copyleft:1">
+			<when state="none" next="grave, cedilla, topsmile, numbullets, copyleft"/>
+		</action>
+		<action id="h">
+			<when state="none" output="h"/>
+			<when state="acute, common, math" output="ã"/>
+			<when state="combining" output="͆"/>
+			<when state="currency, control, superscript" output="₴"/>
+			<when state="dieresis, symbols" output="♿"/>
+		</action>
+		<action id="hyphen">
+			<when state="none" next="hyphen"/>
+			<when state="acute, common, math" output="—"/>
+			<when state="circunflex, greek" output="ω"/>
+			<when state="combining" output="⃠"/>
+			<when state="dieresis, symbols" output="⚉"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɒ"/>
+			<when state="hyphen" output="—"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓞ"/>
+		</action>
+		<action id="i">
+			<when state="none" output="i"/>
+			<when state="acute, common, math" output="í"/>
+			<when state="circunflex, greek" output="î"/>
+			<when state="combining" output="̍"/>
+			<when state="currency, control, superscript" output="↓"/>
+			<when state="dieresis, symbols" output="ï"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ì"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ı"/>
+		</action>
+		<action id="j">
+			<when state="none" output="j"/>
+			<when state="acute, common, math" output="β"/>
+			<when state="combining" output="̡"/>
+			<when state="currency, control, superscript" output="ℑ"/>
+			<when state="dieresis, symbols" output="✡"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Jameson"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∾"/>
+		</action>
+		<action id="k">
+			<when state="none" output="k"/>
+			<when state="acute, common, math" output="õ"/>
+			<when state="circunflex, greek" output="ů"/>
+			<when state="combining" output="̾"/>
+			<when state="currency, control, superscript" output="↑"/>
+			<when state="dieresis, symbols" output="ű"/>
+		</action>
+		<action id="l">
+			<when state="none" output="l"/>
+			<when state="acute, common, math" output="ł"/>
+			<when state="combining" output="̢"/>
+			<when state="currency, control, superscript" output="ℓ"/>
+			<when state="dieresis, symbols" output="ő"/>
+		</action>
+		<action id="m">
+			<when state="none" output="m"/>
+			<when state="acute, common, math" output="ń"/>
+			<when state="combining" output="̼"/>
+			<when state="currency, control, superscript" output="↖"/>
+			<when state="dieresis, symbols" output="☯"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Quinn"/>
+		</action>
+		<action id="n">
+			<when state="none" output="n"/>
+			<when state="acute, common, math" output="ñ"/>
+			<when state="circunflex, greek" output="ň"/>
+			<when state="combining" output="̃"/>
+			<when state="currency, control, superscript" output="←"/>
+			<when state="dieresis, symbols" output="☕"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ñ"/>
+		</action>
+		<action id="o">
+			<when state="none" output="o"/>
+			<when state="acute, common, math" output="ó"/>
+			<when state="circunflex, greek" output="ô"/>
+			<when state="combining" output="̊"/>
+			<when state="currency, control, superscript" output="→"/>
+			<when state="dieresis, symbols" output="ö"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ò"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="õ"/>
+		</action>
+		<action id="p">
+			<when state="none" output="p"/>
+			<when state="acute, common, math" output="π"/>
+			<when state="combining" output="̉"/>
+			<when state="currency, control, superscript" output="£"/>
+			<when state="dieresis, symbols" output="☮"/>
+		</action>
+		<action id="q">
+			<when state="none" output="q"/>
+			<when state="acute, common, math" output="æ"/>
+			<when state="combining" output="̑"/>
+			<when state="currency, control, superscript" output="⇥"/>
+			<when state="dieresis, symbols" output="å"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ä"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≈"/>
+		</action>
+		<action id="r">
+			<when state="none" output="r"/>
+			<when state="acute, common, math" output="®"/>
+			<when state="circunflex, greek" output="ř"/>
+			<when state="combining" output="̅"/>
+			<when state="currency, control, superscript" output="₹"/>
+			<when state="dieresis, symbols" output="♲"/>
+		</action>
+		<action id="s">
+			<when state="none" output="s"/>
+			<when state="acute, common, math" output="ś"/>
+			<when state="circunflex, greek" output="š"/>
+			<when state="combining" output="̵"/>
+			<when state="currency, control, superscript" output="₪"/>
+			<when state="dieresis, symbols" output="ß"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ş"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="æ"/>
+		</action>
+		<action id="t">
+			<when state="none" output="t"/>
+			<when state="acute, common, math" output="†"/>
+			<when state="circunflex, greek" output="ť"/>
+			<when state="combining" output="̄"/>
+			<when state="dieresis, symbols" output="☏"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ţ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="þ"/>
+		</action>
+		<action id="tilde, icelandic, ae, turki, encircled">
+			<when state="none" next="tilde, icelandic, ae, turki, encircled"/>
+		</action>
+		<action id="tilde, icelandic, ae, turki, encircled:1">
+			<when state="none" next="tilde, icelandic, ae, turki, encircled"/>
+			<when state="circunflex, greek" output="Ψ"/>
+			<when state="combining" output="⃩"/>
+			<when state="currency, control, superscript" output="ⱼ"/>
+			<when state="dieresis, symbols" output="⚰"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="carpalx partial_optimization"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓙ"/>
+		</action>
+		<action id="tilde, icelandic, ae, turki, encircled:2">
+			<when state="none" next="tilde, icelandic, ae, turki, encircled"/>
+		</action>
+		<action id="u">
+			<when state="none" output="u"/>
+			<when state="acute, common, math" output="ú"/>
+			<when state="circunflex, greek" output="û"/>
+			<when state="combining" output="̈"/>
+			<when state="currency, control, superscript" output="$"/>
+			<when state="dieresis, symbols" output="ü"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ù"/>
+		</action>
+		<action id="v">
+			<when state="none" output="v"/>
+			<when state="acute, common, math" output="√"/>
+			<when state="combining" output="̌"/>
+			<when state="currency, control, superscript" output="⎇"/>
+			<when state="dieresis, symbols" output="☞"/>
+		</action>
+		<action id="w">
+			<when state="none" output="w"/>
+			<when state="acute, common, math" output="±"/>
+			<when state="combining" output="̆"/>
+			<when state="currency, control, superscript" output="₩"/>
+			<when state="dieresis, symbols" output="ẅ"/>
+		</action>
+		<action id="x">
+			<when state="none" output="x"/>
+			<when state="acute, common, math" output="×"/>
+			<when state="combining" output="̽"/>
+			<when state="currency, control, superscript" output="⌘"/>
+			<when state="dieresis, symbols" output="☜"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∬"/>
+		</action>
+		<action id="y">
+			<when state="none" output="y"/>
+			<when state="acute, common, math" output="γ"/>
+			<when state="combining" output="̐"/>
+			<when state="currency, control, superscript" output="¥"/>
+			<when state="dieresis, symbols" output="ÿ"/>
+		</action>
+		<action id="z">
+			<when state="none" output="z"/>
+			<when state="acute, common, math" output="ź"/>
+			<when state="circunflex, greek" output="ž"/>
+			<when state="combining" output="͛"/>
+			<when state="currency, control, superscript" output="⌥"/>
+			<when state="dieresis, symbols" output="Ω"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ż"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="∫"/>
+		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="acute, common, math" output="©"/>
+			<when state="circunflex, greek" output="χ"/>
+			<when state="combining" output="͑"/>
+			<when state="currency, control, superscript" output="ᶜ"/>
+			<when state="dieresis, symbols" output="⚕"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ð"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓒ"/>
+		</action>
+		<action id="{:1">
+			<when state="none" output="{"/>
+			<when state="combining" output="⃔"/>
+			<when state="currency, control, superscript" output="∩"/>
+			<when state="dieresis, symbols" output="✆"/>
+		</action>
+		<action id="|">
+			<when state="none" output="|"/>
+			<when state="combining" output="⃦"/>
+			<when state="dieresis, symbols" output="✈"/>
+			<when state="hyphen" output="¦"/>
+		</action>
+		<action id="|:1">
+			<when state="none" output="|"/>
+			<when state="acute, common, math" output="⚭"/>
+			<when state="circunflex, greek" output="β"/>
+			<when state="currency, control, superscript" output="ᵇ"/>
+			<when state="dieresis, symbols" output="⚗"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="©̸"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓑ"/>
+		</action>
+		<action id="}">
+			<when state="none" output="}"/>
+			<when state="acute, common, math" output="∨"/>
+			<when state="currency, control, superscript" output="ᵛ"/>
+			<when state="dieresis, symbols" output="⚖"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="θ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓥ"/>
+		</action>
+		<action id="}:1">
+			<when state="none" output="}"/>
+			<when state="combining" output="⃕"/>
+			<when state="currency, control, superscript" output="⊃"/>
+			<when state="dieresis, symbols" output="✉"/>
+		</action>
+		<action id="~">
+			<when state="none" output="◕‿↼"/>
+			<when state="acute, common, math" output="⅒"/>
+			<when state="combining" output="⃪"/>
+			<when state="currency, control, superscript" output="∅"/>
+			<when state="dieresis, symbols" output="😅"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😺"/>
+			<when state="hyphen" output="Ø"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓿"/>
+		</action>
+		<action id="~:1">
+			<when state="none" output="¯\_(ツ)_/¯"/>
+			<when state="currency, control, superscript" output="⅋"/>
+			<when state="dieresis, symbols" output="😍"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😼"/>
+			<when state="hyphen" output="😝"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓱"/>
+		</action>
+		<action id="~:10">
+			<when state="none" output="ᕙ(⇀‸↼‶)ᕗ"/>
+			<when state="currency, control, superscript" output="‴"/>
+			<when state="dieresis, symbols" output="😎"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😾"/>
+			<when state="hyphen" output="😥"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓰"/>
+		</action>
+		<action id="~:11">
+			<when state="none" output="(͡° ͜ʖ ͡°)"/>
+			<when state="acute, common, math" output="א"/>
+			<when state="currency, control, superscript" output="∞"/>
+			<when state="dieresis, symbols" output="😌"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😽"/>
+			<when state="hyphen" output="😡"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓲"/>
+		</action>
+		<action id="~:2">
+			<when state="none" output="﴾͡๏̯͡๏﴿"/>
+			<when state="acute, common, math" output="⅔"/>
+			<when state="currency, control, superscript" output="∛"/>
+			<when state="dieresis, symbols" output="😲"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙊"/>
+			<when state="hyphen" output="😴"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓭"/>
+		</action>
+		<action id="~:3">
+			<when state="none" output="(० ्०)"/>
+			<when state="currency, control, superscript" output="∘"/>
+			<when state="dieresis, symbols" output="😕"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙈"/>
+			<when state="hyphen" output="😶"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓫"/>
+		</action>
+		<action id="~:4">
+			<when state="none" output="ʕ•ᴥ•ʔ"/>
+			<when state="acute, common, math" output="⅛"/>
+			<when state="combining" output="⃡"/>
+			<when state="currency, control, superscript" output="ℰ"/>
+			<when state="dieresis, symbols" output="😂"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😻"/>
+			<when state="hyphen" output="😤"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓳"/>
+		</action>
+		<action id="~:5">
+			<when state="none" output="~"/>
+			<when state="circunflex, greek" output="ψ"/>
+			<when state="combining" output="̪"/>
+			<when state="currency, control, superscript" output="ʲ"/>
+			<when state="dieresis, symbols" output="⚘"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Chema"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓙ"/>
+		</action>
+		<action id="~:6">
+			<when state="none" output="~"/>
+		</action>
+		<action id="~:7">
+			<when state="none" output="٩◔̯◔۶"/>
+			<when state="currency, control, superscript" output="√"/>
+			<when state="dieresis, symbols" output="😑"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙉"/>
+			<when state="hyphen" output="😲"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓬"/>
+		</action>
+		<action id="~:8">
+			<when state="none" output="ლ(ಠ益ಠლ)"/>
+			<when state="acute, common, math" output="¾"/>
+			<when state="currency, control, superscript" output="′"/>
+			<when state="dieresis, symbols" output="😱"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙀"/>
+			<when state="hyphen" output="😳"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓮"/>
+		</action>
+		<action id="~:9">
+			<when state="none" output="ಠ_ಠ"/>
+			<when state="currency, control, superscript" output="″"/>
+			<when state="dieresis, symbols" output="😬"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😿"/>
+			<when state="hyphen" output="😯"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓯"/>
+		</action>
+		<action id="&#x007F;">
+			<when state="none" output="&#x007F;"/>
+			<when state="acute, common, math" output=" "/>
+		</action>
+		<action id="&#x007F;:1">
+			<when state="none" output="&#x007F;"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙆"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓛ"/>
+		</action>
+		<action id="¡">
+			<when state="none" output="¡"/>
+			<when state="circunflex, greek" output="α"/>
+			<when state="dieresis, symbols" output="☸"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɐ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑪"/>
+		</action>
+		<action id="¡:1">
+			<when state="none" output="¡"/>
+			<when state="acute, common, math" output="⊇"/>
+			<when state="combining" output="⃨"/>
+			<when state="currency, control, superscript" output="ℋ"/>
+			<when state="dieresis, symbols" output="⚆"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Œ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓘ"/>
+		</action>
+		<action id="¢">
+			<when state="none" output="¢"/>
+			<when state="acute, common, math" output="¼"/>
+			<when state="dieresis, symbols" output="⚜"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɕ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑭"/>
+		</action>
+		<action id="£">
+			<when state="none" output="£"/>
+			<when state="acute, common, math" output="Ę"/>
+			<when state="currency, control, superscript" output="ℇ"/>
+			<when state="dieresis, symbols" output="😏"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙇"/>
+		</action>
+		<action id="¥">
+			<when state="none" output="¥"/>
+			<when state="circunflex, greek" output="Φ"/>
+			<when state="combining" output="͊"/>
+			<when state="currency, control, superscript" output="ℱ"/>
+			<when state="dieresis, symbols" output="♢"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɟ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓕ"/>
+		</action>
+		<action id="§">
+			<when state="none" output="§"/>
+			<when state="acute, common, math" output="⅕"/>
+			<when state="dieresis, symbols" output="☘"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʑ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑮"/>
+		</action>
+		<action id="ª">
+			<when state="none" output="ª"/>
+			<when state="acute, common, math" output="⅑"/>
+			<when state="combining" output="⃡"/>
+			<when state="currency, control, superscript" output="ˡ"/>
+			<when state="dieresis, symbols" output="❀"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɞ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑲"/>
+		</action>
+		<action id="«">
+			<when state="none" output="«"/>
+			<when state="acute, common, math" output="∝"/>
+			<when state="circunflex, greek" output="Π"/>
+			<when state="currency, control, superscript" output="∏"/>
+			<when state="dieresis, symbols" output="⛅"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɰ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓟ"/>
+		</action>
+		<action id="¬">
+			<when state="none" output="¬"/>
+			<when state="acute, common, math" output="⅐"/>
+			<when state="currency, control, superscript" output="ᵘ"/>
+			<when state="dieresis, symbols" output="❤"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʌ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑰"/>
+		</action>
+		<action id="±">
+			<when state="none" output="±"/>
+			<when state="combining" output="⃯"/>
+			<when state="currency, control, superscript" output="≡"/>
+			<when state="dieresis, symbols" output="😘"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😸"/>
+			<when state="hyphen" output="😔"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≇"/>
+		</action>
+		<action id="±:1">
+			<when state="none" output="±"/>
+			<when state="circunflex, greek" output="Σ"/>
+			<when state="currency, control, superscript" output="∑"/>
+			<when state="dieresis, symbols" output="♕"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ș"/>
+			<when state="hyphen" output="Ō"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓢ"/>
+		</action>
+		<action id="º">
+			<when state="none" output="º"/>
+			<when state="acute, common, math" output="∅"/>
+			<when state="combining" output="⃪"/>
+			<when state="currency, control, superscript" output="ᵒ"/>
+			<when state="dieresis, symbols" output="✿"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɣ"/>
+			<when state="hyphen" output="ø"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⓪"/>
+		</action>
+		<action id="»">
+			<when state="none" output="»"/>
+			<when state="combining" output="̿"/>
+			<when state="currency, control, superscript" output="ℝ"/>
+			<when state="dieresis, symbols" output="☔"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʋ"/>
+			<when state="hyphen" output="Ū"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓡ"/>
+		</action>
+		<action id="¿">
+			<when state="none" output="¿"/>
+			<when state="acute, common, math" output="‽"/>
+			<when state="circunflex, greek" output="Ω"/>
+			<when state="combining" output="⃫"/>
+			<when state="currency, control, superscript" output="ℒ"/>
+			<when state="dieresis, symbols" output="⚇"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓞ"/>
+		</action>
+		<action id="Ω">
+			<when state="none" output="Ω"/>
+			<when state="currency, control, superscript" output="℘"/>
+			<when state="dieresis, symbols" output="⛈"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ⱱ"/>
+			<when state="hyphen" output="Ł"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓦ"/>
+		</action>
+		<action id="Г">
+			<when state="none" output="Г"/>
+		</action>
+		<action id="࿓">
+			<when state="none" output="࿓"/>
+			<when state="acute, common, math" output="⊆"/>
+			<when state="currency, control, superscript" output="ℬ"/>
+			<when state="dieresis, symbols" output="⚛"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Asset (aset)"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓝ"/>
+		</action>
+		<action id="ဪ">
+			<when state="none" output="ဪ"/>
+			<when state="acute, common, math" output="⇒"/>
+			<when state="circunflex, greek" output="Γ"/>
+			<when state="combining" output="̳"/>
+			<when state="currency, control, superscript" output="∠"/>
+			<when state="dieresis, symbols" output="♘"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɬ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓖ"/>
+		</action>
+		<action id="—">
+			<when state="none" output="—"/>
+			<when state="acute, common, math" output="⊂"/>
+			<when state="circunflex, greek" output="ν"/>
+			<when state="combining" output="͖"/>
+			<when state="currency, control, superscript" output="ⁱ"/>
+			<when state="dieresis, symbols" output="⚚"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɔ"/>
+			<when state="hyphen" output="=&#x003E;"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓝ"/>
+		</action>
+		<action id="—:1">
+			<when state="none" output="—"/>
+			<when state="combining" output="⃖"/>
+			<when state="dieresis, symbols" output="☆"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="χ"/>
+		</action>
+		<action id="‖">
+			<when state="none" output="‖"/>
+			<when state="currency, control, superscript" output="ᵢ"/>
+			<when state="dieresis, symbols" output="⚡"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="↬"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓑ"/>
+		</action>
+		<action id="‗">
+			<when state="none" output="‗"/>
+			<when state="combining" output="⃮"/>
+			<when state="currency, control, superscript" output="⊕"/>
+			<when state="dieresis, symbols" output="😋"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="😹"/>
+			<when state="hyphen" output="😨"/>
+		</action>
+		<action id="‘">
+			<when state="none" output="‘"/>
+			<when state="circunflex, greek" output="κ"/>
+			<when state="combining" output="⃑"/>
+			<when state="currency, control, superscript" output="⊄"/>
+			<when state="dieresis, symbols" output="✦"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɵ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓚ"/>
+		</action>
+		<action id="’">
+			<when state="none" output="’"/>
+			<when state="combining" output="⃬"/>
+			<when state="currency, control, superscript" output="⇔"/>
+			<when state="dieresis, symbols" output="😣"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙌"/>
+			<when state="hyphen" output="😪"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓚ"/>
+		</action>
+		<action id="“">
+			<when state="none" output="“"/>
+			<when state="acute, common, math" output="∇"/>
+			<when state="circunflex, greek" output="Δ"/>
+			<when state="currency, control, superscript" output="∂"/>
+			<when state="dieresis, symbols" output="♖"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Å"/>
+			<when state="hyphen" output="Ī"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓓ"/>
+		</action>
+		<action id="“:1">
+			<when state="none" output="“"/>
+			<when state="circunflex, greek" output="υ"/>
+			<when state="combining" output="⃐"/>
+			<when state="currency, control, superscript" output="∉"/>
+			<when state="dieresis, symbols" output="✧"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɛ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓤ"/>
+		</action>
+		<action id="”">
+			<when state="none" output="”"/>
+			<when state="currency, control, superscript" output="⟂"/>
+			<when state="dieresis, symbols" output="♗"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ț"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓣ"/>
+		</action>
+		<action id="”:1">
+			<when state="none" output="”"/>
+			<when state="combining" output="⃭"/>
+			<when state="currency, control, superscript" output="⇒"/>
+			<when state="dieresis, symbols" output="😛"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙋"/>
+			<when state="hyphen" output="😒"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓤ"/>
+		</action>
+		<action id="„">
+			<when state="none" output="„"/>
+			<when state="circunflex, greek" output="λ"/>
+			<when state="combining" output="⃒"/>
+			<when state="dieresis, symbols" output="✨"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ø"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="ⓛ"/>
+		</action>
+		<action id="‟">
+			<when state="none" output="‟"/>
+			<when state="circunflex, greek" output="Λ"/>
+			<when state="combining" output="⃓"/>
+			<when state="currency, control, superscript" output="∖"/>
+			<when state="dieresis, symbols" output="😉"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="🙏"/>
+			<when state="hyphen" output="😞"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓛ"/>
+		</action>
+		<action id="•">
+			<when state="none" output="•"/>
+			<when state="acute, common, math" output="∞"/>
+			<when state="currency, control, superscript" output="ᵏ"/>
+			<when state="dieresis, symbols" output="✨"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ɪ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑱"/>
+		</action>
+		<action id="…">
+			<when state="none" output="…"/>
+			<when state="acute, common, math" output="½"/>
+			<when state="dieresis, symbols" output="❁"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʂ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑫"/>
+		</action>
+		<action id="‰">
+			<when state="none" output="‰"/>
+			<when state="acute, common, math" output="Ż"/>
+			<when state="currency, control, superscript" output="ℤ"/>
+			<when state="dieresis, symbols" output="☠"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓩ"/>
+		</action>
+		<action id="※">
+			<when state="none" output="※"/>
+			<when state="acute, common, math" output="•"/>
+			<when state="circunflex, greek" output="Ξ"/>
+			<when state="combining" output="⃰"/>
+			<when state="currency, control, superscript" output="×"/>
+			<when state="dieresis, symbols" output="☢"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓧ"/>
+		</action>
+		<action id="€">
+			<when state="none" output="€"/>
+			<when state="acute, common, math" output="ə"/>
+			<when state="circunflex, greek" output="Ě"/>
+			<when state="currency, control, superscript" output="∃"/>
+			<when state="dieresis, symbols" output="⛁"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Æ"/>
+			<when state="hyphen" output="Ē"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓔ"/>
+		</action>
+		<action id="№">
+			<when state="none" output="№"/>
+			<when state="acute, common, math" output="⅓"/>
+			<when state="dieresis, symbols" output="☄"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʐ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="⑬"/>
+		</action>
+		<action id="≠">
+			<when state="none" output="≠"/>
+			<when state="acute, common, math" output="Ą"/>
+			<when state="combining" output="⃙"/>
+			<when state="currency, control, superscript" output="ℚ"/>
+			<when state="dieresis, symbols" output="⛄"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Ã"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓠ"/>
+		</action>
+		<action id="≠:1">
+			<when state="none" output="≠"/>
+			<when state="combining" output="⃗"/>
+			<when state="currency, control, superscript" output="⁼"/>
+			<when state="dieresis, symbols" output="★"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ʁ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="≉"/>
+		</action>
+		<action id="≤">
+			<when state="none" output="≤"/>
+			<when state="combining" output="͑"/>
+			<when state="currency, control, superscript" output="ℂ"/>
+			<when state="dieresis, symbols" output="☣"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="typeit.org"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓒ"/>
+		</action>
+		<action id="≥">
+			<when state="none" output="≥"/>
+			<when state="acute, common, math" output="∧"/>
+			<when state="currency, control, superscript" output="∇"/>
+			<when state="dieresis, symbols" output="⚠"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="ᔥ"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓥ"/>
+		</action>
+		<action id="﹫">
+			<when state="none" output="﹫"/>
+			<when state="acute, common, math" output="∝"/>
+			<when state="circunflex, greek" output="Ă"/>
+			<when state="currency, control, superscript" output="∀"/>
+			<when state="dieresis, symbols" output="♔"/>
+			<when state="grave, cedilla, topsmile, numbullets, copyleft" output="Â"/>
+			<when state="hyphen" output="Ā"/>
+			<when state="tilde, icelandic, ae, turki, encircled" output="Ⓐ"/>
+		</action>
+	</actions>
+	<terminators>
+		<when state="acute, common, math" output="´"/>
+		<when state="circunflex, greek" output="ˆ"/>
+		<when state="combining" output="̲"/>
+		<when state="currency, control, superscript" output="$"/>
+		<when state="dieresis, symbols" output="¨"/>
+		<when state="grave, cedilla, topsmile, numbullets, copyleft" output="`"/>
+		<when state="hyphen" output="-"/>
+		<when state="tilde, icelandic, ae, turki, encircled" output="˜"/>
+	</terminators>
+</keyboard>

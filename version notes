@@ -1,0 +1,7 @@
+2.0: 
+	-Switched tilde and dollarsign, with corresponding dead keys. This moves both of the dead keys closer to similar items.
+	-Split (most) dead keys into logically coherent functions, with less use of option key after dead key.
+		-This gives room for more characters and makes it easier to find a given character.
+	-Other minor changes
+
+1.01: moved dieresis accent to ";"; made old key into another capslock. Not yet copied to windows or pictures.
