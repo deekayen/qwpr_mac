@@ -1,0 +1,3874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Created by Ukelele version 2.2 on 2012-06-15 at 17:56 (CST)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-04-28 at 12:22 (EDT)-->
+<keyboard group="0" id="12044" name="qwpr3_1" maxout="20">
+    <layouts>
+        <layout first="0" last="17" modifiers="f4" mapSet="16c"/>
+        <layout first="18" last="18" modifiers="f4" mapSet="984"/>
+        <layout first="21" last="23" modifiers="f4" mapSet="984"/>
+        <layout first="30" last="30" modifiers="f4" mapSet="984"/>
+        <layout first="194" last="194" modifiers="f4" mapSet="984"/>
+        <layout first="197" last="197" modifiers="f4" mapSet="984"/>
+        <layout first="200" last="201" modifiers="f4" mapSet="984"/>
+        <layout first="206" last="207" modifiers="f4" mapSet="984"/>
+    </layouts>
+    <modifierMap id="f4" defaultIndex="0">
+        <keyMapSelect mapIndex="0">
+            <modifier keys="command?"/>
+            <modifier keys="anyShift? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift anyControl?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="caps command? anyControl?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyOption command? anyControl?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift anyOption command? anyControl?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="anyShift caps anyOption? command? anyControl?"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="16c">
+        <keyMap index="0">
+            <key code="0" action="a"/>
+            <key code="1" action="s"/>
+            <key code="2" action="d"/>
+            <key code="3" action="t"/>
+            <key code="4" action="h"/>
+            <key code="5" action="g"/>
+            <key code="6" action="z"/>
+            <key code="7" action="x"/>
+            <key code="8" action="c"/>
+            <key code="9" action="v"/>
+            <key code="10" output="("/>
+            <key code="11" action="b"/>
+            <key code="12" action="q"/>
+            <key code="13" action="w"/>
+            <key code="14" action="p"/>
+            <key code="15" action="r"/>
+            <key code="16" action="j"/>
+            <key code="17" action="f"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="=:1"/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" action="-"/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
+            <key code="30" action="]"/>
+            <key code="31" action="l"/>
+            <key code="32" action="u"/>
+            <key code="33" action="["/>
+            <key code="34" action="k"/>
+            <key code="35" action=";"/>
+            <key code="36" action="&#x000D;"/>
+            <key code="37" action="o"/>
+            <key code="38" action="n"/>
+            <key code="39" action="&#x0027; 2"/>
+            <key code="40" action="i"/>
+            <key code="41" action="e"/>
+            <key code="42" action="\:1"/>
+            <key code="43" action=","/>
+            <key code="44" action="/"/>
+            <key code="45" action="y"/>
+            <key code="46" action="m"/>
+            <key code="47" action="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="&#x0009;:1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="A:1"/>
+            <key code="1" action="S"/>
+            <key code="2" action="D"/>
+            <key code="3" action="T"/>
+            <key code="4" action="H"/>
+            <key code="5" action="G"/>
+            <key code="6" action="Z"/>
+            <key code="7" action="X"/>
+            <key code="8" action="C"/>
+            <key code="9" action="V"/>
+            <key code="10" output=")"/>
+            <key code="11" action="B"/>
+            <key code="12" action="Q"/>
+            <key code="13" action="W"/>
+            <key code="14" action="P"/>
+            <key code="15" action="R"/>
+            <key code="16" action="J"/>
+            <key code="17" action="F"/>
+            <key code="18" action="!"/>
+            <key code="19" action="@"/>
+            <key code="20" action="#"/>
+            <key code="21" action="$"/>
+            <key code="22" action="^"/>
+            <key code="23" action="%"/>
+            <key code="24" action="+"/>
+            <key code="25" action="(:1"/>
+            <key code="26" action="&#x0026; 1"/>
+            <key code="27" action="_:1"/>
+            <key code="28" action="*"/>
+            <key code="29" action="):1"/>
+            <key code="30" action="}:1"/>
+            <key code="31" action="L"/>
+            <key code="32" action="U"/>
+            <key code="33" action="{:1"/>
+            <key code="34" action="K"/>
+            <key code="35" action=":"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="O"/>
+            <key code="38" action="N"/>
+            <key code="39" action="&#x0022; 3"/>
+            <key code="40" action="I"/>
+            <key code="41" action="E"/>
+            <key code="42" action="|"/>
+            <key code="43" action="&#x003C;"/>
+            <key code="44" action="?"/>
+            <key code="45" action="Y"/>
+            <key code="46" action="M"/>
+            <key code="47" action="&#x003E; 1"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="~:6"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" action="7 1"/>
+            <key code="1" action="8 1"/>
+            <key code="2" output="3"/>
+            <key code="3" action="_ 1"/>
+            <key code="4" action=") 1"/>
+            <key code="5" action="( 1"/>
+            <key code="6" action="* 1"/>
+            <key code="7" action="0 1"/>
+            <key code="8" action="# 1"/>
+            <key code="9" action="action"/>
+            <key code="10" output="₆"/>
+            <key code="11" action=", 1"/>
+            <key code="12" action="4 1"/>
+            <key code="13" action="5 1"/>
+            <key code="14" action="6 2"/>
+            <key code="15" action="&#x0009; 1"/>
+            <key code="16" action=". 1"/>
+            <key code="17" action="&#x0027;"/>
+            <key code="18" action="1 1"/>
+            <key code="19" action="2 2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" action="6 3"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" action="7 2"/>
+            <key code="27" output="-"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" action="6 1"/>
+            <key code="32" action="4 2"/>
+            <key code="33" action="[ 1"/>
+            <key code="34" action="5 2"/>
+            <key code="35" action="- 1"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="3 1"/>
+            <key code="38" action="1 2"/>
+            <key code="39" output="="/>
+            <key code="40" action="2 1"/>
+            <key code="41" action="+ 1"/>
+            <key code="42" output="\"/>
+            <key code="43" action="* 2"/>
+            <key code="44" output="&#x000D;"/>
+            <key code="45" action="&#x0022;"/>
+            <key code="46" action="0 2"/>
+            <key code="47" output="/"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output="&#x0009;"/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" action="@:1"/>
+            <key code="1" action="+:1"/>
+            <key code="2" action="("/>
+            <key code="3" action=")"/>
+            <key code="4" action="#:1"/>
+            <key code="5" action="&#x0026;"/>
+            <key code="6" action="%:1"/>
+            <key code="7" action="*:1"/>
+            <key code="8" action="{"/>
+            <key code="9" action="}"/>
+            <key code="10" output=")"/>
+            <key code="11" action="|:1"/>
+            <key code="12" action="="/>
+            <key code="13" action="\"/>
+            <key code="14" action="[:1"/>
+            <key code="15" action="]:1"/>
+            <key code="16" action="~:5"/>
+            <key code="17" action="`"/>
+            <key code="18" action="¡"/>
+            <key code="19" action="…"/>
+            <key code="20" action="№"/>
+            <key code="21" action="¢"/>
+            <key code="22" action="&#x003E;"/>
+            <key code="23" action="§"/>
+            <key code="24" action="≠:1"/>
+            <key code="25" action="ª"/>
+            <key code="26" action="¬"/>
+            <key code="27" action="—:1"/>
+            <key code="28" action="•"/>
+            <key code="29" action="º"/>
+            <key code="30" action="‘"/>
+            <key code="31" action="&#x0009;"/>
+            <key code="32" action="&#x000D;:2"/>
+            <key code="33" action="“:1"/>
+            <key code="34" action="&#x001E;"/>
+            <key code="35" action="$:1"/>
+            <key code="36" action="&#x000D; 1"/>
+            <key code="37" action="&#x001D;"/>
+            <key code="38" action="&#x001C;"/>
+            <key code="39" action="&#x0027; 1"/>
+            <key code="40" action="&#x001F;"/>
+            <key code="41" action="áźñüç; ©∈∧:3"/>
+            <key code="42" action="„"/>
+            <key code="43" action="—"/>
+            <key code="44" action="hyphen"/>
+            <key code="45" action="^:1"/>
+            <key code="46" action="_"/>
+            <key code="47" action="!:1"/>
+            <key code="48" output=""/>
+            <key code="49" action="&#x0008;"/>
+            <key code="50" output="&#x0009;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="4">
+            <key code="0" action="﹫"/>
+            <key code="1" action="±:1"/>
+            <key code="2" action="“"/>
+            <key code="3" action="”"/>
+            <key code="4" action="£₹⌥⇧, ℚ℘; ₳esc, ॐ:2"/>
+            <key code="5" action="ဪ"/>
+            <key code="6" action="‰"/>
+            <key code="7" action="※"/>
+            <key code="8" action="≤"/>
+            <key code="9" action="≥"/>
+            <key code="10" output="±"/>
+            <key code="11" action="‖"/>
+            <key code="12" action="≠"/>
+            <key code="13" action="Ω"/>
+            <key code="14" action="«"/>
+            <key code="15" action="»"/>
+            <key code="16" action="ãåð ↄ⃝ ;  ⓐⒶ:1"/>
+            <key code="17" action="¥"/>
+            <key code="18" action="~:3"/>
+            <key code="19" action="~:7"/>
+            <key code="20" action="~:2"/>
+            <key code="21" action="~:8"/>
+            <key code="22" action="~:10"/>
+            <key code="23" action="~:9"/>
+            <key code="24" action="±"/>
+            <key code="25" action="~:4"/>
+            <key code="26" action="~:1"/>
+            <key code="27" action="‗"/>
+            <key code="28" action="~:11"/>
+            <key code="29" action="~"/>
+            <key code="30" action="’"/>
+            <key code="31" action="&#x007F;:1"/>
+            <key code="32" action="&#x000D;:1"/>
+            <key code="33" action="”:1"/>
+            <key code="34" action="&#x000B;"/>
+            <key code="35" action="£"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="&#x0004;"/>
+            <key code="38" action="&#x0001;"/>
+            <key code="39" action="&#x0022; 1"/>
+            <key code="40" action="&#x000C;"/>
+            <key code="41" action="€"/>
+            <key code="42" action="‟"/>
+            <key code="43" action="࿓"/>
+            <key code="44" action="¿"/>
+            <key code="45" action="âš; ᵃᴬ:1"/>
+            <key code="46" action="combining"/>
+            <key code="47" action="¡:1"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="&#x007F;"/>
+            <key code="50" output="&#x0009;"/>
+            <key code="51" output="&#x007F;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="5">
+            <key code="0" output="А"/>
+            <key code="1" output="С"/>
+            <key code="2" output="Д"/>
+            <key code="3" output="Т"/>
+            <key code="4" output="Ч"/>
+            <key code="5" action="Г"/>
+            <key code="6" output="З"/>
+            <key code="7" output="Х"/>
+            <key code="8" output="Ц"/>
+            <key code="9" output="В"/>
+            <key code="10" output="§"/>
+            <key code="11" output="Б"/>
+            <key code="12" output="Я"/>
+            <key code="13" output="Ж"/>
+            <key code="14" output="П"/>
+            <key code="15" output="Р"/>
+            <key code="16" output="Й"/>
+            <key code="17" output="Ф"/>
+            <key code="18" output="Ю"/>
+            <key code="19" output="Ї"/>
+            <key code="20" output=""/>
+            <key code="21" output=""/>
+            <key code="22" output="Ґ"/>
+            <key code="23" output=""/>
+            <key code="24" output="≠"/>
+            <key code="25" output="Л"/>
+            <key code="26" output="У"/>
+            <key code="27" output="–"/>
+            <key code="28" output="К"/>
+            <key code="29" output="Ь"/>
+            <key code="30" output="Щ"/>
+            <key code="31" output=""/>
+            <key code="32" output=""/>
+            <key code="33" output="Ш"/>
+            <key code="34" output=""/>
+            <key code="35" output=":"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output=""/>
+            <key code="38" output=""/>
+            <key code="39" output=","/>
+            <key code="40" output=""/>
+            <key code="41" output="Е"/>
+            <key code="42" output="Є"/>
+            <key code="43" output="Н"/>
+            <key code="44" output="О"/>
+            <key code="45" output="И"/>
+            <key code="46" output="М"/>
+            <key code="47" output="І"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="984">
+        <keyMap index="0" baseMapSet="16c" baseIndex="0">
+            <key code="24" action="^ 1"/>
+            <key code="30" action="[ 2"/>
+            <key code="33" action="@ 1"/>
+            <key code="39" action="&#x0027; 3"/>
+            <key code="42" action="] 1"/>
+            <key code="93" output="¥"/>
+            <key code="94" action="_ 2"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="16c" baseIndex="1">
+            <key code="19" action="&#x0022; 4"/>
+            <key code="22" action="&#x0026; 2"/>
+            <key code="24" action="~ 1"/>
+            <key code="25" action=") 2"/>
+            <key code="26" action="&#x0027; 4"/>
+            <key code="27" action="= 1"/>
+            <key code="28" action="( 2"/>
+            <key code="29" action="0 3"/>
+            <key code="30" action="{ 1"/>
+            <key code="33" action="` 1"/>
+            <key code="39" action="&#x0022; 2"/>
+            <key code="41" action="+ 2"/>
+            <key code="42" action="} 1"/>
+            <key code="93" output="|"/>
+            <key code="94" output="~"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="16c" baseIndex="2">
+            <key code="24" output="^"/>
+            <key code="30" output="["/>
+            <key code="33" output="@"/>
+            <key code="39" action=": 1"/>
+            <key code="42" output="]"/>
+            <key code="93" output="¥"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="16c" baseIndex="3">
+            <key code="93" output="\"/>
+            <key code="94" output=";"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+        <keyMap index="4" baseMapSet="16c" baseIndex="4">
+            <key code="93" output="|"/>
+            <key code="94" output="`"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="16c" baseIndex="5">
+            <key code="93" output="\"/>
+            <key code="94" output="_"/>
+            <key code="95" output=","/>
+            <key code="102" action=" "/>
+            <key code="104" action=" "/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id=" ">
+            <when state="none" output=" "/>
+            <when state="acute, common" output="´"/>
+            <when state="combining" output=" "/>
+            <when state="grave" output="`"/>
+            <when state="hat" output="ˆ"/>
+            <when state="keysims" output="␣"/>
+            <when state="money, scripts" output="␣"/>
+            <when state="tilde, icelandic" output="˜"/>
+            <when state="umlaut" output="; "/>
+        </action>
+        <action id="!">
+            <when state="none" output="!"/>
+            <when state="IPA" output="m"/>
+            <when state="acute, common" output="₁"/>
+            <when state="circled" output="⑪"/>
+            <when state="combining" output="⃝"/>
+            <when state="emoji" output="&#x1F640;"/>
+            <when state="grave" output="❶"/>
+            <when state="greek" output="—̲̇"/>
+            <when state="keysims" output="⇈"/>
+            <when state="math" output="ℨ"/>
+            <when state="superscript" output="ᵎ"/>
+            <when state="symbols" output="&#x1D110;"/>
+            <when state="tex" output="\frac{"/>
+            <when state="tilde, icelandic" output="➊"/>
+            <when state="Я" output="Ю"/>
+        </action>
+        <action id="!:1">
+            <when state="none" output="!"/>
+            <when state="IPA" output="˧"/>
+            <when state="circled" output="⓽"/>
+            <when state="combining" output="͐"/>
+            <when state="emoji" output="&#x1F337;"/>
+            <when state="greek" output="\iota"/>
+            <when state="hat" output="î"/>
+            <when state="hyphen" output="-&#x003E;"/>
+            <when state="math" output="≻"/>
+            <when state="symbols" output="⚈"/>
+            <when state="tex" output="\succ "/>
+            <when state="umlaut" output="ǫ"/>
+        </action>
+        <action id="#">
+            <when state="none" output="#"/>
+            <when state="IPA" output="n̪"/>
+            <when state="acute, common" output="₃"/>
+            <when state="circled" output="⑬"/>
+            <when state="combining" output="⃟"/>
+            <when state="emoji" output="&#x1F63E;"/>
+            <when state="grave" output="❸"/>
+            <when state="greek" output="—̲⃛"/>
+            <when state="keysims" output="⇆"/>
+            <when state="math" output="∛"/>
+            <when state="superscript" output="ᵝ"/>
+            <when state="symbols" output="&#x1D122;"/>
+            <when state="tex" output="\sqrt[3]{"/>
+            <when state="tilde, icelandic" output="➌"/>
+        </action>
+        <action id="# 1">
+            <when state="none" output="#"/>
+        </action>
+        <action id="#:1">
+            <when state="none" output="#"/>
+            <when state="IPA" output="ǁ"/>
+            <when state="circled" output="CarpalxQ"/>
+            <when state="emoji" output="&#x1F350;"/>
+            <when state="greek" output="\eta"/>
+            <when state="hat" output="ȟ"/>
+            <when state="math" output="ℏ"/>
+            <when state="mathitalic" output="&#x1D489;"/>
+            <when state="symbols" output="♟"/>
+            <when state="tex" output="\hbar "/>
+        </action>
+        <action id="$">
+            <when state="none" output="$"/>
+            <when state="IPA" output="n"/>
+            <when state="acute, common" output="₄"/>
+            <when state="circled" output="⑭"/>
+            <when state="combining" output="⃣"/>
+            <when state="emoji" output="&#x1F417;"/>
+            <when state="grave" output="❹"/>
+            <when state="greek" output="—̲⃜"/>
+            <when state="keysims" output="⇄"/>
+            <when state="math" output="ℛ"/>
+            <when state="superscript" output="ᵞ"/>
+            <when state="symbols" output="&#x1D13D;"/>
+            <when state="tex" output="\mathscr{R}"/>
+            <when state="tilde, icelandic" output="➍"/>
+        </action>
+        <action id="$:1">
+            <when state="none" output="~"/>
+            <when state="IPA" output="ʟ̝̊"/>
+            <when state="acute, common" output="ę"/>
+            <when state="circled" output="⓾"/>
+            <when state="emoji" output="&#x1F344;"/>
+            <when state="hyphen" output="ł"/>
+            <when state="math" output="⨾"/>
+            <when state="symbols" output="✾"/>
+        </action>
+        <action id="%">
+            <when state="none" output="%"/>
+            <when state="IPA" output="n̠"/>
+            <when state="acute, common" output="₅"/>
+            <when state="circled" output="⑮"/>
+            <when state="combining" output="⃤"/>
+            <when state="emoji" output="&#x1F41E;"/>
+            <when state="grave" output="❺"/>
+            <when state="greek" output="—̳"/>
+            <when state="keysims" output="↶"/>
+            <when state="math" output="ℬ"/>
+            <when state="superscript" output="ᵟ"/>
+            <when state="symbols" output="✁"/>
+            <when state="tex" output="\mathscr{B}"/>
+            <when state="tilde, icelandic" output="➎"/>
+        </action>
+        <action id="%:1">
+            <when state="none" output="%"/>
+            <when state="IPA" output="ɓ"/>
+            <when state="acute, common" output="ż"/>
+            <when state="circled" output="⓵"/>
+            <when state="emoji" output="&#x1F4E5;"/>
+            <when state="greek" output="\zeta"/>
+            <when state="hat" output="ž"/>
+            <when state="math" output="⋉"/>
+            <when state="mathitalic" output="&#x1D49B;"/>
+            <when state="symbols" output="⚓"/>
+            <when state="umlaut" output="ż"/>
+        </action>
+        <action id="&#x000B;">
+            <when state="none" output="&#x001E;"/>
+            <when state="ipavowel" output="œ"/>
+            <when state="keysims" output="↑"/>
+        </action>
+        <action id="&#x000C;">
+            <when state="none" output="&#x001F;"/>
+            <when state="ipavowel" output="ɞ"/>
+            <when state="keysims" output="↓"/>
+        </action>
+        <action id="&#x000D;">
+            <when state="none" output="&#x000D;"/>
+            <when state="acute, common" output="¶"/>
+            <when state="money, scripts" output="¤"/>
+            <when state="umlaut" output="; "/>
+        </action>
+        <action id="&#x000D; 1">
+            <when state="none" output="&#x000D;"/>
+        </action>
+        <action id="&#x000D;:1">
+            <when state="none" output="⇤"/>
+            <when state="ipavowel" output="ɛ"/>
+            <when state="keysims" output="↖"/>
+        </action>
+        <action id="&#x000D;:2">
+            <when state="none" output="⇤"/>
+            <when state="mathitalic" output="&#x1D496;"/>
+            <when state="umlaut" output="ü"/>
+        </action>
+        <action id="&#x0001;">
+            <when state="none" output="&#x001C;"/>
+            <when state="ipavowel" output="ɜ"/>
+            <when state="keysims" output="←"/>
+        </action>
+        <action id="&#x001C;">
+            <when state="none" output="&#x001C;"/>
+            <when state="mathitalic" output="&#x1D48F;"/>
+            <when state="umlaut" output="ņ"/>
+        </action>
+        <action id="&#x001D;">
+            <when state="none" output="&#x001D;"/>
+            <when state="mathitalic" output="&#x1D490;"/>
+            <when state="umlaut" output="ö"/>
+        </action>
+        <action id="&#x001E;">
+            <when state="none" output="&#x001E;"/>
+            <when state="mathitalic" output="&#x1D48C;"/>
+            <when state="umlaut" output="ķ"/>
+        </action>
+        <action id="&#x001F;">
+            <when state="none" output="&#x001F;"/>
+            <when state="mathitalic" output="&#x1D48A;"/>
+            <when state="umlaut" output="ï"/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" output="&#x003C;"/>
+            <when state="IPA" output="j"/>
+            <when state="combining" output="͔"/>
+            <when state="emoji" output="&#x1F40A;"/>
+            <when state="hat" output="Ǐ"/>
+            <when state="keysims" output="⇔"/>
+            <when state="math" output="ᵢ"/>
+            <when state="symbols" output="➞"/>
+            <when state="tex" output="_i "/>
+            <when state="tilde, icelandic" output="≤"/>
+            <when state="umlaut" output="Į"/>
+        </action>
+        <action id="&#x003E;">
+            <when state="none" output="µ"/>
+            <when state="acute, common" output="⅙"/>
+            <when state="circled" output="➏"/>
+            <when state="combining" output="⃪"/>
+            <when state="emoji" output="&#x1F34B;"/>
+            <when state="hat" output="⁶"/>
+            <when state="math" output="≙"/>
+            <when state="money, scripts" output="&#x0006;"/>
+            <when state="superscript" output="₆"/>
+            <when state="symbols" output="❦"/>
+        </action>
+        <action id="&#x003E; 1">
+            <when state="none" output="&#x003E;"/>
+            <when state="IPA" output="ɰ"/>
+            <when state="combining" output="͕"/>
+            <when state="emoji" output="&#x1F432;"/>
+            <when state="grave" output="Ø"/>
+            <when state="hat" output="Ǒ"/>
+            <when state="keysims" output="⇘"/>
+            <when state="math" output="⇔"/>
+            <when state="symbols" output="☑"/>
+            <when state="tex" output="\Leftrightarrow "/>
+            <when state="tilde, icelandic" output="≥"/>
+            <when state="umlaut" output="Ǫ"/>
+        </action>
+        <action id="&#x0004;">
+            <when state="none" output="&#x001D;"/>
+            <when state="ipavowel" output="ɐ"/>
+            <when state="keysims" output="→"/>
+        </action>
+        <action id="&#x007F;">
+            <when state="none" output="&#x007F;"/>
+            <when state="acute, common" output=" "/>
+        </action>
+        <action id="&#x007F;:1">
+            <when state="none" output="&#x0009;"/>
+            <when state="ipavowel" output="æ"/>
+            <when state="keysims" output="↗"/>
+        </action>
+        <action id="&#x0008;">
+            <when state="none" output="&#x0008;"/>
+            <when state="acute, common" output=" "/>
+        </action>
+        <action id="&#x0009;">
+            <when state="none" output="&#x0009;"/>
+            <when state="mathitalic" output="&#x1D48D;"/>
+            <when state="umlaut" output="ļ"/>
+        </action>
+        <action id="&#x0009; 1">
+            <when state="none" output="&#x0009;"/>
+        </action>
+        <action id="&#x0009;:1">
+            <when state="none" output="&#x0009;"/>
+        </action>
+        <action id="&#x0022;">
+            <when state="none" output="6"/>
+        </action>
+        <action id="&#x0022; 1">
+            <when state="none" next="combining"/>
+            <when state="IPA" output="ᴙ"/>
+            <when state="ipavowel" output="ä"/>
+            <when state="keysims" output="⏎"/>
+            <when state="math" output="︶"/>
+            <when state="money, scripts" output="ጬ"/>
+            <when state="symbols" output="⚅"/>
+        </action>
+        <action id="&#x0022; 2">
+            <when state="none" output="&#x0022;"/>
+            <when state="math" output="∐"/>
+        </action>
+        <action id="&#x0022; 3">
+            <when state="none" output="&#x0022;"/>
+            <when state="IPA" output="ʕ"/>
+            <when state="emoji" output="&#x1F433;"/>
+            <when state="grave" output="Œ"/>
+            <when state="keysims" output="⇛"/>
+            <when state="math" output="∐"/>
+            <when state="symbols" output="➘"/>
+            <when state="tex" output="\coprod "/>
+            <when state="tilde, icelandic" output="∿"/>
+        </action>
+        <action id="&#x0022; 4">
+            <when state="none" output="&#x0022;"/>
+            <when state="math" output="√"/>
+        </action>
+        <action id="&#x0026;">
+            <when state="none" output="&#x0026;"/>
+            <when state="IPA" output="ǂ"/>
+            <when state="circled" output="ᔥ"/>
+            <when state="combining" output="̲"/>
+            <when state="emoji" output="&#x1F34E;"/>
+            <when state="greek" output="\gamma"/>
+            <when state="hat" output="ğ"/>
+            <when state="math" output="⎮"/>
+            <when state="mathitalic" output="&#x1D488;"/>
+            <when state="symbols" output="♞"/>
+            <when state="umlaut" output="ģ"/>
+        </action>
+        <action id="&#x0026; 1">
+            <when state="none" output="&#x0026;"/>
+            <when state="IPA" output="ɲ̟"/>
+            <when state="acute, common" output="₇"/>
+            <when state="circled" output="⑰"/>
+            <when state="combining" output="⃧"/>
+            <when state="emoji" output="&#x1F41D;"/>
+            <when state="grave" output="❼"/>
+            <when state="greek" output="—̳̈"/>
+            <when state="hat" output="Ǔ"/>
+            <when state="keysims" output="⇍"/>
+            <when state="math" output="ℳ"/>
+            <when state="symbols" output="✄"/>
+            <when state="tex" output="\mathcal{M}"/>
+            <when state="tilde, icelandic" output="➐"/>
+            <when state="umlaut" output="Ű"/>
+            <when state="Я" output="У"/>
+        </action>
+        <action id="&#x0026; 2">
+            <when state="none" output="&#x0026;"/>
+            <when state="math" output="ℋ"/>
+        </action>
+        <action id="&#x0027;">
+            <when state="none" next="superscript"/>
+        </action>
+        <action id="&#x0027; 1">
+            <when state="none" next="grave"/>
+            <when state="IPA" output="˩"/>
+            <when state="emoji" output="&#x1F334;"/>
+            <when state="math" output="⧸"/>
+            <when state="money, scripts" output="৲"/>
+            <when state="symbols" output="✠"/>
+            <when state="umlaut" output="¨"/>
+        </action>
+        <action id="&#x0027; 2">
+            <when state="none" output="&#x0027;"/>
+            <when state="IPA" output="ħ"/>
+            <when state="acute, common" output="⸮"/>
+            <when state="combining" output="̋"/>
+            <when state="emoji" output="&#x1F473;"/>
+            <when state="grave" output="œ"/>
+            <when state="ipavowel" output="ä"/>
+            <when state="keysims" output="⏎"/>
+            <when state="math" output="′"/>
+            <when state="mathfonts" output="\mathsfbfit{"/>
+            <when state="money, scripts" output="﷼"/>
+            <when state="tilde, icelandic" output="∾"/>
+            <when state="umlaut" output="¨"/>
+        </action>
+        <action id="&#x0027; 3">
+            <when state="none" output="&#x0027;"/>
+            <when state="math" output="′"/>
+        </action>
+        <action id="&#x0027; 4">
+            <when state="none" output="&#x0027;"/>
+            <when state="math" output="ℳ"/>
+        </action>
+        <action id="(">
+            <when state="none" output="("/>
+            <when state="IPA" output="ǃ"/>
+            <when state="circled" output="ㄸ⃝ BY SA"/>
+            <when state="combining" output="͗"/>
+            <when state="emoji" output="&#x1F4EC;"/>
+            <when state="greek" output="\delta"/>
+            <when state="hat" output="ḓ"/>
+            <when state="hyphen" output="ī"/>
+            <when state="math" output="⊄"/>
+            <when state="mathitalic" output="&#x1D485;"/>
+            <when state="symbols" output="♜"/>
+            <when state="tex" output="\not\subset "/>
+            <when state="umlaut" output="d̦"/>
+        </action>
+        <action id="( 1">
+            <when state="none" next="greek"/>
+        </action>
+        <action id="( 2">
+            <when state="none" output="("/>
+            <when state="math" output="ℐ"/>
+        </action>
+        <action id="(:1">
+            <when state="none" output="("/>
+            <when state="IPA" output="ŋ"/>
+            <when state="acute, common" output="₉"/>
+            <when state="circled" output="⑲"/>
+            <when state="emoji" output="&#x1F638;"/>
+            <when state="grave" output="❾"/>
+            <when state="greek" output="—̳⃜"/>
+            <when state="keysims" output="⇏"/>
+            <when state="math" output="ℒ"/>
+            <when state="mathfonts" output="₍"/>
+            <when state="superscript" output="⁽"/>
+            <when state="symbols" output="✏"/>
+            <when state="tex" output="\mathscr{L}"/>
+            <when state="tilde, icelandic" output="➒"/>
+            <when state="umlaut" output="Ő"/>
+            <when state="Я" output="Л"/>
+        </action>
+        <action id=")">
+            <when state="none" output=")"/>
+            <when state="IPA" output="r̥"/>
+            <when state="circled" output="Jameson Quinn"/>
+            <when state="combining" output="̠"/>
+            <when state="emoji" output="&#x1F4ED;"/>
+            <when state="greek" output="\tau"/>
+            <when state="math" output="⊉"/>
+            <when state="mathitalic" output="&#x1D495;"/>
+            <when state="money, scripts" output="৳"/>
+            <when state="symbols" output="♝"/>
+            <when state="tex" output="\not\supseteq "/>
+            <when state="umlaut" output="ț"/>
+        </action>
+        <action id=") 1">
+            <when state="none" next="texgreek"/>
+        </action>
+        <action id=") 2">
+            <when state="none" output=")"/>
+            <when state="math" output="ℒ"/>
+            <when state="superscript" output="⁽"/>
+        </action>
+        <action id="):1">
+            <when state="none" output=")"/>
+            <when state="IPA" output="ɴ"/>
+            <when state="acute, common" output="₀"/>
+            <when state="circled" output="⓪"/>
+            <when state="emoji" output="&#x1F413;"/>
+            <when state="grave" output="❿"/>
+            <when state="greek" output="ଡ"/>
+            <when state="keysims" output="↥"/>
+            <when state="math" output="ℰ"/>
+            <when state="mathfonts" output="₎"/>
+            <when state="superscript" output="⁾"/>
+            <when state="symbols" output="&#x1F6BB;"/>
+            <when state="tex" output="\mathscr{E}"/>
+            <when state="tilde, icelandic" output="➓"/>
+            <when state="Я" output="Ь"/>
+        </action>
+        <action id="*">
+            <when state="none" output="*"/>
+            <when state="IPA" output="ɲ"/>
+            <when state="acute, common" output="₈"/>
+            <when state="circled" output="⑱"/>
+            <when state="emoji" output="&#x1F427;"/>
+            <when state="grave" output="❽"/>
+            <when state="greek" output="—̳⃛"/>
+            <when state="keysims" output="⇎"/>
+            <when state="math" output="ℐ"/>
+            <when state="symbols" output="✎"/>
+            <when state="tex" output="\mathscr{J}"/>
+            <when state="tilde, icelandic" output="➑"/>
+            <when state="Я" output="К"/>
+        </action>
+        <action id="* 1">
+            <when state="none" next="money, scripts"/>
+        </action>
+        <action id="* 2">
+            <when state="none" next="tex"/>
+        </action>
+        <action id="*:1">
+            <when state="none" output="*"/>
+            <when state="IPA" output="ɗ"/>
+            <when state="circled" output="⓶"/>
+            <when state="combining" output="͙"/>
+            <when state="emoji" output="&#x1F4E4;"/>
+            <when state="greek" output="\chi"/>
+            <when state="hat" output="š"/>
+            <when state="math" output="⋊"/>
+            <when state="mathitalic" output="&#x1D499;"/>
+            <when state="symbols" output="⚒"/>
+            <when state="umlaut" output="ș"/>
+        </action>
+        <action id="+">
+            <when state="none" output="+"/>
+            <when state="IPA" output="ɦ"/>
+            <when state="combining" output="̟"/>
+            <when state="emoji" output="&#x1F423;"/>
+            <when state="keysims" output="↔"/>
+            <when state="math" output="͞"/>
+            <when state="mathfonts" output="₊"/>
+            <when state="superscript" output="⁺"/>
+            <when state="symbols" output="&#x1F6BA;"/>
+            <when state="tex" output="\widebar{"/>
+            <when state="tilde, icelandic" output="≅"/>
+        </action>
+        <action id="+ 1">
+            <when state="none" output="0"/>
+        </action>
+        <action id="+ 2">
+            <when state="none" output="E"/>
+            <when state="math" output="∃"/>
+        </action>
+        <action id="+:1">
+            <when state="none" output="+"/>
+            <when state="IPA" output="ǀ"/>
+            <when state="circled" output="©̸"/>
+            <when state="emoji" output="&#x1F4EA;"/>
+            <when state="greek" output="\sigma"/>
+            <when state="hat" output="ŝ"/>
+            <when state="hyphen" output="ō"/>
+            <when state="math" output="∉"/>
+            <when state="mathitalic" output="&#x1D494;"/>
+            <when state="money, scripts" output="₯"/>
+            <when state="symbols" output="♛"/>
+            <when state="tex" output="\not\in "/>
+            <when state="umlaut" output="ß"/>
+        </action>
+        <action id=",">
+            <when state="none" output=","/>
+            <when state="IPA" output="j̊"/>
+            <when state="acute, common" output="…"/>
+            <when state="circled" output="ↄ⃝"/>
+            <when state="combining" output="̦"/>
+            <when state="emoji" output="&#x1F466;"/>
+            <when state="greek" output="࿓"/>
+            <when state="hat" output="ǐ"/>
+            <when state="ipavowel" output="ɔ"/>
+            <when state="keysims" output="⇟"/>
+            <when state="math" output="→"/>
+            <when state="symbols" output="☭"/>
+            <when state="tex" output="\longrightarrow "/>
+            <when state="tilde, icelandic" output="≲"/>
+            <when state="umlaut" output="į"/>
+        </action>
+        <action id=", 1">
+            <when state="none" output=","/>
+        </action>
+        <action id="-">
+            <when state="none" output="-"/>
+            <when state="IPA" output="ʜ"/>
+            <when state="acute, common" output="❧"/>
+            <when state="emoji" output="&#x1F61B;"/>
+            <when state="ipavowel" output="χ"/>
+            <when state="math" output="⨀"/>
+            <when state="mathfonts" output="₋"/>
+            <when state="superscript" output="⁻"/>
+            <when state="symbols" output="♂"/>
+            <when state="tex" output="\frac{"/>
+        </action>
+        <action id="- 1">
+            <when state="none" next="tilde, icelandic"/>
+        </action>
+        <action id=".">
+            <when state="none" output="."/>
+            <when state="acute, common" output="¡"/>
+            <when state="circled" output="©̸"/>
+            <when state="combining" output="̣"/>
+            <when state="emoji" output="&#x1F467;"/>
+            <when state="grave" output="ø"/>
+            <when state="greek" output="※"/>
+            <when state="hat" output="ǒ"/>
+            <when state="ipavowel" output="ɑ"/>
+            <when state="keysims" output="↘"/>
+            <when state="math" output="⇒"/>
+            <when state="symbols" output="♰"/>
+            <when state="tex" output="\Rightarrow "/>
+            <when state="tilde, icelandic" output="≳"/>
+            <when state="umlaut" output="ǫ"/>
+        </action>
+        <action id=". 1">
+            <when state="none" next="hat"/>
+        </action>
+        <action id="/">
+            <when state="none" output="/"/>
+            <when state="acute, common" output="‽"/>
+            <when state="circled" output="ㄸ⃝ "/>
+            <when state="combining" output="̷"/>
+            <when state="emoji" output="&#x1F46E;"/>
+            <when state="hat" output="ě"/>
+            <when state="hyphen" output="-"/>
+            <when state="ipavowel" output="ɒ"/>
+            <when state="keysims" output="⇧"/>
+            <when state="math" output="÷"/>
+            <when state="symbols" output="☐"/>
+            <when state="tex" output="\div "/>
+            <when state="umlaut" output="ę"/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="acute, common" output="⁰"/>
+            <when state="circled" output="⑩"/>
+            <when state="combining" output="͎"/>
+            <when state="emoji" output="&#x1F609;"/>
+            <when state="grave" output="⑩"/>
+            <when state="greek" output="—̲"/>
+            <when state="ipavowel" output="ɣ"/>
+            <when state="math" output="⨁"/>
+            <when state="mathfonts" output="₀"/>
+            <when state="superscript" output="⁰"/>
+            <when state="symbols" output="⚥"/>
+            <when state="tilde, icelandic" output="⓾"/>
+            <when state="Я" output="ь"/>
+        </action>
+        <action id="0 1">
+            <when state="none" next="keysims"/>
+        </action>
+        <action id="0 2">
+            <when state="none" next="math"/>
+        </action>
+        <action id="0 3">
+            <when state="none" output="^"/>
+            <when state="math" output="ℰ"/>
+            <when state="superscript" output="⁾"/>
+        </action>
+        <action id="1">
+            <when state="none" output="1"/>
+            <when state="IPA" output="m̥"/>
+            <when state="acute, common" output="¹"/>
+            <when state="circled" output="①"/>
+            <when state="combining" output="͜"/>
+            <when state="emoji" output="&#x1F631;"/>
+            <when state="grave" output="①"/>
+            <when state="greek" output="."/>
+            <when state="hat" output="′"/>
+            <when state="ipavowel" output="ɪ"/>
+            <when state="keysims" output="⎋"/>
+            <when state="math" output="∫"/>
+            <when state="mathfonts" output="₁"/>
+            <when state="superscript" output="¹"/>
+            <when state="symbols" output="♩"/>
+            <when state="tex" output="\int "/>
+            <when state="tilde, icelandic" output="⓵"/>
+            <when state="Я" output="ю"/>
+        </action>
+        <action id="1 1">
+            <when state="none" output="1"/>
+        </action>
+        <action id="1 2">
+            <when state="none" output="7"/>
+        </action>
+        <action id="2">
+            <when state="none" output="2"/>
+            <when state="acute, common" output="²"/>
+            <when state="circled" output="②"/>
+            <when state="combining" output="͡"/>
+            <when state="emoji" output="&#x1F623;"/>
+            <when state="grave" output="②"/>
+            <when state="greek" output=".."/>
+            <when state="hat" output="″"/>
+            <when state="ipavowel" output="ʏ"/>
+            <when state="keysims" output="⇤"/>
+            <when state="math" output="∬"/>
+            <when state="mathfonts" output="₂"/>
+            <when state="superscript" output="²"/>
+            <when state="symbols" output="♪"/>
+            <when state="tex" output="\iint "/>
+            <when state="tilde, icelandic" output="⓶"/>
+            <when state="umlaut" output="ş"/>
+            <when state="Я" output="ї"/>
+        </action>
+        <action id="2 1">
+            <when state="none" output="8"/>
+        </action>
+        <action id="2 2">
+            <when state="none" output="2"/>
+        </action>
+        <action id="3">
+            <when state="none" output="3"/>
+            <when state="acute, common" output="³"/>
+            <when state="circled" output="③"/>
+            <when state="combining" output="͝"/>
+            <when state="emoji" output="&#x1F621;"/>
+            <when state="grave" output="③"/>
+            <when state="greek" output="..."/>
+            <when state="hat" output="‴"/>
+            <when state="ipavowel" output="ɪ̈"/>
+            <when state="keysims" output="▸"/>
+            <when state="math" output="∭"/>
+            <when state="mathfonts" output="₃"/>
+            <when state="money, scripts" output="૱"/>
+            <when state="superscript" output="³"/>
+            <when state="symbols" output="♫"/>
+            <when state="tex" output="\iiint "/>
+            <when state="tilde, icelandic" output="⓷"/>
+        </action>
+        <action id="3 1">
+            <when state="none" output="9"/>
+        </action>
+        <action id="3 2">
+            <when state="none" next="keysims"/>
+        </action>
+        <action id="4">
+            <when state="none" output="4"/>
+            <when state="IPA" output="n̥"/>
+            <when state="acute, common" output="⁴"/>
+            <when state="circled" output="④"/>
+            <when state="combining" output="͞"/>
+            <when state="emoji" output="&#x1F616;"/>
+            <when state="grave" output="④"/>
+            <when state="greek" output="...."/>
+            <when state="ipavowel" output="ʊ̈"/>
+            <when state="keysims" output="❙❙"/>
+            <when state="mathfonts" output="₄"/>
+            <when state="money, scripts" output="₨"/>
+            <when state="superscript" output="⁴"/>
+            <when state="symbols" output="♬"/>
+            <when state="tilde, icelandic" output="⓸"/>
+        </action>
+        <action id="4 1">
+            <when state="none" next="circled"/>
+        </action>
+        <action id="4 2">
+            <when state="none" output="4"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="acute, common" output="⁵"/>
+            <when state="circled" output="⑤"/>
+            <when state="combining" output="͟"/>
+            <when state="emoji" output="&#x1F611;"/>
+            <when state="grave" output="⑤"/>
+            <when state="greek" output="—"/>
+            <when state="keysims" output="⏪"/>
+            <when state="math" output="ℵ"/>
+            <when state="mathfonts" output="₅"/>
+            <when state="superscript" output="⁵"/>
+            <when state="symbols" output="♭"/>
+            <when state="tex" output="\aleph "/>
+            <when state="tilde, icelandic" output="⓹"/>
+        </action>
+        <action id="5 1">
+            <when state="none" next="emoji"/>
+        </action>
+        <action id="5 2">
+            <when state="none" output="5"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="IPA" output="ɳ̊"/>
+            <when state="acute, common" output="⁶"/>
+            <when state="circled" output="⑥"/>
+            <when state="combining" output="͢"/>
+            <when state="emoji" output="&#x1F627;"/>
+            <when state="grave" output="⑥"/>
+            <when state="greek" output="—̇"/>
+            <when state="ipavowel" output="ʊ"/>
+            <when state="keysims" output="⏩"/>
+            <when state="math" output="ℶ"/>
+            <when state="mathfonts" output="₆"/>
+            <when state="superscript" output="⁶"/>
+            <when state="symbols" output="♮"/>
+            <when state="tex" output="\beth "/>
+            <when state="tilde, icelandic" output="⓺"/>
+            <when state="Я" output="ґ"/>
+        </action>
+        <action id="6 1">
+            <when state="none" output="6"/>
+        </action>
+        <action id="6 2">
+            <when state="none" next="symbols"/>
+        </action>
+        <action id="6 3">
+            <when state="none" output="6"/>
+        </action>
+        <action id="7">
+            <when state="none" output="7"/>
+            <when state="acute, common" output="⁷"/>
+            <when state="circled" output="⑦"/>
+            <when state="combining" output="͠"/>
+            <when state="emoji" output="&#x1F476;"/>
+            <when state="grave" output="⑦"/>
+            <when state="greek" output="—̈"/>
+            <when state="hat" output="ǔ"/>
+            <when state="ipavowel" output="ʌ"/>
+            <when state="keysims" output="⏏"/>
+            <when state="math" output="ℷ"/>
+            <when state="mathfonts" output="₇"/>
+            <when state="money, scripts" output="ლ"/>
+            <when state="superscript" output="⁷"/>
+            <when state="symbols" output="♯"/>
+            <when state="tex" output="\gimel "/>
+            <when state="tilde, icelandic" output="⓻"/>
+            <when state="umlaut" output="ű"/>
+            <when state="Я" output="у"/>
+        </action>
+        <action id="7 1">
+            <when state="none" output="1"/>
+        </action>
+        <action id="7 2">
+            <when state="none" output="7"/>
+        </action>
+        <action id="8">
+            <when state="none" output="8"/>
+            <when state="IPA" output="ɲ̊"/>
+            <when state="acute, common" output="⁸"/>
+            <when state="circled" output="⑧"/>
+            <when state="combining" output="͚"/>
+            <when state="emoji" output="&#x1F60E;"/>
+            <when state="grave" output="⑧"/>
+            <when state="greek" output="—⃛"/>
+            <when state="ipavowel" output="ɪ"/>
+            <when state="keysims" output="⏏"/>
+            <when state="math" output="∞"/>
+            <when state="mathfonts" output="₈"/>
+            <when state="superscript" output="⁸"/>
+            <when state="symbols" output="&#x1D106;"/>
+            <when state="tex" output="\infty "/>
+            <when state="tilde, icelandic" output="⓼"/>
+            <when state="Я" output="к"/>
+        </action>
+        <action id="8 1">
+            <when state="none" output="2"/>
+        </action>
+        <action id="9">
+            <when state="none" output="9"/>
+            <when state="IPA" output="ŋ̊"/>
+            <when state="acute, common" output="⁹"/>
+            <when state="circled" output="⑨"/>
+            <when state="combining" output="͍"/>
+            <when state="emoji" output="&#x1F604;"/>
+            <when state="grave" output="⑨"/>
+            <when state="greek" output="—⃜"/>
+            <when state="ipavowel" output="ɞ"/>
+            <when state="math" output="ℸ"/>
+            <when state="mathfonts" output="₉"/>
+            <when state="superscript" output="⁹"/>
+            <when state="symbols" output="&#x1D107;"/>
+            <when state="tex" output="\daleth "/>
+            <when state="tilde, icelandic" output="⓽"/>
+            <when state="umlaut" output="ő"/>
+            <when state="Я" output="л"/>
+        </action>
+        <action id="9 1">
+            <when state="none" next="IPA"/>
+        </action>
+        <action id=":">
+            <when state="none" output=":"/>
+            <when state="IPA" output="ɢ"/>
+            <when state="acute, common" output="Œ"/>
+            <when state="combining" output="͈"/>
+            <when state="emoji" output="&#x1F63C;"/>
+            <when state="grave" output="Ê"/>
+            <when state="hat" output="Ě"/>
+            <when state="keysims" output="↧"/>
+            <when state="math" output="ℇ"/>
+            <when state="symbols" output="&#x1F6BC;"/>
+            <when state="tex" output="\mathbf{;}"/>
+            <when state="tilde, icelandic" output="Œ"/>
+        </action>
+        <action id=": 1">
+            <when state="none" next="combining"/>
+        </action>
+        <action id=";">
+            <when state="none" next="umlaut"/>
+            <when state="IPA" output="q"/>
+            <when state="acute, common" output="œ"/>
+            <when state="combining" output="̎"/>
+            <when state="emoji" output="&#x1F60F;"/>
+            <when state="grave" output="ê"/>
+            <when state="hat" output="ě"/>
+            <when state="ipavowel" output="a"/>
+            <when state="math" output="∾"/>
+            <when state="mathfonts" output="&#x1D60C;"/>
+            <when state="money, scripts" output="₺"/>
+            <when state="symbols" output="⚤"/>
+            <when state="tilde, icelandic" output="œ"/>
+            <when state="umlaut" output=";"/>
+        </action>
+        <action id="=">
+            <when state="none" output="="/>
+            <when state="IPA" output="ꜛ"/>
+            <when state="acute, common" output="ą"/>
+            <when state="circled" output="⓵"/>
+            <when state="combining" output="⃚"/>
+            <when state="emoji" output="&#x1F6BD;"/>
+            <when state="greek" output="\theta"/>
+            <when state="math" output="∵"/>
+            <when state="mathitalic" output="&#x1D492;"/>
+            <when state="symbols" output="☃"/>
+            <when state="tex" output="\downtherefore "/>
+            <when state="umlaut" output="ą"/>
+        </action>
+        <action id="= 1">
+            <when state="none" output="_"/>
+            <when state="math" output="᷍"/>
+            <when state="tex" output="\widehat{"/>
+        </action>
+        <action id="=:1">
+            <when state="none" output="="/>
+            <when state="IPA" output="h"/>
+            <when state="acute, common" output="⁂"/>
+            <when state="combining" output="͇"/>
+            <when state="emoji" output="&#x1F60B;"/>
+            <when state="hyphen" output="≠"/>
+            <when state="ipavowel" output="ʁ"/>
+            <when state="keysims" output="⌫"/>
+            <when state="math" output="≡"/>
+            <when state="mathfonts" output="₌"/>
+            <when state="money, scripts" output="⌫"/>
+            <when state="superscript" output="⁼"/>
+            <when state="symbols" output="♀"/>
+            <when state="tex" output="\equiv "/>
+            <when state="tilde, icelandic" output="≈"/>
+        </action>
+        <action id="?">
+            <when state="none" output="?"/>
+            <when state="IPA" output="ɢ̆"/>
+            <when state="acute, common" output="¿"/>
+            <when state="combining" output="̸"/>
+            <when state="emoji" output="&#x1F421;"/>
+            <when state="hat" output="Ě"/>
+            <when state="keysims" output="⇶"/>
+            <when state="math" output="≟"/>
+            <when state="money, scripts" output="ₓ"/>
+            <when state="symbols" output="☒"/>
+            <when state="tex" output="\stackrel{?}{=}"/>
+            <when state="umlaut" output="Ę"/>
+        </action>
+        <action id="@">
+            <when state="none" output="@"/>
+            <when state="IPA" output="ɱ"/>
+            <when state="acute, common" output="₂"/>
+            <when state="circled" output="⑫"/>
+            <when state="combining" output="⃞"/>
+            <when state="emoji" output="&#x1F42E;"/>
+            <when state="grave" output="❷"/>
+            <when state="greek" output="—̲̈"/>
+            <when state="keysims" output="⇅"/>
+            <when state="math" output="√"/>
+            <when state="superscript" output="ᵅ"/>
+            <when state="symbols" output="&#x1D11E;"/>
+            <when state="tex" output="\sqrt{"/>
+            <when state="tilde, icelandic" output="➋"/>
+            <when state="umlaut" output="Ş"/>
+            <when state="Я" output="Ї"/>
+        </action>
+        <action id="@ 1">
+            <when state="none" output="@"/>
+            <when state="math" output="∖"/>
+        </action>
+        <action id="@:1">
+            <when state="none" output="@"/>
+            <when state="IPA" output="ʘ"/>
+            <when state="circled" output="ↄ⃝"/>
+            <when state="emoji" output="&#x1F4EB;"/>
+            <when state="greek" output="\alpha"/>
+            <when state="hat" output="ă"/>
+            <when state="hyphen" output="ā"/>
+            <when state="math" output="⋈"/>
+            <when state="mathitalic" output="&#x1D482;"/>
+            <when state="symbols" output="♚"/>
+            <when state="umlaut" output="ä"/>
+        </action>
+        <action id="A:1">
+            <when state="none" output="A"/>
+            <when state="IPA" output="β"/>
+            <when state="acute, common" output="Á"/>
+            <when state="circled" output="Ⓐ"/>
+            <when state="combining" output="̭"/>
+            <when state="emoji" output="&#x1F63F;"/>
+            <when state="grave" output="À"/>
+            <when state="greek" output="Α"/>
+            <when state="hat" output="Â"/>
+            <when state="keysims" output="⇃"/>
+            <when state="math" output="∀"/>
+            <when state="mathcal" output="&#x1D49C;"/>
+            <when state="mathfrak" output="&#x1D504;"/>
+            <when state="superscript" output="ᴬ"/>
+            <when state="symbols" output="&#x1F6B8;"/>
+            <when state="tex" output="\forall "/>
+            <when state="texgreek" output="A"/>
+            <when state="tilde, icelandic" output="Ã"/>
+            <when state="umlaut" output="Ä"/>
+            <when state="Я" output="А"/>
+        </action>
+        <action id="B">
+            <when state="none" output="B"/>
+            <when state="IPA" output="ɾ"/>
+            <when state="circled" output="Ⓑ"/>
+            <when state="emoji" output="&#x1F40C;"/>
+            <when state="greek" output="Β"/>
+            <when state="hat" output="B̌"/>
+            <when state="keysims" output="↫"/>
+            <when state="math" output="ᵥ"/>
+            <when state="mathcal" output="ℬ"/>
+            <when state="mathfrak" output="&#x1D505;"/>
+            <when state="superscript" output="ᴮ"/>
+            <when state="symbols" output="&#x1F697;"/>
+            <when state="tex" output="_v "/>
+            <when state="texgreek" output="B"/>
+            <when state="Я" output="Б"/>
+        </action>
+        <action id="C">
+            <when state="none" output="C"/>
+            <when state="IPA" output="ⱱ"/>
+            <when state="acute, common" output="Ç"/>
+            <when state="circled" output="Ⓒ"/>
+            <when state="combining" output="̧"/>
+            <when state="emoji" output="&#x1F418;"/>
+            <when state="grave" output="Ç"/>
+            <when state="greek" output="Ξ"/>
+            <when state="hat" output="Č"/>
+            <when state="keysims" output="⇇"/>
+            <when state="math" output="ℂ"/>
+            <when state="mathcal" output="&#x1D49E;"/>
+            <when state="mathfrak" output="ℭ"/>
+            <when state="money, scripts" output="₵"/>
+            <when state="superscript" output="ᵓ"/>
+            <when state="symbols" output="&#x1F682;"/>
+            <when state="tex" output="\mathbb{C}"/>
+            <when state="texgreek" output="\Xi "/>
+            <when state="umlaut" output="Ç"/>
+            <when state="Я" output="Ц"/>
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="IPA" output="ð"/>
+            <when state="circled" output="Ⓓ"/>
+            <when state="combining" output="̣"/>
+            <when state="emoji" output="&#x1F428;"/>
+            <when state="grave" output="Ă"/>
+            <when state="greek" output="Δ"/>
+            <when state="hat" output="Ď"/>
+            <when state="keysims" output="↽"/>
+            <when state="math" output="∂"/>
+            <when state="mathcal" output="&#x1D49F;"/>
+            <when state="mathfrak" output="&#x1D507;"/>
+            <when state="money, scripts" output="₯"/>
+            <when state="superscript" output="ᴰ"/>
+            <when state="symbols" output="&#x1F6B2;"/>
+            <when state="tex" output="\partial "/>
+            <when state="texgreek" output="\Delta "/>
+            <when state="tilde, icelandic" output="Ð"/>
+            <when state="umlaut" output="D̦"/>
+            <when state="Я" output="Д"/>
+        </action>
+        <action id="E">
+            <when state="none" output="E"/>
+            <when state="IPA" output="ʁ"/>
+            <when state="acute, common" output="É"/>
+            <when state="circled" output="Ⓔ"/>
+            <when state="combining" output="̗"/>
+            <when state="emoji" output="&#x1F40B;"/>
+            <when state="grave" output="È"/>
+            <when state="greek" output="Ε"/>
+            <when state="hat" output="Ê"/>
+            <when state="keysims" output="⇚"/>
+            <when state="math" output="∃"/>
+            <when state="mathcal" output="ℰ"/>
+            <when state="mathfrak" output="&#x1D508;"/>
+            <when state="superscript" output="ᴱ"/>
+            <when state="symbols" output="➥"/>
+            <when state="tex" output="\exists"/>
+            <when state="texgreek" output="E"/>
+            <when state="umlaut" output="Ë"/>
+            <when state="Я" output="Е"/>
+        </action>
+        <action id="F">
+            <when state="none" output="F"/>
+            <when state="circled" output="Ⓕ"/>
+            <when state="combining" output="̐"/>
+            <when state="emoji" output="&#x1F430;"/>
+            <when state="greek" output="Φ"/>
+            <when state="hat" output="F̌"/>
+            <when state="keysims" output="↩"/>
+            <when state="math" output="ℱ"/>
+            <when state="mathcal" output="ℱ"/>
+            <when state="mathfrak" output="&#x1D509;"/>
+            <when state="money, scripts" output="₣"/>
+            <when state="superscript" output="ˁ"/>
+            <when state="symbols" output="⚐"/>
+            <when state="tex" output="\mathscr{F}"/>
+            <when state="texgreek" output="\Phi "/>
+            <when state="Я" output="Ф"/>
+        </action>
+        <action id="G">
+            <when state="none" output="G"/>
+            <when state="IPA" output="ʒ"/>
+            <when state="acute, common" output="Ü"/>
+            <when state="circled" output="Ⓖ"/>
+            <when state="combining" output="̖"/>
+            <when state="emoji" output="&#x1F412;"/>
+            <when state="grave" output="Ğ"/>
+            <when state="greek" output="Γ"/>
+            <when state="hat" output="Ğ"/>
+            <when state="keysims" output="↻"/>
+            <when state="math" output="∠"/>
+            <when state="mathcal" output="&#x1D4A2;"/>
+            <when state="mathfrak" output="&#x1D50A;"/>
+            <when state="superscript" output="ᴳ"/>
+            <when state="symbols" output="☾"/>
+            <when state="tex" output="\mathrm{g}"/>
+            <when state="texgreek" output="\Gamma "/>
+            <when state="umlaut" output="Ģ"/>
+            <when state="Я" output="Г"/>
+        </action>
+        <action id="H">
+            <when state="none" output="H"/>
+            <when state="IPA" output="ʐ"/>
+            <when state="acute, common" output="Ã"/>
+            <when state="circled" output="Ⓗ"/>
+            <when state="combining" output="̺"/>
+            <when state="emoji" output="&#x1F47A;"/>
+            <when state="greek" output="Η"/>
+            <when state="hat" output="Ȟ"/>
+            <when state="keysims" output="↺"/>
+            <when state="math" output="ℌ"/>
+            <when state="mathcal" output="ℋ"/>
+            <when state="mathfrak" output="ℌ"/>
+            <when state="superscript" output="ᴴ"/>
+            <when state="symbols" output="✐"/>
+            <when state="tex" output="\mathfrak{H}"/>
+            <when state="texgreek" output="H"/>
+            <when state="tilde, icelandic" output="Ħ"/>
+            <when state="Я" output="Ч"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="IPA" output="ʝ"/>
+            <when state="acute, common" output="Í"/>
+            <when state="circled" output="Ⓘ"/>
+            <when state="combining" output="̩"/>
+            <when state="emoji" output="&#x1F41F;"/>
+            <when state="grave" output="Ì"/>
+            <when state="greek" output="Ι"/>
+            <when state="hat" output="Î"/>
+            <when state="keysims" output="⇓"/>
+            <when state="math" output="ⅈ"/>
+            <when state="mathcal" output="ℐ"/>
+            <when state="mathfrak" output="ℑ"/>
+            <when state="superscript" output="ᴵ"/>
+            <when state="symbols" output="✋"/>
+            <when state="tex" output="\boldsymbol{i}"/>
+            <when state="texgreek" output="I"/>
+            <when state="tilde, icelandic" output="İ"/>
+            <when state="umlaut" output="Ï"/>
+            <when state="Я" output="І"/>
+        </action>
+        <action id="J">
+            <when state="none" output="J"/>
+            <when state="IPA" output="ɖ"/>
+            <when state="circled" output="Ⓙ"/>
+            <when state="combining" output="̴"/>
+            <when state="emoji" output="&#x1F639;"/>
+            <when state="hat" output="J̌"/>
+            <when state="keysims" output="↬"/>
+            <when state="math" output="ⱼ"/>
+            <when state="mathcal" output="&#x1D4A5;"/>
+            <when state="mathfrak" output="&#x1D50D;"/>
+            <when state="superscript" output="ᴶ"/>
+            <when state="symbols" output="&#x1F69B;"/>
+            <when state="tex" output="_j "/>
+            <when state="tilde, icelandic" output="↬"/>
+            <when state="umlaut" output="Y̨"/>
+            <when state="Я" output="Й"/>
+        </action>
+        <action id="K">
+            <when state="none" output="K"/>
+            <when state="IPA" output="ɟ"/>
+            <when state="acute, common" output="Õ"/>
+            <when state="circled" output="Ⓚ"/>
+            <when state="combining" output="⃜"/>
+            <when state="emoji" output="&#x1F648;"/>
+            <when state="grave" output="Î"/>
+            <when state="greek" output="Κ"/>
+            <when state="hat" output="Ǩ"/>
+            <when state="keysims" output="⇑"/>
+            <when state="math" output="&#x1D542;"/>
+            <when state="mathcal" output="&#x1D4A6;"/>
+            <when state="mathfrak" output="&#x1D50E;"/>
+            <when state="superscript" output="ᴷ"/>
+            <when state="symbols" output="✌"/>
+            <when state="tex" output="\mathbb{K}"/>
+            <when state="texgreek" output="K"/>
+            <when state="umlaut" output="Ķ"/>
+            <when state="Я" output="Щ"/>
+        </action>
+        <action id="L">
+            <when state="none" output="L"/>
+            <when state="IPA" output="ɡ"/>
+            <when state="acute, common" output="Ł"/>
+            <when state="circled" output="Ⓛ"/>
+            <when state="combining" output="ͅ"/>
+            <when state="emoji" output="&#x1F419;"/>
+            <when state="grave" output="Ô"/>
+            <when state="greek" output="Λ"/>
+            <when state="hat" output="Ľ"/>
+            <when state="keysims" output="⇗"/>
+            <when state="math" output="ℓ"/>
+            <when state="mathcal" output="ℒ"/>
+            <when state="mathfrak" output="&#x1D50F;"/>
+            <when state="superscript" output="ᴸ"/>
+            <when state="symbols" output="➚"/>
+            <when state="tex" output="\ell "/>
+            <when state="texgreek" output="\Lambda "/>
+            <when state="tilde, icelandic" output="Ø"/>
+            <when state="umlaut" output="Ļ"/>
+            <when state="Я" output="Є"/>
+        </action>
+        <action id="M">
+            <when state="none" output="M"/>
+            <when state="IPA" output="ɽ"/>
+            <when state="acute, common" output="Ń"/>
+            <when state="circled" output="Ⓜ"/>
+            <when state="combining" output="̼"/>
+            <when state="emoji" output="&#x1F42B;"/>
+            <when state="greek" output="Μ"/>
+            <when state="hat" output="Ǔ"/>
+            <when state="keysims" output="⇙"/>
+            <when state="math" output="ᵤ"/>
+            <when state="mathcal" output="ℳ"/>
+            <when state="mathfrak" output="&#x1D510;"/>
+            <when state="superscript" output="ᴹ"/>
+            <when state="symbols" output="&#x1F69C;"/>
+            <when state="tex" output="_u "/>
+            <when state="texgreek" output="M"/>
+            <when state="umlaut" output="Ų"/>
+            <when state="Я" output="М"/>
+        </action>
+        <action id="N">
+            <when state="none" output="N"/>
+            <when state="IPA" output="ʑ"/>
+            <when state="acute, common" output="Ñ"/>
+            <when state="circled" output="Ⓝ"/>
+            <when state="combining" output="̰"/>
+            <when state="emoji" output="&#x1F479;"/>
+            <when state="grave" output="Û"/>
+            <when state="greek" output="Ν"/>
+            <when state="hat" output="Ň"/>
+            <when state="keysims" output="⇐"/>
+            <when state="math" output="ℕ"/>
+            <when state="mathcal" output="&#x1D4A9;"/>
+            <when state="mathfrak" output="&#x1D511;"/>
+            <when state="superscript" output="ᴺ"/>
+            <when state="symbols" output="☚"/>
+            <when state="tex" output="\mathbb{N}"/>
+            <when state="texgreek" output="N"/>
+            <when state="tilde, icelandic" output="Ñ"/>
+            <when state="umlaut" output="Ņ"/>
+            <when state="Я" output="Н"/>
+        </action>
+        <action id="O">
+            <when state="none" output="O"/>
+            <when state="IPA" output="ɣ"/>
+            <when state="acute, common" output="Ó"/>
+            <when state="circled" output="Ⓞ"/>
+            <when state="combining" output="̥"/>
+            <when state="emoji" output="&#x1F42C;"/>
+            <when state="grave" output="Ò"/>
+            <when state="greek" output="Ο"/>
+            <when state="hat" output="Ô"/>
+            <when state="keysims" output="⇒"/>
+            <when state="math" output="ℴ"/>
+            <when state="mathcal" output="&#x1D4AA;"/>
+            <when state="mathfrak" output="&#x1D512;"/>
+            <when state="superscript" output="ᴼ"/>
+            <when state="symbols" output="☛"/>
+            <when state="tex" output="\mathit{o}"/>
+            <when state="texgreek" output="O"/>
+            <when state="tilde, icelandic" output="Õ"/>
+            <when state="umlaut" output="Ö"/>
+            <when state="Я" output="О"/>
+        </action>
+        <action id="P">
+            <when state="none" output="P"/>
+            <when state="IPA" output="d̪"/>
+            <when state="acute, common" output="Π"/>
+            <when state="circled" output="Ⓟ"/>
+            <when state="combining" output="̈́"/>
+            <when state="emoji" output="&#x1F431;"/>
+            <when state="greek" output="Π"/>
+            <when state="hat" output="Ḓ"/>
+            <when state="keysims" output="↼"/>
+            <when state="math" output="∏"/>
+            <when state="mathcal" output="&#x1D4AB;"/>
+            <when state="mathfrak" output="&#x1D513;"/>
+            <when state="money, scripts" output="₱"/>
+            <when state="superscript" output="ᴾ"/>
+            <when state="symbols" output="⚔"/>
+            <when state="tex" output="\prod "/>
+            <when state="texgreek" output="\Pi "/>
+            <when state="Я" output="П"/>
+        </action>
+        <action id="Q">
+            <when state="none" output="Q"/>
+            <when state="IPA" output="b"/>
+            <when state="acute, common" output="Æ"/>
+            <when state="circled" output="Ⓠ"/>
+            <when state="combining" output="̯"/>
+            <when state="emoji" output="&#x1F436;"/>
+            <when state="grave" output="Â"/>
+            <when state="greek" output="Θ"/>
+            <when state="hat" output="Ă"/>
+            <when state="keysims" output="↿"/>
+            <when state="math" output="ℚ"/>
+            <when state="mathcal" output="&#x1D4AC;"/>
+            <when state="mathfrak" output="&#x1D514;"/>
+            <when state="money, scripts" output="₰"/>
+            <when state="superscript" output="ᵠ"/>
+            <when state="symbols" output="&#x1F6A2;"/>
+            <when state="tex" output="\mathbb{Q}"/>
+            <when state="texgreek" output="\Theta "/>
+            <when state="tilde, icelandic" output="≅"/>
+            <when state="umlaut" output="Ą"/>
+            <when state="Я" output="Я"/>
+        </action>
+        <action id="R">
+            <when state="none" output="R"/>
+            <when state="IPA" output="d"/>
+            <when state="circled" output="Ⓡ"/>
+            <when state="combining" output="̝"/>
+            <when state="emoji" output="&#x1F42D;"/>
+            <when state="greek" output="Ρ"/>
+            <when state="hat" output="Ř"/>
+            <when state="keysims" output="⇀"/>
+            <when state="math" output="ℝ"/>
+            <when state="mathcal" output="ℛ"/>
+            <when state="mathfrak" output="ℜ"/>
+            <when state="money, scripts" output="௹"/>
+            <when state="superscript" output="ᴿ"/>
+            <when state="symbols" output="♻"/>
+            <when state="tex" output="\mathbb{R}"/>
+            <when state="texgreek" output="P"/>
+            <when state="Я" output="Р"/>
+        </action>
+        <action id="S">
+            <when state="none" output="S"/>
+            <when state="IPA" output="v"/>
+            <when state="acute, common" output="Ś"/>
+            <when state="circled" output="Ⓢ"/>
+            <when state="combining" output="̶"/>
+            <when state="emoji" output="&#x1F438;"/>
+            <when state="grave" output="Ş"/>
+            <when state="greek" output="Σ"/>
+            <when state="hat" output="Š"/>
+            <when state="keysims" output="⇂"/>
+            <when state="math" output="∑"/>
+            <when state="mathcal" output="&#x1D4AE;"/>
+            <when state="mathfrak" output="&#x1D516;"/>
+            <when state="superscript" output="ᶴ"/>
+            <when state="symbols" output="&#x1F6B4;"/>
+            <when state="tex" output="\sum "/>
+            <when state="texgreek" output="\Sigma "/>
+            <when state="tilde, icelandic" output="Å"/>
+            <when state="umlaut" output="ẞ"/>
+            <when state="Я" output="С"/>
+        </action>
+        <action id="T">
+            <when state="none" output="T"/>
+            <when state="IPA" output="z"/>
+            <when state="acute, common" output="™"/>
+            <when state="circled" output="Ⓣ"/>
+            <when state="combining" output="̞"/>
+            <when state="emoji" output="&#x1F437;"/>
+            <when state="grave" output="Ţ"/>
+            <when state="greek" output="Τ"/>
+            <when state="hat" output="Ť"/>
+            <when state="keysims" output="⇁"/>
+            <when state="math" output="⟂"/>
+            <when state="mathcal" output="&#x1D4AF;"/>
+            <when state="mathfrak" output="&#x1D517;"/>
+            <when state="money, scripts" output="₮"/>
+            <when state="superscript" output="ᵀ"/>
+            <when state="symbols" output="✆"/>
+            <when state="tex" output="\bot "/>
+            <when state="texgreek" output="T"/>
+            <when state="tilde, icelandic" output="Þ"/>
+            <when state="umlaut" output="Ț"/>
+            <when state="Я" output="Т"/>
+        </action>
+        <action id="U">
+            <when state="none" output="U"/>
+            <when state="acute, common" output="Ú"/>
+            <when state="circled" output="Ⓤ"/>
+            <when state="combining" output="̤"/>
+            <when state="emoji" output="&#x1F649;"/>
+            <when state="grave" output="Ù"/>
+            <when state="greek" output="Υ"/>
+            <when state="hat" output="Û"/>
+            <when state="keysims" output="⇖"/>
+            <when state="math" output="&#x1D54C;"/>
+            <when state="mathcal" output="&#x1D4B0;"/>
+            <when state="mathfrak" output="&#x1D518;"/>
+            <when state="superscript" output="ᵁ"/>
+            <when state="symbols" output="✒"/>
+            <when state="tex" output="\mathbb{U}"/>
+            <when state="texgreek" output="\Upsilon "/>
+            <when state="tilde, icelandic" output="Ů"/>
+            <when state="umlaut" output="Ü"/>
+            <when state="Я" output="Ш"/>
+        </action>
+        <action id="V">
+            <when state="none" output="V"/>
+            <when state="IPA" output="ɹ"/>
+            <when state="circled" output="Ⓥ"/>
+            <when state="combining" output="̨"/>
+            <when state="emoji" output="&#x1F40D;"/>
+            <when state="greek" output="Ω"/>
+            <when state="hat" output="Ĉ"/>
+            <when state="keysims" output="⇉"/>
+            <when state="math" output="∇"/>
+            <when state="mathcal" output="&#x1D4B1;"/>
+            <when state="mathfrak" output="&#x1D519;"/>
+            <when state="superscript" output="ⱽ"/>
+            <when state="symbols" output="&#x1F68C;"/>
+            <when state="tex" output="\nabla "/>
+            <when state="texgreek" output="N"/>
+            <when state="umlaut" output="Ț"/>
+            <when state="Я" output="В"/>
+        </action>
+        <action id="W">
+            <when state="none" output="W"/>
+            <when state="IPA" output="b̪"/>
+            <when state="circled" output="Ⓦ"/>
+            <when state="combining" output="̮"/>
+            <when state="emoji" output="&#x1F43A;"/>
+            <when state="grave" output="Æ"/>
+            <when state="greek" output="Ω"/>
+            <when state="hat" output="Ŵ"/>
+            <when state="keysims" output="↾"/>
+            <when state="math" output="℘"/>
+            <when state="mathcal" output="&#x1D4B2;"/>
+            <when state="mathfrak" output="&#x1D51A;"/>
+            <when state="money, scripts" output="₷"/>
+            <when state="superscript" output="ᵂ"/>
+            <when state="symbols" output="&#x1F6A3;"/>
+            <when state="tex" output="\wp "/>
+            <when state="texgreek" output="\Omega "/>
+            <when state="tilde, icelandic" output="Æ"/>
+            <when state="umlaut" output="Ẅ"/>
+            <when state="Я" output="Ж"/>
+        </action>
+        <action id="X">
+            <when state="none" output="X"/>
+            <when state="IPA" output="ʋ"/>
+            <when state="circled" output="Ⓧ"/>
+            <when state="combining" output="͓"/>
+            <when state="emoji" output="&#x1F411;"/>
+            <when state="greek" output="Χ"/>
+            <when state="hat" output="Ŝ"/>
+            <when state="keysims" output="⇅"/>
+            <when state="math" output="ₓ"/>
+            <when state="mathcal" output="&#x1D4B3;"/>
+            <when state="mathfrak" output="&#x1D51B;"/>
+            <when state="money, scripts" output="₡"/>
+            <when state="superscript" output="ᵡ"/>
+            <when state="symbols" output="&#x1F681;"/>
+            <when state="tex" output="_x"/>
+            <when state="texgreek" output="X"/>
+            <when state="umlaut" output="Ș"/>
+            <when state="Я" output="Х"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="IPA" output="ɻ"/>
+            <when state="circled" output="Ⓨ"/>
+            <when state="combining" output="⃛"/>
+            <when state="emoji" output="&#x1F64A;"/>
+            <when state="greek" output="Ψ"/>
+            <when state="hat" output="Ŷ"/>
+            <when state="keysims" output="↪"/>
+            <when state="math" output="ℍ"/>
+            <when state="mathcal" output="&#x1D4B4;"/>
+            <when state="mathfrak" output="&#x1D51C;"/>
+            <when state="money, scripts" output="元"/>
+            <when state="superscript" output="ᵞ"/>
+            <when state="symbols" output="✑"/>
+            <when state="tex" output="\mathbb{H}"/>
+            <when state="texgreek" output="\Psi "/>
+            <when state="umlaut" output="Ÿ"/>
+            <when state="Я" output="И"/>
+        </action>
+        <action id="Z">
+            <when state="none" output="Z"/>
+            <when state="IPA" output="ⱱ̟"/>
+            <when state="acute, common" output="Ź"/>
+            <when state="circled" output="Ⓩ"/>
+            <when state="emoji" output="&#x1F434;"/>
+            <when state="grave" output="Ż"/>
+            <when state="greek" output="Ζ"/>
+            <when state="hat" output="Ž"/>
+            <when state="keysims" output="⇊"/>
+            <when state="math" output="ℤ"/>
+            <when state="mathcal" output="&#x1D4B5;"/>
+            <when state="mathfrak" output="ℨ"/>
+            <when state="superscript" output="ᶼ"/>
+            <when state="symbols" output="&#x1F680;"/>
+            <when state="tex" output="\mathbb{Z}"/>
+            <when state="texgreek" output="Z"/>
+            <when state="umlaut" output="Ż"/>
+            <when state="Я" output="З"/>
+        </action>
+        <action id="[">
+            <when state="none" output="["/>
+            <when state="acute, common" output="◊"/>
+            <when state="circled" output="™"/>
+            <when state="combining" output="̏"/>
+            <when state="emoji" output="&#x1F60D;"/>
+            <when state="ipavowel" output="ɶ"/>
+            <when state="math" output="⟨"/>
+            <when state="mathfonts" output="&#x1D63C;"/>
+            <when state="symbols" output="⚣"/>
+            <when state="tex" output="\langle"/>
+        </action>
+        <action id="[ 1">
+            <when state="none" output="["/>
+        </action>
+        <action id="[ 2">
+            <when state="none" output="["/>
+            <when state="math" output="⟨"/>
+        </action>
+        <action id="[:1">
+            <when state="none" output="["/>
+            <when state="circled" output="⓷"/>
+            <when state="greek" output="\pi"/>
+            <when state="math" output="╨"/>
+            <when state="mathitalic" output="&#x1D491;"/>
+            <when state="money, scripts" output="₤"/>
+            <when state="symbols" output="☀"/>
+            <when state="tex" output="\indep "/>
+            <when state="umlaut" output="ş"/>
+        </action>
+        <action id="\">
+            <when state="none" output="\"/>
+            <when state="IPA" output="ꜜ"/>
+            <when state="circled" output="⓶"/>
+            <when state="emoji" output="&#x1F6C1;"/>
+            <when state="greek" output="\omega"/>
+            <when state="hat" output="ŵ"/>
+            <when state="hyphen" output="ł"/>
+            <when state="math" output="⋌"/>
+            <when state="mathitalic" output="&#x1D498;"/>
+            <when state="symbols" output="☁"/>
+            <when state="umlaut" output="ẅ"/>
+        </action>
+        <action id="\:1">
+            <when state="none" output="\"/>
+            <when state="IPA" output="ʔ"/>
+            <when state="acute, common" output="́"/>
+            <when state="combining" output="͉"/>
+            <when state="emoji" output="&#x1F60C;"/>
+            <when state="grave" output="̀"/>
+            <when state="hat" output="̂"/>
+            <when state="ipavowel" output="ø"/>
+            <when state="keysims" output="⌦"/>
+            <when state="math" output="∖"/>
+            <when state="money, scripts" output="৲"/>
+            <when state="tex" output="\setminus "/>
+            <when state="tilde, icelandic" output="̃"/>
+            <when state="umlaut" output="̈"/>
+        </action>
+        <action id="]">
+            <when state="none" output="]"/>
+            <when state="IPA" output="ʡ"/>
+            <when state="acute, common" output="※"/>
+            <when state="circled" output="℠"/>
+            <when state="combining" output="̻"/>
+            <when state="emoji" output="&#x1F618;"/>
+            <when state="ipavowel" output="ɵ"/>
+            <when state="keysims" output="⌽"/>
+            <when state="math" output="⟩"/>
+            <when state="symbols" output="⚢"/>
+            <when state="tex" output="\rangle "/>
+        </action>
+        <action id="] 1">
+            <when state="none" output="]"/>
+            <when state="math" output="⟩"/>
+        </action>
+        <action id="]:1">
+            <when state="none" output="]"/>
+            <when state="IPA" output="ɬ"/>
+            <when state="acute, common" output="®"/>
+            <when state="circled" output="⓸"/>
+            <when state="emoji" output="&#x1F373;"/>
+            <when state="greek" output="\rho"/>
+            <when state="hat" output="ř"/>
+            <when state="hyphen" output="ū"/>
+            <when state="math" output="⊅"/>
+            <when state="mathitalic" output="&#x1D493;"/>
+            <when state="money, scripts" output="₨"/>
+            <when state="symbols" output="☂"/>
+            <when state="tex" output="\not\supset "/>
+            <when state="umlaut" output="ŗ"/>
+        </action>
+        <action id="^">
+            <when state="none" output="^"/>
+            <when state="IPA" output="ɳ"/>
+            <when state="acute, common" output="₆"/>
+            <when state="circled" output="⑯"/>
+            <when state="combining" output="⃥"/>
+            <when state="emoji" output="&#x1F41C;"/>
+            <when state="grave" output="❻"/>
+            <when state="greek" output="—̳̇"/>
+            <when state="keysims" output="↷"/>
+            <when state="math" output="ℋ"/>
+            <when state="superscript" output="ᵋ"/>
+            <when state="symbols" output="✂"/>
+            <when state="tex" output="\mathscr{H}"/>
+            <when state="tilde, icelandic" output="➏"/>
+            <when state="Я" output="Ґ"/>
+        </action>
+        <action id="^ 1">
+            <when state="none" output="="/>
+            <when state="math" output="≡"/>
+            <when state="superscript" output="⁼"/>
+        </action>
+        <action id="^:1">
+            <when state="none" output="$"/>
+            <when state="IPA" output="ʛ"/>
+            <when state="circled" output="⓺"/>
+            <when state="emoji" output="&#x1F34D;"/>
+            <when state="greek" output="\psi"/>
+            <when state="math" output="⊌"/>
+            <when state="mathitalic" output="&#x1D49A;"/>
+            <when state="money, scripts" output="圓"/>
+            <when state="symbols" output="♠"/>
+            <when state="umlaut" output="ÿ"/>
+        </action>
+        <action id="_">
+            <when state="none" output="_"/>
+            <when state="IPA" output="˥"/>
+            <when state="circled" output="⓻"/>
+            <when state="combining" output=" ͋"/>
+            <when state="emoji" output="&#x1F47E;"/>
+            <when state="greek" output="\mu"/>
+            <when state="hyphen" output="=&#x003C;"/>
+            <when state="math" output="≼"/>
+            <when state="mathitalic" output="&#x1D48E;"/>
+            <when state="tex" output="\preqeq "/>
+            <when state="umlaut" output="ų"/>
+        </action>
+        <action id="_ 1">
+            <when state="none" output="4"/>
+        </action>
+        <action id="_ 2">
+            <when state="none" output="_"/>
+            <when state="math" output="⁄"/>
+            <when state="tex" output="\frac{"/>
+        </action>
+        <action id="_:1">
+            <when state="none" output="_"/>
+            <when state="IPA" output="ʢ"/>
+            <when state="acute, common" output="‑"/>
+            <when state="emoji" output="&#x1F424;"/>
+            <when state="keysims" output="↕"/>
+            <when state="math" output="᷍"/>
+            <when state="superscript" output="⁻"/>
+            <when state="symbols" output="&#x1F6B9;"/>
+            <when state="tex" output="\widehat{"/>
+        </action>
+        <action id="`">
+            <when state="none" output="`"/>
+            <when state="circled" output="⓹"/>
+            <when state="combining" output="̱"/>
+            <when state="emoji" output="&#x1F34C;"/>
+            <when state="greek" output="\phi"/>
+            <when state="hat" output="f̌"/>
+            <when state="math" output="⌠"/>
+            <when state="mathitalic" output="&#x1D487;"/>
+            <when state="symbols" output="♣"/>
+        </action>
+        <action id="` 1">
+            <when state="none" output="`"/>
+            <when state="math" output="̂"/>
+            <when state="tex" output="\hat{"/>
+        </action>
+        <action id="a">
+            <when state="none" output="a"/>
+            <when state="IPA" output="ɸ"/>
+            <when state="acute, common" output="á"/>
+            <when state="circled" output="ⓐ"/>
+            <when state="combining" output="̂"/>
+            <when state="emoji" output="&#x1F622;"/>
+            <when state="grave" output="à"/>
+            <when state="greek" output="α"/>
+            <when state="hat" output="â"/>
+            <when state="ipavowel" output="ɨ"/>
+            <when state="keysims" output="⌥"/>
+            <when state="math" output="∝"/>
+            <when state="mathcal" output="&#x1D4B6;"/>
+            <when state="mathfonts" output="\mathbf{"/>
+            <when state="mathfrak" output="&#x1D51E;"/>
+            <when state="mathitalic" output="&#x1D44E;"/>
+            <when state="money, scripts" output="₳"/>
+            <when state="superscript" output="ᵃ"/>
+            <when state="symbols" output="✈"/>
+            <when state="tex" output="\propto "/>
+            <when state="texgreek" output="\alpha "/>
+            <when state="tilde, icelandic" output="ã"/>
+            <when state="umlaut" output="ä"/>
+            <when state="Я" output="а"/>
+        </action>
+        <action id="action">
+            <when state="none" output="5"/>
+        </action>
+        <action id="b">
+            <when state="none" output="b"/>
+            <when state="IPA" output="‿"/>
+            <when state="acute, common" output="¦"/>
+            <when state="circled" output="ⓑ"/>
+            <when state="combining" output="̹"/>
+            <when state="emoji" output="&#x1F637;"/>
+            <when state="greek" output="β"/>
+            <when state="hat" output="b̌"/>
+            <when state="ipavowel" output="ɤ̞"/>
+            <when state="keysims" output="ℹ"/>
+            <when state="math" output="∧"/>
+            <when state="mathcal" output="&#x1D4B7;"/>
+            <when state="mathfonts" output="‖"/>
+            <when state="mathfrak" output="&#x1D51F;"/>
+            <when state="mathitalic" output="&#x1D44F;"/>
+            <when state="money, scripts" output="฿"/>
+            <when state="superscript" output="ᵇ"/>
+            <when state="symbols" output="☪"/>
+            <when state="tex" output="\land "/>
+            <when state="texgreek" output="\beta "/>
+            <when state="tilde, icelandic" output="Jameson Quinn"/>
+            <when state="Я" output="б"/>
+        </action>
+        <action id="c">
+            <when state="none" output="c"/>
+            <when state="IPA" output="ː"/>
+            <when state="acute, common" output="ç"/>
+            <when state="circled" output="ⓒ"/>
+            <when state="combining" output="̜"/>
+            <when state="emoji" output="&#x1F612;"/>
+            <when state="grave" output="ç"/>
+            <when state="greek" output="ξ"/>
+            <when state="hat" output="č"/>
+            <when state="ipavowel" output="ɤ"/>
+            <when state="keysims" output="℅"/>
+            <when state="math" output="⊆"/>
+            <when state="mathcal" output="&#x1D4B8;"/>
+            <when state="mathfonts" output="&#x1D60A;"/>
+            <when state="mathfrak" output="&#x1D520;"/>
+            <when state="mathitalic" output="&#x1D450;"/>
+            <when state="money, scripts" output="¢"/>
+            <when state="superscript" output="ᶜ"/>
+            <when state="symbols" output="☤"/>
+            <when state="tex" output="\subseteq "/>
+            <when state="texgreek" output="\xi "/>
+            <when state="tilde, icelandic" output="ㄸ⃝ BY SA"/>
+            <when state="umlaut" output="ç"/>
+            <when state="Я" output="ц"/>
+        </action>
+        <action id="combining">
+            <when state="none" next="math"/>
+            <when state="combining" output="͌"/>
+            <when state="greek" output="M"/>
+            <when state="hyphen" output="&#x1F62A;"/>
+            <when state="ipavowel" output="ʌ"/>
+            <when state="keysims" output="↙"/>
+            <when state="math" next="tex"/>
+            <when state="symbols" output="⚱"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="IPA" output="θ"/>
+            <when state="acute, common" output="∂"/>
+            <when state="circled" output="ⓓ"/>
+            <when state="combining" output="̇"/>
+            <when state="emoji" output="&#x1F629;"/>
+            <when state="grave" output="ă"/>
+            <when state="greek" output="δ"/>
+            <when state="hat" output="ď"/>
+            <when state="ipavowel" output="ɘ"/>
+            <when state="keysims" output="℀"/>
+            <when state="math" output="⊂"/>
+            <when state="mathcal" output="&#x1D4B9;"/>
+            <when state="mathfonts" output="\mathscr{"/>
+            <when state="mathfrak" output="&#x1D521;"/>
+            <when state="mathitalic" output="&#x1D451;"/>
+            <when state="money, scripts" output="₫"/>
+            <when state="superscript" output="ᵈ"/>
+            <when state="tex" output="\subset "/>
+            <when state="texgreek" output="\delta "/>
+            <when state="tilde, icelandic" output="ð"/>
+            <when state="umlaut" output="d̦"/>
+            <when state="Я" output="д"/>
+        </action>
+        <action id="e">
+            <when state="none" output="e"/>
+            <when state="IPA" output="χ"/>
+            <when state="acute, common" output="é"/>
+            <when state="circled" output="ⓔ"/>
+            <when state="combining" output="́"/>
+            <when state="emoji" output="&#x1F478;"/>
+            <when state="grave" output="è"/>
+            <when state="greek" output="ε"/>
+            <when state="hat" output="ê"/>
+            <when state="ipavowel" output="ɐ"/>
+            <when state="math" output="ℯ"/>
+            <when state="mathcal" output="&#x1D4EE;"/>
+            <when state="mathfonts" output="\mathsfit{"/>
+            <when state="mathfrak" output="&#x1D522;"/>
+            <when state="mathitalic" output="&#x1D452;"/>
+            <when state="money, scripts" output="€"/>
+            <when state="superscript" output="ᵉ"/>
+            <when state="symbols" output="☬"/>
+            <when state="texgreek" output="\epsilon "/>
+            <when state="umlaut" output="ë"/>
+            <when state="Я" output="е"/>
+        </action>
+        <action id="f">
+            <when state="none" output="f"/>
+            <when state="acute, common" output="¤"/>
+            <when state="circled" output="ⓕ"/>
+            <when state="combining" output="͒"/>
+            <when state="emoji" output="&#x1F62C;"/>
+            <when state="greek" output="φ"/>
+            <when state="hat" output="f̌"/>
+            <when state="ipavowel" output="e̞"/>
+            <when state="math" output="⊨"/>
+            <when state="mathcal" output="&#x1D4BB;"/>
+            <when state="mathfonts" output="&#x1D509;"/>
+            <when state="mathfrak" output="&#x1D523;"/>
+            <when state="mathitalic" output="&#x1D453;"/>
+            <when state="money, scripts" output="ƒ"/>
+            <when state="superscript" output="ᶠ"/>
+            <when state="symbols" output="⚑"/>
+            <when state="tex" output="\models "/>
+            <when state="texgreek" output="\phi "/>
+            <when state="Я" output="ф"/>
+        </action>
+        <action id="g">
+            <when state="none" output="g"/>
+            <when state="IPA" output="ʃ"/>
+            <when state="acute, common" output="ü"/>
+            <when state="circled" output="ⓖ"/>
+            <when state="combining" output="̀"/>
+            <when state="emoji" output="&#x1F610;"/>
+            <when state="grave" output="ğ"/>
+            <when state="greek" output="γ"/>
+            <when state="hat" output="ğ"/>
+            <when state="ipavowel" output="ə"/>
+            <when state="keysims" output="ℊ"/>
+            <when state="math" output="∋"/>
+            <when state="mathcal" output="&#x1D4F0;"/>
+            <when state="mathfonts" output="\mathfrak{"/>
+            <when state="mathfrak" output="&#x1D524;"/>
+            <when state="mathitalic" output="&#x1D454;"/>
+            <when state="money, scripts" output="₲"/>
+            <when state="superscript" output="ᵍ"/>
+            <when state="symbols" output="☽"/>
+            <when state="tex" output="\ni "/>
+            <when state="texgreek" output="\gamma "/>
+            <when state="umlaut" output="ģ"/>
+            <when state="Я" output="г"/>
+        </action>
+        <action id="h">
+            <when state="none" output="h"/>
+            <when state="IPA" output="ʂ"/>
+            <when state="acute, common" output="ã"/>
+            <when state="circled" output="ⓗ"/>
+            <when state="combining" output="͆"/>
+            <when state="emoji" output="&#x1F47F;"/>
+            <when state="greek" output="η"/>
+            <when state="hat" output="ȟ"/>
+            <when state="ipavowel" output="ə"/>
+            <when state="keysims" output="⟲"/>
+            <when state="math" output="ℎ"/>
+            <when state="mathcal" output="&#x1D4BD;"/>
+            <when state="mathfonts" output="\mathbb{"/>
+            <when state="mathfrak" output="&#x1D525;"/>
+            <when state="mathitalic" output="ℎ"/>
+            <when state="money, scripts" output="₴"/>
+            <when state="superscript" output="ʰ"/>
+            <when state="symbols" output="♿"/>
+            <when state="tex" output="\mathit{h}"/>
+            <when state="texgreek" output="\eta "/>
+            <when state="tilde, icelandic" output="ħ"/>
+            <when state="Я" output="ч"/>
+        </action>
+        <action id="hyphen">
+            <when state="none" next="hyphen"/>
+            <when state="IPA" output="˨"/>
+            <when state="circled" output="⓾"/>
+            <when state="combining" output="⃠"/>
+            <when state="emoji" output="&#x1F338;"/>
+            <when state="greek" output="o"/>
+            <when state="hat" output="ǒ"/>
+            <when state="hyphen" output="—"/>
+            <when state="math" output="≽"/>
+            <when state="symbols" output="⚉"/>
+            <when state="tex" output="\succeq "/>
+            <when state="umlaut" output="ę"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="IPA" output="ç"/>
+            <when state="acute, common" output="í"/>
+            <when state="circled" output="ⓘ"/>
+            <when state="combining" output="̍"/>
+            <when state="emoji" output="&#x1F607;"/>
+            <when state="grave" output="ì"/>
+            <when state="greek" output="ι"/>
+            <when state="hat" output="î"/>
+            <when state="ipavowel" output="ɞ"/>
+            <when state="keysims" output="↓"/>
+            <when state="math" output="∩"/>
+            <when state="mathcal" output="&#x1D4BE;"/>
+            <when state="mathfonts" output="\mathsf{"/>
+            <when state="mathfrak" output="&#x1D526;"/>
+            <when state="mathitalic" output="&#x1D48A;"/>
+            <when state="money, scripts" output="៛"/>
+            <when state="superscript" output="ⁱ"/>
+            <when state="symbols" output="☟"/>
+            <when state="tex" output="\cap "/>
+            <when state="texgreek" output="\iota "/>
+            <when state="tilde, icelandic" output="ı"/>
+            <when state="umlaut" output="ï"/>
+            <when state="Я" output="і"/>
+        </action>
+        <action id="j">
+            <when state="none" output="j"/>
+            <when state="IPA" output="ʈ"/>
+            <when state="acute, common" output="β"/>
+            <when state="circled" output="ⓙ"/>
+            <when state="combining" output="̡"/>
+            <when state="emoji" output="&#x1F602;"/>
+            <when state="greek" output="ς"/>
+            <when state="hat" output="ǰ"/>
+            <when state="ipavowel" output="ø̞"/>
+            <when state="math" output="·"/>
+            <when state="mathcal" output="&#x1D4BF;"/>
+            <when state="mathfonts" output="\mathtt{"/>
+            <when state="mathfrak" output="&#x1D527;"/>
+            <when state="mathitalic" output="&#x1D457;"/>
+            <when state="money, scripts" output="ℑ"/>
+            <when state="superscript" output="ʲ"/>
+            <when state="symbols" output="✡"/>
+            <when state="tex" output="\cdot "/>
+            <when state="texgreek" output="\varsigma "/>
+            <when state="tilde, icelandic" output="ᔥ"/>
+            <when state="umlaut" output="y̨"/>
+            <when state="Я" output="й"/>
+        </action>
+        <action id="k">
+            <when state="none" output="k"/>
+            <when state="IPA" output="c"/>
+            <when state="acute, common" output="õ"/>
+            <when state="circled" output="ⓚ"/>
+            <when state="combining" output="̾"/>
+            <when state="emoji" output="&#x1F61D;"/>
+            <when state="grave" output="î"/>
+            <when state="greek" output="κ"/>
+            <when state="hat" output="ǩ"/>
+            <when state="ipavowel" output="œ"/>
+            <when state="keysims" output="↑"/>
+            <when state="math" output="∞"/>
+            <when state="mathcal" output="&#x1D4C0;"/>
+            <when state="mathfonts" output="&#x1D5AA;"/>
+            <when state="mathfrak" output="&#x1D528;"/>
+            <when state="mathitalic" output="&#x1D458;"/>
+            <when state="money, scripts" output="₭"/>
+            <when state="superscript" output="ᵏ"/>
+            <when state="symbols" output="☝"/>
+            <when state="tex" output="\infty "/>
+            <when state="texgreek" output="\kappa "/>
+            <when state="umlaut" output="ķ"/>
+            <when state="Я" output="щ"/>
+        </action>
+        <action id="l">
+            <when state="none" output="l"/>
+            <when state="IPA" output="k"/>
+            <when state="acute, common" output="ł"/>
+            <when state="circled" output="ⓛ"/>
+            <when state="combining" output="̢"/>
+            <when state="emoji" output="&#x1F60A;"/>
+            <when state="grave" output="ô"/>
+            <when state="greek" output="λ"/>
+            <when state="hat" output="ľ"/>
+            <when state="ipavowel" output="æ"/>
+            <when state="keysims" output="↗"/>
+            <when state="math" output="⨂"/>
+            <when state="mathcal" output="&#x1D4C1;"/>
+            <when state="mathfonts" output="&#x1D5DF;"/>
+            <when state="mathfrak" output="&#x1D529;"/>
+            <when state="mathitalic" output="&#x1D459;"/>
+            <when state="money, scripts" output="ℓ"/>
+            <when state="superscript" output="ˡ"/>
+            <when state="symbols" output="✊"/>
+            <when state="texgreek" output="\lambda "/>
+            <when state="tilde, icelandic" output="ø"/>
+            <when state="umlaut" output="ļ"/>
+            <when state="Я" output="є"/>
+        </action>
+        <action id="m">
+            <when state="none" output="m"/>
+            <when state="acute, common" output="ń"/>
+            <when state="circled" output="ⓜ"/>
+            <when state="combining" output="̲"/>
+            <when state="emoji" output="&#x1F625;"/>
+            <when state="greek" output="μ"/>
+            <when state="hat" output="ǔ"/>
+            <when state="ipavowel" output="ʌ"/>
+            <when state="keysims" output="↙"/>
+            <when state="math" output="⇔"/>
+            <when state="mathcal" output="&#x1D4C2;"/>
+            <when state="mathfonts" output="&#x1D67C;"/>
+            <when state="mathfrak" output="&#x1D52A;"/>
+            <when state="mathitalic" output="&#x1D45A;"/>
+            <when state="money, scripts" output="₥"/>
+            <when state="superscript" output="ᵐ"/>
+            <when state="symbols" output="☯"/>
+            <when state="tex" output="\Longleftrightarrow "/>
+            <when state="texgreek" output="\mu "/>
+            <when state="tilde, icelandic" output="CarpalxQ"/>
+            <when state="umlaut" output="ų"/>
+            <when state="Я" output="м"/>
+        </action>
+        <action id="n">
+            <when state="none" output="n"/>
+            <when state="IPA" output="ɕ"/>
+            <when state="acute, common" output="ñ"/>
+            <when state="circled" output="ⓝ"/>
+            <when state="combining" output="̃"/>
+            <when state="emoji" output="&#x1F608;"/>
+            <when state="grave" output="û"/>
+            <when state="greek" output="ν"/>
+            <when state="hat" output="ň"/>
+            <when state="ipavowel" output="ɜ"/>
+            <when state="keysims" output="←"/>
+            <when state="math" output="¬"/>
+            <when state="mathcal" output="&#x1D4C3;"/>
+            <when state="mathfonts" output="\mbffrakU"/>
+            <when state="mathfrak" output="&#x1D52B;"/>
+            <when state="mathitalic" output="&#x1D45B;"/>
+            <when state="money, scripts" output="₦"/>
+            <when state="superscript" output="ⁿ"/>
+            <when state="symbols" output="☜"/>
+            <when state="tex" output="\neg "/>
+            <when state="texgreek" output="\nu "/>
+            <when state="tilde, icelandic" output="ñ"/>
+            <when state="umlaut" output="ņ"/>
+            <when state="Я" output="н"/>
+        </action>
+        <action id="o">
+            <when state="none" output="o"/>
+            <when state="IPA" output="x"/>
+            <when state="acute, common" output="ó"/>
+            <when state="circled" output="ⓞ"/>
+            <when state="combining" output="̊"/>
+            <when state="emoji" output="&#x1F47C;"/>
+            <when state="grave" output="ò"/>
+            <when state="greek" output="ο"/>
+            <when state="hat" output="ô"/>
+            <when state="ipavowel" output="ɐ"/>
+            <when state="keysims" output="→"/>
+            <when state="math" output="∅"/>
+            <when state="mathcal" output="&#x1D4F8;"/>
+            <when state="mathfonts" output="\mathsfbf{"/>
+            <when state="mathfrak" output="&#x1D52C;"/>
+            <when state="mathitalic" output="&#x1D45C;"/>
+            <when state="superscript" output="ᵒ"/>
+            <when state="symbols" output="☞"/>
+            <when state="tex" output="\emptyset "/>
+            <when state="texgreek" output="o"/>
+            <when state="tilde, icelandic" output="õ"/>
+            <when state="umlaut" output="ö"/>
+            <when state="Я" output="о"/>
+        </action>
+        <action id="p">
+            <when state="none" output="p"/>
+            <when state="IPA" output="t̪"/>
+            <when state="acute, common" output="π"/>
+            <when state="circled" output="ⓟ"/>
+            <when state="combining" output="̉"/>
+            <when state="emoji" output="&#x1F632;"/>
+            <when state="greek" output="π"/>
+            <when state="hat" output="ḓ"/>
+            <when state="ipavowel" output="e"/>
+            <when state="math" output="⟂"/>
+            <when state="mathcal" output="&#x1D4C5;"/>
+            <when state="mathfonts" output="&#x1D4AB;"/>
+            <when state="mathfrak" output="&#x1D52D;"/>
+            <when state="mathitalic" output="&#x1D45D;"/>
+            <when state="money, scripts" output="£"/>
+            <when state="superscript" output="ᵖ"/>
+            <when state="symbols" output="☮"/>
+            <when state="tex" output="\bot"/>
+            <when state="texgreek" output="\pi "/>
+            <when state="umlaut" output="ş"/>
+            <when state="Я" output="п"/>
+        </action>
+        <action id="q">
+            <when state="none" output="q"/>
+            <when state="IPA" output="p"/>
+            <when state="acute, common" output="æ"/>
+            <when state="circled" output="ⓠ"/>
+            <when state="combining" output="̑"/>
+            <when state="emoji" output="&#x1F615;"/>
+            <when state="grave" output="â"/>
+            <when state="greek" output="θ"/>
+            <when state="hat" output="ă"/>
+            <when state="ipavowel" output="i"/>
+            <when state="keysims" output="⇥"/>
+            <when state="math" output="∴"/>
+            <when state="mathcal" output="&#x1D4C6;"/>
+            <when state="mathfonts" output="&#x1D42A;"/>
+            <when state="mathfrak" output="&#x1D52E;"/>
+            <when state="mathitalic" output="&#x1D45E;"/>
+            <when state="money, scripts" output="₧"/>
+            <when state="superscript" output="ᵃ"/>
+            <when state="symbols" output="♿"/>
+            <when state="tex" output="\therefore "/>
+            <when state="texgreek" output="\theta "/>
+            <when state="tilde, icelandic" output="≃"/>
+            <when state="umlaut" output="ą"/>
+            <when state="Я" output="я"/>
+        </action>
+        <action id="r">
+            <when state="none" output="r"/>
+            <when state="IPA" output="t"/>
+            <when state="acute, common" output="®"/>
+            <when state="circled" output="ⓡ"/>
+            <when state="combining" output="̅"/>
+            <when state="emoji" output="&#x1F633;"/>
+            <when state="greek" output="ρ"/>
+            <when state="hat" output="ř"/>
+            <when state="ipavowel" output="ø"/>
+            <when state="keysims" output="℞"/>
+            <when state="math" output="⊃"/>
+            <when state="mathcal" output="&#x1D4C7;"/>
+            <when state="mathfonts" output="&#x1D4E1;"/>
+            <when state="mathfrak" output="&#x1D52F;"/>
+            <when state="mathitalic" output="&#x1D45F;"/>
+            <when state="money, scripts" output="₹"/>
+            <when state="superscript" output="ʳ"/>
+            <when state="symbols" output="♲"/>
+            <when state="tex" output="\supset "/>
+            <when state="texgreek" output="\rho "/>
+            <when state="umlaut" output="ŗ"/>
+            <when state="Я" output="р"/>
+        </action>
+        <action id="s">
+            <when state="none" output="s"/>
+            <when state="IPA" output="f"/>
+            <when state="acute, common" output="ś"/>
+            <when state="circled" output="ⓢ"/>
+            <when state="combining" output="̵"/>
+            <when state="emoji" output="&#x1F62D;"/>
+            <when state="grave" output="ş"/>
+            <when state="greek" output="σ"/>
+            <when state="hat" output="š"/>
+            <when state="ipavowel" output="ʉ"/>
+            <when state="keysims" output="⎇"/>
+            <when state="math" output="∈"/>
+            <when state="mathcal" output="&#x1D4C8;"/>
+            <when state="mathfonts" output="\boldsymbol{"/>
+            <when state="mathfrak" output="&#x1D530;"/>
+            <when state="mathitalic" output="&#x1D460;"/>
+            <when state="money, scripts" output="₪"/>
+            <when state="superscript" output="ˢ"/>
+            <when state="symbols" output="✉"/>
+            <when state="tex" output="\in "/>
+            <when state="texgreek" output="\sigma "/>
+            <when state="tilde, icelandic" output="å"/>
+            <when state="umlaut" output="ß"/>
+            <when state="Я" output="с"/>
+        </action>
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="IPA" output="s"/>
+            <when state="acute, common" output="†"/>
+            <when state="circled" output="ⓣ"/>
+            <when state="combining" output="̄"/>
+            <when state="emoji" output="&#x1F61E;"/>
+            <when state="grave" output="ţ"/>
+            <when state="greek" output="τ"/>
+            <when state="hat" output="ť"/>
+            <when state="ipavowel" output="ɵ"/>
+            <when state="keysims" output="℁"/>
+            <when state="math" output="⊇"/>
+            <when state="mathcal" output="&#x1D4C9;"/>
+            <when state="mathfonts" output="\mbfscr{"/>
+            <when state="mathfrak" output="&#x1D531;"/>
+            <when state="mathitalic" output="&#x1D461;"/>
+            <when state="money, scripts" output="৳"/>
+            <when state="superscript" output="ᵗ"/>
+            <when state="symbols" output="☏"/>
+            <when state="tex" output="\supseteq "/>
+            <when state="texgreek" output="\tau "/>
+            <when state="tilde, icelandic" output="þ"/>
+            <when state="umlaut" output="ț"/>
+            <when state="Я" output="т"/>
+        </action>
+        <action id="u">
+            <when state="none" output="u"/>
+            <when state="acute, common" output="ú"/>
+            <when state="circled" output="ⓤ"/>
+            <when state="combining" output="̈"/>
+            <when state="emoji" output="&#x1F61C;"/>
+            <when state="grave" output="ù"/>
+            <when state="greek" output="υ"/>
+            <when state="hat" output="û"/>
+            <when state="ipavowel" output="ɛ"/>
+            <when state="keysims" output="↖"/>
+            <when state="math" output="∪"/>
+            <when state="mathcal" output="&#x1D4CA;"/>
+            <when state="mathfonts" output="&#x1D580;"/>
+            <when state="mathfrak" output="&#x1D532;"/>
+            <when state="mathitalic" output="&#x1D462;"/>
+            <when state="money, scripts" output="$"/>
+            <when state="superscript" output="ᵘ"/>
+            <when state="symbols" output="✍"/>
+            <when state="tex" output="\cup "/>
+            <when state="texgreek" output="\upsilon "/>
+            <when state="tilde, icelandic" output="ů"/>
+            <when state="umlaut" output="ü"/>
+            <when state="Я" output="ш"/>
+        </action>
+        <action id="v">
+            <when state="none" output="v"/>
+            <when state="IPA" output="ˑ"/>
+            <when state="acute, common" output="√"/>
+            <when state="circled" output="ⓥ"/>
+            <when state="combining" output="̌"/>
+            <when state="emoji" output="&#x1F62A;"/>
+            <when state="greek" output="ν"/>
+            <when state="hat" output="ĉ"/>
+            <when state="ipavowel" output="o"/>
+            <when state="keysims" output="℆"/>
+            <when state="math" output="∨"/>
+            <when state="mathcal" output="&#x1D4CB;"/>
+            <when state="mathfonts" output="\mathcal{"/>
+            <when state="mathfrak" output="&#x1D533;"/>
+            <when state="mathitalic" output="&#x1D463;"/>
+            <when state="money, scripts" output="৳"/>
+            <when state="superscript" output="ᵛ"/>
+            <when state="symbols" output="☥"/>
+            <when state="tex" output="\lor "/>
+            <when state="texgreek" output="\nu "/>
+            <when state="tilde, icelandic" output="2013"/>
+            <when state="umlaut" output="ț"/>
+            <when state="Я" output="в"/>
+        </action>
+        <action id="w">
+            <when state="none" output="w"/>
+            <when state="IPA" output="p̪"/>
+            <when state="acute, common" output="±"/>
+            <when state="circled" output="ⓦ"/>
+            <when state="combining" output="̆"/>
+            <when state="emoji" output="&#x1F624;"/>
+            <when state="grave" output="æ"/>
+            <when state="greek" output="ω"/>
+            <when state="hat" output="ŵ"/>
+            <when state="ipavowel" output="y"/>
+            <when state="mathcal" output="&#x1D4CC;"/>
+            <when state="mathfonts" output="&#x1D498;"/>
+            <when state="mathfrak" output="&#x1D534;"/>
+            <when state="mathitalic" output="&#x1D464;"/>
+            <when state="money, scripts" output="₩"/>
+            <when state="superscript" output="ᵂ"/>
+            <when state="symbols" output="☕"/>
+            <when state="texgreek" output="\omega "/>
+            <when state="tilde, icelandic" output="æ"/>
+            <when state="umlaut" output="ẅ"/>
+            <when state="Я" output="ж"/>
+        </action>
+        <action id="x">
+            <when state="none" output="x"/>
+            <when state="IPA" output="ˌ"/>
+            <when state="acute, common" output="×"/>
+            <when state="circled" output="ⓧ"/>
+            <when state="combining" output="̽"/>
+            <when state="emoji" output="&#x1F614;"/>
+            <when state="greek" output="χ"/>
+            <when state="hat" output="ŝ"/>
+            <when state="ipavowel" output="u"/>
+            <when state="keysims" output="⌘"/>
+            <when state="math" output="×"/>
+            <when state="mathcal" output="&#x1D4CD;"/>
+            <when state="mathfrak" output="&#x1D535;"/>
+            <when state="mathitalic" output="&#x1D465;"/>
+            <when state="money, scripts" output="₢"/>
+            <when state="superscript" output="ˣ"/>
+            <when state="symbols" output="⚚"/>
+            <when state="tex" output="\times "/>
+            <when state="texgreek" output="\chi "/>
+            <when state="tilde, icelandic" output="©̸"/>
+            <when state="umlaut" output="ș"/>
+            <when state="Я" output="х"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="acute, common" output="γ"/>
+            <when state="circled" output="ⓨ"/>
+            <when state="combining" output="̂"/>
+            <when state="emoji" output="&#x1F636;"/>
+            <when state="greek" output="ψ"/>
+            <when state="hat" output="ŷ"/>
+            <when state="ipavowel" output="o̞"/>
+            <when state="keysims" output="⌅"/>
+            <when state="math" output="⊤"/>
+            <when state="mathcal" output="&#x1D4CE;"/>
+            <when state="mathfonts" output="&#x1D550;"/>
+            <when state="mathfrak" output="&#x1D536;"/>
+            <when state="mathitalic" output="&#x1D466;"/>
+            <when state="money, scripts" output="¥"/>
+            <when state="superscript" output="ʸ"/>
+            <when state="tex" output="\top"/>
+            <when state="texgreek" output="\psi "/>
+            <when state="umlaut" output="ÿ"/>
+            <when state="Я" output="и"/>
+        </action>
+        <action id="z">
+            <when state="none" output="z"/>
+            <when state="IPA" output="ˈ"/>
+            <when state="acute, common" output="ź"/>
+            <when state="circled" output="ⓩ"/>
+            <when state="combining" output="͛"/>
+            <when state="emoji" output="&#x1F628;"/>
+            <when state="grave" output="ż"/>
+            <when state="greek" output="ζ"/>
+            <when state="hat" output="ž"/>
+            <when state="ipavowel" output="ɯ"/>
+            <when state="keysims" output="⇪"/>
+            <when state="math" output="℞"/>
+            <when state="mathcal" output="&#x1D4CF;"/>
+            <when state="mathfrak" output="&#x1D537;"/>
+            <when state="mathitalic" output="&#x1D467;"/>
+            <when state="money, scripts" output="₠"/>
+            <when state="superscript" output="ᶻ"/>
+            <when state="symbols" output="⚕"/>
+            <when state="texgreek" output="\zeta "/>
+            <when state="tilde, icelandic" output="ↄ⃝"/>
+            <when state="umlaut" output="ż"/>
+            <when state="Я" output="з"/>
+        </action>
+        <action id="{">
+            <when state="none" output="{"/>
+            <when state="IPA" output="ʄ"/>
+            <when state="acute, common" output="©"/>
+            <when state="circled" output="⓷"/>
+            <when state="combining" output="͑"/>
+            <when state="emoji" output="&#x1F36A;"/>
+            <when state="greek" output="\xi"/>
+            <when state="hat" output="ĉ"/>
+            <when state="math" output="⊈"/>
+            <when state="mathitalic" output="&#x1D484;"/>
+            <when state="symbols" output="⚙"/>
+            <when state="tex" output="\not\subseteq "/>
+            <when state="umlaut" output="ç"/>
+        </action>
+        <action id="{ 1">
+            <when state="none" output="{"/>
+            <when state="math" output="̄"/>
+            <when state="tex" output="\bar{"/>
+        </action>
+        <action id="{:1">
+            <when state="none" output="{"/>
+            <when state="combining" output="⃔"/>
+            <when state="emoji" output="&#x1F63B;"/>
+            <when state="keysims" output="↤"/>
+            <when state="math" output="̂"/>
+            <when state="symbols" output="&#x1F6BE;"/>
+            <when state="tex" output="\hat{"/>
+        </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="IPA" output="ʡ̯"/>
+            <when state="acute, common" output="¦"/>
+            <when state="combining" output="⃦"/>
+            <when state="emoji" output="&#x1F422;"/>
+            <when state="hat" output="̌"/>
+            <when state="hyphen" output="¦"/>
+            <when state="keysims" output="↹"/>
+            <when state="math" output="⃑"/>
+            <when state="symbols" output="⟿"/>
+            <when state="tex" output="\vec{"/>
+            <when state="tilde, icelandic" output="̊"/>
+            <when state="umlaut" output="̡"/>
+        </action>
+        <action id="|:1">
+            <when state="none" output="|"/>
+            <when state="IPA" output="ɠ"/>
+            <when state="acute, common" output="⚭"/>
+            <when state="circled" output="⓹"/>
+            <when state="emoji" output="&#x1F37A;"/>
+            <when state="greek" output="\beta"/>
+            <when state="hat" output="b̌"/>
+            <when state="math" output="⌡"/>
+            <when state="mathitalic" output="&#x1D483;"/>
+            <when state="symbols" output="⚗"/>
+        </action>
+        <action id="}">
+            <when state="none" output="}"/>
+            <when state="IPA" output="ᶑ"/>
+            <when state="circled" output="⓸"/>
+            <when state="emoji" output="&#x1F37C;"/>
+            <when state="greek" output="\nu"/>
+            <when state="hat" output="č"/>
+            <when state="mathitalic" output="&#x1D497;"/>
+            <when state="symbols" output="⚖"/>
+            <when state="umlaut" output="ț"/>
+        </action>
+        <action id="} 1">
+            <when state="none" output="}"/>
+            <when state="math" output="⃑"/>
+            <when state="tex" output="\vec{"/>
+        </action>
+        <action id="}:1">
+            <when state="none" output="}"/>
+            <when state="IPA" output="ʡ"/>
+            <when state="combining" output="⃕"/>
+            <when state="emoji" output="&#x1F63D;"/>
+            <when state="keysims" output="↦"/>
+            <when state="math" output="̄"/>
+            <when state="symbols" output="&#x1F6BF;"/>
+            <when state="tex" output="\bar{"/>
+        </action>
+        <action id="~">
+            <when state="none" output="◕‿↼"/>
+            <when state="acute, common" output="⅒"/>
+            <when state="circled" output="⓿"/>
+            <when state="combining" output="⃪"/>
+            <when state="hat" output="⁾"/>
+            <when state="hyphen" output="Ø"/>
+            <when state="ipavowel" output="ɣ"/>
+            <when state="math" output="）"/>
+            <when state="money, scripts" output="ಸ"/>
+            <when state="superscript" output="₎ "/>
+            <when state="symbols" output="♺"/>
+        </action>
+        <action id="~ 1">
+            <when state="none" output="+"/>
+            <when state="math" output="͞"/>
+            <when state="superscript" output="⁺"/>
+            <when state="tex" output="\widebar{"/>
+        </action>
+        <action id="~:1">
+            <when state="none" output="¯\_(ツ)_/¯"/>
+            <when state="IPA" output="ʎ̟"/>
+            <when state="circled" output="⓱"/>
+            <when state="hyphen" output="Ū"/>
+            <when state="ipavowel" output="ʌ"/>
+            <when state="keysims" output="⏏"/>
+            <when state="math" output="【"/>
+            <when state="money, scripts" output="ଔ"/>
+            <when state="symbols" output="♹"/>
+        </action>
+        <action id="~:2">
+            <when state="none" output="﴾͡๏̯͡๏﴿"/>
+            <when state="acute, common" output="⅔"/>
+            <when state="circled" output="⓭"/>
+            <when state="greek" output="ℿ"/>
+            <when state="hyphen" output="&#x1F634;"/>
+            <when state="ipavowel" output="ɪ̈"/>
+            <when state="keysims" output="▸"/>
+            <when state="math" output="❨"/>
+            <when state="money, scripts" output="ॐ"/>
+            <when state="symbols" output="♵"/>
+        </action>
+        <action id="~:3">
+            <when state="none" output="(० ्०)"/>
+            <when state="circled" output="⓫"/>
+            <when state="hat" output="ᵎ"/>
+            <when state="hyphen" output="&#x1F636;"/>
+            <when state="ipavowel" output="ɪ"/>
+            <when state="keysims" output="&#x001B;"/>
+            <when state="math" output="《"/>
+            <when state="money, scripts" output="ג"/>
+            <when state="symbols" output="♳"/>
+        </action>
+        <action id="~:4">
+            <when state="none" output="ʕ•ᴥ•ʔ"/>
+            <when state="IPA" output="ʟ"/>
+            <when state="acute, common" output="⅛"/>
+            <when state="circled" output="⓳"/>
+            <when state="combining" output="⃡"/>
+            <when state="hat" output="⁽"/>
+            <when state="hyphen" output="Ō"/>
+            <when state="ipavowel" output="ɞ"/>
+            <when state="keysims" output="◂"/>
+            <when state="math" output="（"/>
+            <when state="money, scripts" output="ఠ"/>
+            <when state="superscript" output="₍"/>
+            <when state="symbols" output="♽"/>
+        </action>
+        <action id="~:5">
+            <when state="none" output="^"/>
+            <when state="IPA" output="ɬ̢"/>
+            <when state="acute, common" output="→"/>
+            <when state="circled" output="⓺"/>
+            <when state="combining" output="̪"/>
+            <when state="emoji" output="&#x1F4B0;"/>
+            <when state="greek" output="\varsigma"/>
+            <when state="hat" output="ǰ"/>
+            <when state="math" output="⊎"/>
+            <when state="mathitalic" output="&#x1D48B;"/>
+            <when state="symbols" output="⚘"/>
+            <when state="umlaut" output="y̨"/>
+        </action>
+        <action id="~:6">
+            <when state="none" output="~"/>
+        </action>
+        <action id="~:7">
+            <when state="none" output="٩◔̯◔۶"/>
+            <when state="circled" output="⓬"/>
+            <when state="greek" output="⅀"/>
+            <when state="hyphen" output="&#x1F632;"/>
+            <when state="ipavowel" output="ʏ"/>
+            <when state="keysims" output="⇤"/>
+            <when state="math" output="》"/>
+            <when state="money, scripts" output="ب"/>
+            <when state="symbols" output="♴"/>
+        </action>
+        <action id="~:8">
+            <when state="none" output="ლ(ಠ益ಠლ)"/>
+            <when state="IPA" output="l"/>
+            <when state="acute, common" output="¾"/>
+            <when state="circled" output="⓮"/>
+            <when state="hyphen" output="&#x1F633;"/>
+            <when state="ipavowel" output="ʊ̈"/>
+            <when state="keysims" output="❙❙"/>
+            <when state="math" output="❩"/>
+            <when state="money, scripts" output="অ"/>
+            <when state="symbols" output="♶"/>
+        </action>
+        <action id="~:9">
+            <when state="none" output="ಠ_ಠ"/>
+            <when state="circled" output="⓯"/>
+            <when state="greek" output="ℾ"/>
+            <when state="hyphen" output="&#x1F62F;"/>
+            <when state="keysims" output="⏪"/>
+            <when state="math" output="︷"/>
+            <when state="money, scripts" output="ਙ"/>
+            <when state="symbols" output="♷"/>
+        </action>
+        <action id="~:10">
+            <when state="none" output="ᕙ(⇀‸↼‶)ᕗ"/>
+            <when state="IPA" output="ɭ"/>
+            <when state="circled" output="⓰"/>
+            <when state="hyphen" output="&#x1F625;"/>
+            <when state="ipavowel" output="ʊ"/>
+            <when state="keysims" output="⏩"/>
+            <when state="math" output="︸"/>
+            <when state="money, scripts" output="ૐ"/>
+            <when state="symbols" output="♸"/>
+        </action>
+        <action id="~:11">
+            <when state="none" output="(͡° ͜ʖ ͡°)"/>
+            <when state="IPA" output="ʎ"/>
+            <when state="acute, common" output="א"/>
+            <when state="circled" output="⓲"/>
+            <when state="hyphen" output="Ī"/>
+            <when state="ipavowel" output="ɪ"/>
+            <when state="keysims" output="⌅"/>
+            <when state="math" output="】"/>
+            <when state="money, scripts" output="ஆ"/>
+            <when state="symbols" output="♼"/>
+        </action>
+        <action id="¡">
+            <when state="none" output="¡"/>
+            <when state="IPA" output="↗"/>
+            <when state="circled" output="➊"/>
+            <when state="emoji" output="&#x1F4F1;"/>
+            <when state="hat" output="¹"/>
+            <when state="math" output="∮"/>
+            <when state="superscript" output="₁"/>
+            <when state="symbols" output="☸"/>
+            <when state="tex" output="\oint "/>
+        </action>
+        <action id="¡:1">
+            <when state="none" output="≥"/>
+            <when state="IPA" output="ʟ̆"/>
+            <when state="combining" output="⃨"/>
+            <when state="greek" output="I"/>
+            <when state="hat" output="Ǐ"/>
+            <when state="ipavowel" output="ɑ"/>
+            <when state="keysims" output="↘"/>
+            <when state="math" output="⋱"/>
+            <when state="symbols" output="⚆"/>
+            <when state="tex" output="\ddots "/>
+        </action>
+        <action id="¢">
+            <when state="none" output="¢"/>
+            <when state="IPA" output="l̥"/>
+            <when state="acute, common" output="¼"/>
+            <when state="circled" output="➍"/>
+            <when state="emoji" output="&#x1F3AC;"/>
+            <when state="hat" output="⁴"/>
+            <when state="math" output="⧦"/>
+            <when state="superscript" output="₄"/>
+            <when state="symbols" output="⚜"/>
+        </action>
+        <action id="£">
+            <when state="none" next="tilde, icelandic"/>
+            <when state="IPA" output="ʟ̝"/>
+            <when state="acute, common" output="Ę"/>
+            <when state="hyphen" output="Ł"/>
+            <when state="ipavowel" output="a"/>
+            <when state="math" output="∟"/>
+            <when state="money, scripts" output="Ꮂ"/>
+            <when state="symbols" output="⚀"/>
+        </action>
+        <action id="£₹⌥⇧, ℚ℘; ₳esc, ॐ:2">
+            <when state="none" output="£"/>
+            <when state="IPA" output="ɽ͡r"/>
+            <when state="greek" output="H"/>
+            <when state="hat" output="Ȟ"/>
+            <when state="ipavowel" output="ə"/>
+            <when state="keysims" output="⟲"/>
+            <when state="math" output="⎬"/>
+            <when state="money, scripts" output="ლ"/>
+            <when state="symbols" output="♙"/>
+            <when state="tex" output="\right\} "/>
+        </action>
+        <action id="¥">
+            <when state="none" next="superscript"/>
+            <when state="combining" output="͊"/>
+            <when state="greek" output="\Phi"/>
+            <when state="hat" output="F̌"/>
+            <when state="ipavowel" output="e̞"/>
+            <when state="math" output="⎧"/>
+            <when state="money, scripts" output="࿋"/>
+            <when state="superscript" next="Я"/>
+            <when state="symbols" output="♢"/>
+        </action>
+        <action id="§">
+            <when state="none" output="§"/>
+            <when state="acute, common" output="⅕"/>
+            <when state="circled" output="➎"/>
+            <when state="emoji" output="&#x1F5FF;"/>
+            <when state="greek" output="ℽ"/>
+            <when state="hat" output="⁵"/>
+            <when state="math" output="≬"/>
+            <when state="superscript" output="₅"/>
+            <when state="symbols" output="☘"/>
+        </action>
+        <action id="ª">
+            <when state="none" output="ª"/>
+            <when state="acute, common" output="⅑"/>
+            <when state="circled" output="➒"/>
+            <when state="combining" output="⃡"/>
+            <when state="emoji" output="⚠"/>
+            <when state="hat" output="⁹"/>
+            <when state="hyphen" output="ō"/>
+            <when state="math" output="↖"/>
+            <when state="superscript" output="₉"/>
+            <when state="symbols" output="❀"/>
+            <when state="tex" output="\nwarrow "/>
+            <when state="umlaut" output="ő"/>
+        </action>
+        <action id="«">
+            <when state="none" output="«"/>
+            <when state="greek" output="\Pi"/>
+            <when state="ipavowel" output="e"/>
+            <when state="math" output="⎛"/>
+            <when state="money, scripts" output="ໂ"/>
+            <when state="symbols" output="⛅"/>
+            <when state="tex" output="\left"/>
+        </action>
+        <action id="¬">
+            <when state="none" output="¬"/>
+            <when state="acute, common" output="⅐"/>
+            <when state="circled" output="➐"/>
+            <when state="emoji" output="&#x1F6A6;"/>
+            <when state="hat" output="⁷"/>
+            <when state="hyphen" output="ū"/>
+            <when state="math" output="⊍"/>
+            <when state="money, scripts" output="⅋"/>
+            <when state="superscript" output="₇"/>
+            <when state="symbols" output="❤"/>
+            <when state="umlaut" output="ű"/>
+        </action>
+        <action id="±">
+            <when state="none" output="±"/>
+            <when state="acute, common" output="⊕"/>
+            <when state="combining" output="⃯"/>
+            <when state="hat" output="⁺"/>
+            <when state="ipavowel" output="ʁ"/>
+            <when state="keysims" output="⌫"/>
+            <when state="math" output="≗"/>
+            <when state="money, scripts" output="ඣ"/>
+            <when state="superscript" output="₊"/>
+            <when state="symbols" output="♾"/>
+            <when state="tilde, icelandic" output="≇"/>
+        </action>
+        <action id="±:1">
+            <when state="none" next="symbols"/>
+            <when state="greek" output="\Sigma"/>
+            <when state="hat" output="Ŝ"/>
+            <when state="hyphen" output="Ō"/>
+            <when state="ipavowel" output="ʉ"/>
+            <when state="keysims" output="⎇"/>
+            <when state="math" output="⎥"/>
+            <when state="money, scripts" output="ᠧ"/>
+            <when state="symbols" output="♕"/>
+            <when state="tex" output="\right] "/>
+            <when state="Я" output="С"/>
+        </action>
+        <action id="º">
+            <when state="none" output="º"/>
+            <when state="acute, common" output="∅"/>
+            <when state="circled" output="➓"/>
+            <when state="combining" output="⃪"/>
+            <when state="emoji" output="&#x1F33B;"/>
+            <when state="hat" output="⁰"/>
+            <when state="hyphen" output="ø"/>
+            <when state="math" output="↙"/>
+            <when state="money, scripts" output="&#x000A;"/>
+            <when state="superscript" output="₀"/>
+            <when state="symbols" output="✿"/>
+            <when state="tex" output="\swarrow "/>
+        </action>
+        <action id="»">
+            <when state="none" output="»"/>
+            <when state="IPA" output="ɮ"/>
+            <when state="combining" output="̿"/>
+            <when state="greek" output="R"/>
+            <when state="hat" output="Ř"/>
+            <when state="hyphen" output="Ū"/>
+            <when state="ipavowel" output="ø"/>
+            <when state="math" output="⎞"/>
+            <when state="money, scripts" output="༼ ༽"/>
+            <when state="superscript" output=" "/>
+            <when state="symbols" output="☔"/>
+            <when state="tex" output="\right"/>
+        </action>
+        <action id="¿">
+            <when state="none" output="¿"/>
+            <when state="acute, common" output="‽"/>
+            <when state="combining" output="⃫"/>
+            <when state="greek" output="O"/>
+            <when state="hat" output="Ô"/>
+            <when state="ipavowel" output="ɒ"/>
+            <when state="keysims" output="⇧"/>
+            <when state="math" output="⋯"/>
+            <when state="money, scripts" output="Ω"/>
+            <when state="symbols" output="⚇"/>
+            <when state="tex" output="\cdots "/>
+        </action>
+        <action id="áźñüç; ©∈∧:3">
+            <when state="none" next="acute, common"/>
+            <when state="emoji" output="&#x1F332;"/>
+            <when state="greek" output="\epsilon"/>
+            <when state="hat" output="ě"/>
+            <when state="hyphen" output="ē"/>
+            <when state="math" output="⩐"/>
+            <when state="mathitalic" output="&#x1D486;"/>
+            <when state="symbols" output="⛃"/>
+            <when state="umlaut" output="ë"/>
+        </action>
+        <action id="âš; ᵃᴬ:1">
+            <when state="none" next="money, scripts"/>
+            <when state="IPA" output="ɺ̠"/>
+            <when state="greek" output="\Psi"/>
+            <when state="ipavowel" output="ø̞"/>
+            <when state="math" output="⎫"/>
+            <when state="money, scripts" output="ဤ"/>
+            <when state="symbols" output="♡"/>
+        </action>
+        <action id="ãåð ↄ⃝ ;  ⓐⒶ:1">
+            <when state="none" next="hat"/>
+            <when state="combining" output="⃩"/>
+            <when state="greek" output="⅀"/>
+            <when state="hat" output="J̌"/>
+            <when state="hyphen" output="&#x1F612;"/>
+            <when state="ipavowel" output="o̞"/>
+            <when state="math" output="⎭"/>
+            <when state="money, scripts" output="Ψ"/>
+            <when state="symbols" output="⚰"/>
+        </action>
+        <action id="Ω">
+            <when state="none" next="emoji"/>
+            <when state="greek" output="\Omega"/>
+            <when state="hat" output="Ŵ"/>
+            <when state="hyphen" output="Ł"/>
+            <when state="ipavowel" output="y"/>
+            <when state="keysims" output="&#x0003;"/>
+            <when state="math" output="⎤"/>
+            <when state="mathfonts" next="mathitalic"/>
+            <when state="money, scripts" output="ด"/>
+            <when state="symbols" output="⛈"/>
+            <when state="tex" output="\rceil "/>
+            <when state="Я" output="Ж"/>
+        </action>
+        <action id="Г">
+            <when state="none" output="Г"/>
+        </action>
+        <action id="࿓">
+            <when state="none" output="≤"/>
+            <when state="IPA" output="ʎ̯"/>
+            <when state="greek" output="N"/>
+            <when state="hat" output="Ň"/>
+            <when state="hyphen" output="&#x1F61E;"/>
+            <when state="ipavowel" output="ɔ"/>
+            <when state="keysims" output="⇟"/>
+            <when state="math" output="⋮"/>
+            <when state="symbols" output="⚛"/>
+            <when state="tex" output="\vdots "/>
+        </action>
+        <action id="ဪ">
+            <when state="none" next="greek"/>
+            <when state="combining" output="̳"/>
+            <when state="greek" next="texgreek"/>
+            <when state="hat" output="Ğ"/>
+            <when state="ipavowel" output="ə"/>
+            <when state="math" output="⎨"/>
+            <when state="money, scripts" output="Γ"/>
+            <when state="symbols" output="♘"/>
+            <when state="tex" output="\left\{ "/>
+        </action>
+        <action id="—">
+            <when state="none" output="¡"/>
+            <when state="IPA" output="˦"/>
+            <when state="circled" output="⓼"/>
+            <when state="combining" output="͖"/>
+            <when state="emoji" output="&#x1F340;"/>
+            <when state="greek" output="\nu"/>
+            <when state="hat" output="ň"/>
+            <when state="hyphen" output="=&#x003E;"/>
+            <when state="math" output="≺"/>
+            <when state="symbols" output="⟾"/>
+            <when state="tex" output="\preq "/>
+            <when state="umlaut" output="į"/>
+        </action>
+        <action id="—:1">
+            <when state="none" output="—"/>
+            <when state="combining" output="⃖"/>
+            <when state="emoji" output="&#x1F333;"/>
+            <when state="math" output="↘"/>
+            <when state="superscript" output="₋"/>
+            <when state="symbols" output="☆"/>
+            <when state="tex" output="\searrow "/>
+        </action>
+        <action id="‖">
+            <when state="none" next="mathfonts"/>
+            <when state="greek" output="B"/>
+            <when state="hat" output="B̌"/>
+            <when state="hyphen" output="&#x1F614;"/>
+            <when state="ipavowel" output="ɤ̞"/>
+            <when state="math" output="⎩"/>
+            <when state="mathfonts" next="mathfrak"/>
+            <when state="mathfrak" next="mathitalic"/>
+            <when state="symbols" output="⚡"/>
+        </action>
+        <action id="‗">
+            <when state="none" output="‗"/>
+            <when state="combining" output="⃮"/>
+            <when state="hat" output="⁻"/>
+            <when state="ipavowel" output="χ"/>
+            <when state="math" output="≞"/>
+            <when state="money, scripts" output="ഋ"/>
+            <when state="symbols" output="⛁"/>
+        </action>
+        <action id="‘">
+            <when state="none" output="‘"/>
+            <when state="IPA" output="ɥ"/>
+            <when state="combining" output="⃑"/>
+            <when state="emoji" output="&#x1F335;"/>
+            <when state="greek" output="\kappa"/>
+            <when state="hat" output="ǩ"/>
+            <when state="hyphen" output="ī"/>
+            <when state="math" output="⟧"/>
+            <when state="symbols" output="✦"/>
+            <when state="tex" output="\rrbracket "/>
+        </action>
+        <action id="’">
+            <when state="none" output="’"/>
+            <when state="combining" output="⃬"/>
+            <when state="greek" output="K"/>
+            <when state="hat" output="Ǩ"/>
+            <when state="hyphen" output="Ī"/>
+            <when state="ipavowel" output="ɵ"/>
+            <when state="keysims" output="⌦"/>
+            <when state="math" output="﹇"/>
+            <when state="money, scripts" output="ᚉ"/>
+            <when state="symbols" output="⚂"/>
+        </action>
+        <action id="“">
+            <when state="none" output="“"/>
+            <when state="greek" output="\Delta"/>
+            <when state="hat" output="Ḓ"/>
+            <when state="hyphen" output="Ī"/>
+            <when state="ipavowel" output="ɘ"/>
+            <when state="math" output="⎜"/>
+            <when state="money, scripts" output="⠧"/>
+            <when state="symbols" output="♖"/>
+            <when state="tex" output="\left( "/>
+        </action>
+        <action id="“:1">
+            <when state="none" output=":"/>
+            <when state="IPA" output="ʍ"/>
+            <when state="combining" output="⃐"/>
+            <when state="emoji" output="&#x1F331;"/>
+            <when state="greek" output="\upsilon"/>
+            <when state="hat" output="ǔ"/>
+            <when state="hyphen" output="ū"/>
+            <when state="math" output="⟦"/>
+            <when state="symbols" output="✧"/>
+            <when state="tex" output="\llbracket"/>
+        </action>
+        <action id="”">
+            <when state="none" output="”"/>
+            <when state="IPA" output="r"/>
+            <when state="acute, common" output="‡"/>
+            <when state="greek" output="T"/>
+            <when state="hat" output="Ť"/>
+            <when state="ipavowel" output="ɵ"/>
+            <when state="math" output="⎟"/>
+            <when state="money, scripts" output="&#x10426;"/>
+            <when state="symbols" output="♗"/>
+            <when state="tex" output="\right) "/>
+        </action>
+        <action id="”:1">
+            <when state="none" output="¥"/>
+            <when state="IPA" output="w"/>
+            <when state="combining" output="⃭"/>
+            <when state="greek" output="\Upsilon"/>
+            <when state="hat" output="Ǔ"/>
+            <when state="hyphen" output="Ū"/>
+            <when state="ipavowel" output="ɶ"/>
+            <when state="keysims" output="⎋"/>
+            <when state="math" output="︵"/>
+            <when state="money, scripts" output="ᕬ"/>
+            <when state="symbols" output="⚁"/>
+        </action>
+        <action id="„">
+            <when state="none" output="„"/>
+            <when state="IPA" output="ɧ"/>
+            <when state="combining" output="⃒"/>
+            <when state="emoji" output="&#x1F330;"/>
+            <when state="greek" output="\lambda"/>
+            <when state="hat" output="̆"/>
+            <when state="hyphen" output="ō"/>
+            <when state="math" output="⧹"/>
+            <when state="symbols" output="✨"/>
+            <when state="umlaut" output="̈"/>
+        </action>
+        <action id="‟">
+            <when state="none" output="‟"/>
+            <when state="IPA" output="ʟ̝"/>
+            <when state="combining" output="⃓"/>
+            <when state="greek" output="\Lambda"/>
+            <when state="hyphen" output="Ō"/>
+            <when state="ipavowel" output="ø"/>
+            <when state="keysims" output="⌽"/>
+            <when state="math" output="﹈"/>
+            <when state="money, scripts" output="Λ"/>
+            <when state="symbols" output="⚃"/>
+        </action>
+        <action id="•">
+            <when state="none" output="•"/>
+            <when state="IPA" output="ʎ̝̊"/>
+            <when state="acute, common" output="∞"/>
+            <when state="circled" output="➑"/>
+            <when state="emoji" output="&#x1F6A5;"/>
+            <when state="hat" output="⁸"/>
+            <when state="hyphen" output="ī"/>
+            <when state="math" output="⧝"/>
+            <when state="superscript" output="₈"/>
+            <when state="symbols" output="✨"/>
+        </action>
+        <action id="…">
+            <when state="none" output="…"/>
+            <when state="IPA" output="↘"/>
+            <when state="acute, common" output="½"/>
+            <when state="circled" output="➋"/>
+            <when state="emoji" output="&#x1F4BB;"/>
+            <when state="hat" output="²"/>
+            <when state="math" output="∯"/>
+            <when state="money, scripts" output="&#x0002;"/>
+            <when state="superscript" output="₂"/>
+            <when state="symbols" output="❁"/>
+            <when state="tex" output="\oiint "/>
+            <when state="umlaut" output="ş"/>
+        </action>
+        <action id="‰">
+            <when state="none" output="‰"/>
+            <when state="acute, common" output="Ż"/>
+            <when state="greek" output="Z"/>
+            <when state="hat" output="Ž"/>
+            <when state="hyphen" output="&#x1F61D;"/>
+            <when state="ipavowel" output="ɯ"/>
+            <when state="keysims" output="⇪"/>
+            <when state="math" output="⎣"/>
+            <when state="money, scripts" output="&#x1F30D;"/>
+            <when state="symbols" output="☠"/>
+            <when state="tex" output="\lfloor "/>
+            <when state="Я" output="З"/>
+        </action>
+        <action id="※">
+            <when state="none" next="keysims"/>
+            <when state="combining" output="⃰"/>
+            <when state="greek" output="X"/>
+            <when state="hat" output="Š"/>
+            <when state="hyphen" output="&#x1F621;"/>
+            <when state="ipavowel" output="u"/>
+            <when state="keysims" output="⌘"/>
+            <when state="math" output="⎦"/>
+            <when state="money, scripts" output="&#x1F30E;"/>
+            <when state="symbols" output="☢"/>
+            <when state="tex" output="\rfloor "/>
+            <when state="Я" output="Х"/>
+        </action>
+        <action id="€">
+            <when state="none" output="€"/>
+            <when state="IPA" output="ʀ"/>
+            <when state="greek" output="E"/>
+            <when state="hat" output="Ě"/>
+            <when state="hyphen" output="Ē"/>
+            <when state="ipavowel" output="ɐ"/>
+            <when state="keysims" output="&#x0005;"/>
+            <when state="math" output="⋰"/>
+            <when state="money, scripts" output="ᅗ"/>
+            <when state="symbols" output="⚄"/>
+            <when state="tex" output="\udots "/>
+        </action>
+        <action id="№">
+            <when state="none" output="№"/>
+            <when state="acute, common" output="⅓"/>
+            <when state="circled" output="➌"/>
+            <when state="emoji" output="&#x1F3A5;"/>
+            <when state="greek" output="ℼ"/>
+            <when state="hat" output="³"/>
+            <when state="math" output="∰"/>
+            <when state="superscript" output="₃"/>
+            <when state="symbols" output="☄"/>
+            <when state="tex" output="\oiiint "/>
+        </action>
+        <action id="≠">
+            <when state="none" next="circled"/>
+            <when state="acute, common" output="Ą"/>
+            <when state="circled" next="mathcal"/>
+            <when state="combining" output="⃙"/>
+            <when state="greek" output="\Theta"/>
+            <when state="ipavowel" output="i"/>
+            <when state="keysims" output="⇥"/>
+            <when state="math" output="⎡"/>
+            <when state="money, scripts" output="Չ"/>
+            <when state="symbols" output="⛄"/>
+            <when state="tex" output="\lceil "/>
+            <when state="Я" output="Я"/>
+        </action>
+        <action id="≠:1">
+            <when state="none" output="≠"/>
+            <when state="acute, common" output="≡"/>
+            <when state="combining" output="⃗"/>
+            <when state="emoji" output="&#x1F33F;"/>
+            <when state="hat" output="⁼"/>
+            <when state="hyphen" output="≠"/>
+            <when state="math" output="↗"/>
+            <when state="superscript" output="₌"/>
+            <when state="symbols" output="★"/>
+            <when state="tex" output="\nearrow "/>
+            <when state="tilde, icelandic" output="≉"/>
+        </action>
+        <action id="≤">
+            <when state="none" next="IPA"/>
+            <when state="combining" output="͑"/>
+            <when state="greek" output="\Xi"/>
+            <when state="hat" output="Ĉ"/>
+            <when state="hyphen" output="&#x1F624;"/>
+            <when state="ipavowel" output="ɤ"/>
+            <when state="math" output="⎝"/>
+            <when state="money, scripts" output="&#x1F30F;"/>
+            <when state="symbols" output="☣"/>
+        </action>
+        <action id="≥">
+            <when state="none" next="ipavowel"/>
+            <when state="IPA" output="ɺ"/>
+            <when state="greek" output="N"/>
+            <when state="hat" output="Č"/>
+            <when state="hyphen" output="&#x1F628;"/>
+            <when state="ipavowel" output="o"/>
+            <when state="math" output="⎠"/>
+            <when state="money, scripts" output="&#x1F310;"/>
+            <when state="symbols" output="⚠"/>
+        </action>
+        <action id="﹫">
+            <when state="none" output="﹫"/>
+            <when state="IPA" output="ʙ"/>
+            <when state="greek" output="A"/>
+            <when state="hat" output="Â"/>
+            <when state="hyphen" output="Ā"/>
+            <when state="ipavowel" output="ɨ"/>
+            <when state="keysims" output="⌥"/>
+            <when state="math" output="⎢"/>
+            <when state="money, scripts" output="ញ"/>
+            <when state="symbols" output="♔"/>
+            <when state="tex" output="\left[ "/>
+            <when state="Я" output="А"/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="IPA" output="ʒ"/>
+        <when state="acute, common" output="´"/>
+        <when state="circled" output="ⓐ"/>
+        <when state="combining" output="̲"/>
+        <when state="emoji" output="&#x1F60E;"/>
+        <when state="grave" output="`"/>
+        <when state="greek" output="α"/>
+        <when state="hat" output="ˆ"/>
+        <when state="hyphen" output="-"/>
+        <when state="ipavowel" output="ə"/>
+        <when state="keysims" output="⇪"/>
+        <when state="math" output="ℝ"/>
+        <when state="mathcal" output="&#x1D4AC;"/>
+        <when state="mathfonts" output="‖"/>
+        <when state="mathfrak" output="&#x1D505;"/>
+        <when state="mathitalic" output="&#x1D464;"/>
+        <when state="money, scripts" output="$"/>
+        <when state="superscript" output="ᵃ"/>
+        <when state="symbols" output="☃"/>
+        <when state="tex" output="\in"/>
+        <when state="texgreek" output="\alpha "/>
+        <when state="tilde, icelandic" output="˜"/>
+        <when state="umlaut" output=";"/>
+        <when state="Я" output="Я"/>
+    </terminators>
+</keyboard>
